@@ -21,7 +21,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <div className="w-60 p-4">
             <div className="relative">
                 {/* Hình ảnh sản phẩm */}
-                <img src={image} alt={title} className="w-full rounded-lg" />
+                <img src={image} alt={title} className="hover:cursor-pointer w-full rounded-lg" />
                 {/* Nhãn giảm giá */}
                 {discount && (
                     <span className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
@@ -32,7 +32,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
             {/* Thông tin sản phẩm */}
             <div className="mt-2">
-                <h3 className="font-semibold text-sm">{title}</h3>
+                <h3 className="font-semibold text-sm hover:text-cyan-500 hover:cursor-pointer">{title}</h3>
 
                 <div className="flex items-center mt-1">
                     {/* Giá hiện tại */}

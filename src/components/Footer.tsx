@@ -8,8 +8,8 @@ import PaymentIcons from './PaymentIcon';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-black text-white py-10">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
+        <footer className="bg-black text-white py-10 text-xs">
+            <div className="container mx-auto w-[80%] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
                 <ContactInfo />
                 <CustomerSupport />
                 <AboutUs />
