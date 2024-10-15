@@ -5,7 +5,7 @@ const HeaderSearch: React.FC = () => {
     return (
         <header className="flex items-center justify-between px-8 py-4 border-b">
             {/* Logo */}
-            <div className="text-blue-700 text-2xl font-bold">MONAT BLUE</div>
+            <div className="text-blue-700 text-2xl font-bold">HAVANA</div>
 
             {/* Search Bar */}
             <div className="relative flex items-center w-1/2">

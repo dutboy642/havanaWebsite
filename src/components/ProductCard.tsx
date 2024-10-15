@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 interface ProductCardProps {
     title: string;
     image: string;
+    image2: string;
     price: number;
     originalPrice?: number;
     discount?: number;
@@ -12,16 +13,27 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({
     title,
     image,
+    image2,
     price,
     originalPrice,
     discount,
     variants,
 }) => {
+    const [currentImage, setCurrentImage] = useState(image);
+
     return (
         <div className="w-60 p-4">
-            <div className="relative">
+            <div
+                className="relative overflow-hidden"
+                onMouseEnter={() => setCurrentImage(image2)}
+                onMouseLeave={() => setCurrentImage(image)}
+            >
                 {/* Hình ảnh sản phẩm */}
-                <img src={image} alt={title} className="hover:cursor-pointer w-full rounded-lg" />
+                <img
+                    src={currentImage}
+                    alt={title}
+                    className="hover:cursor-pointer w-48 h-48 object-contain rounded-lg transition-transform duration-300 ease-in-out transform scale-110 hover:scale-90 delay-150"
+                />
                 {/* Nhãn giảm giá */}
                 {discount && (
                     <span className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">

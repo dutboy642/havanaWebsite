@@ -2,15 +2,15 @@ import React from "react";
 
 const Navbar: React.FC = () => {
     const navItems = [
-        { name: "Tất cả", dropdownList: [] },
-        { name: "New", dropdownList: [] },
-        { name: "Quần", dropdownList: ["Quần dài", "Quần short"] },
-        { name: "Áo", dropdownList: ["Áo thun", "Áo sơ mi"] },
-        { name: "Sweater & Hoodie", dropdownList: ["Sweater", "Hoodie"] },
-        { name: "Phụ kiện", dropdownList: [] },
-        { name: "Sale", dropdownList: [] },
-        { name: "Về chúng tôi", dropdownList: [] },
-        { name: "Kiểm tra đơn hàng", dropdownList: [] },
+        { name: "Tất cả", dropdownList: [], link: "#" },
+        { name: "New", dropdownList: [], link: "#" },
+        { name: "Quần", dropdownList: ["Quần dài", "Quần short"], link: "#" },
+        { name: "Áo", dropdownList: ["Áo thun", "Áo sơ mi"], link: "/shirt" },
+        { name: "Sweater & Hoodie", dropdownList: ["Sweater", "Hoodie"], link: "#" },
+        { name: "Phụ kiện", dropdownList: [], link: "#" },
+        { name: "Sale", dropdownList: [], link: "#" },
+        { name: "Về chúng tôi", dropdownList: [], link: "#" },
+        { name: "Kiểm tra đơn hàng", dropdownList: [], link: "#" },
     ];
 
     return (
@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
                     key={index}
                 >
                     <a id={"dropdownHoverButton" + index} data-dropdown-toggle={"dropdownHover" + index} data-dropdown-trigger="hover"
-                        href="#"
+                        href={item.link}
                         className="text-gray-700 text-sm font-medium hover:cursor-pointer"
                     >
 
