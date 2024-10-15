@@ -2,15 +2,15 @@ import React from "react";
 
 const Navbar: React.FC = () => {
     const navItems = [
-        { name: "Tất cả", dropdownList: [], link: "#" },
-        { name: "New", dropdownList: [], link: "#" },
-        { name: "Quần", dropdownList: ["Quần dài", "Quần short"], link: "#" },
-        { name: "Áo", dropdownList: ["Áo thun", "Áo sơ mi"], link: "/shirt" },
-        { name: "Sweater & Hoodie", dropdownList: ["Sweater", "Hoodie"], link: "#" },
-        { name: "Phụ kiện", dropdownList: [], link: "#" },
-        { name: "Sale", dropdownList: [], link: "#" },
+        { name: "Tất cả", dropdownList: [], link: "/All" },
+        { name: "New", dropdownList: [], link: "/NewProduct" },
+        { name: "Quần", dropdownList: [{ name: "Quần dài", link: "/LongTrousers" }, { name: "Quần short", link: "/ShortTrousers" }], link: "/Trousers" },
+        { name: "Áo", dropdownList: [{ name: "Áo thun", link: "/TShirt" }, { name: "Áo sơ mi", link: "/GeneralShirt" }], link: "/shirt" },
+        { name: "Sweater & Hoodie", dropdownList: [{ name: "Sweater", link: "/Sweater" }, { name: "Hoodie", link: "/Hoodie" }], link: "/SweaterAndHoodie" },
+        { name: "Phụ kiện", dropdownList: [], link: "/Stuff" },
+        { name: "Sale", dropdownList: [], link: "/Sale" },
         { name: "Về chúng tôi", dropdownList: [], link: "#" },
-        { name: "Kiểm tra đơn hàng", dropdownList: [], link: "#" },
+        { name: "Kiểm tra đơn hàng", dropdownList: [], link: "/CheckOrderPage" },
     ];
 
     return (
@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
                                             key={index}
                                         >
                                             <li>
-                                                <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{dropdownItem}</a>
+                                                <a href={dropdownItem.link} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{dropdownItem.name}</a>
                                             </li>
 
 
