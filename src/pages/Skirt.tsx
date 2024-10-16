@@ -1,6 +1,6 @@
 import Filter from "../components/Filter";
 import ProductCard from "../components/ProductCard";
-const Shirt: React.FC = () => {
+const Skirt: React.FC = () => {
     const products = [
         {
             title: "Áo kiểu linen nhún thân dáng babydoll trễ vai tay bồng tiểu thư 2 dây buộc nơ",
@@ -293,7 +293,7 @@ Hướng dẫn bảo quản:
                             <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                             </svg>
-                            <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Áo</span>
+                            <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Váy</span>
                         </div>
                     </li>
                 </ol>
@@ -301,7 +301,7 @@ Hướng dẫn bảo quản:
 
             <div className="grid grid-cols-4 pb-10">
                 <div className="col-span-1">
-                    <Filter title="Áo" />
+                    <Filter title="Váy" />
                 </div>
                 <div className="col-span-3">
                     <div className="grid grid-cols-4 gap-6">
@@ -326,4 +326,4 @@ Hướng dẫn bảo quản:
     )
 }
 
-export default Shirt;
+export default Skirt;

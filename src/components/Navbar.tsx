@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     // ];
     const navItems = [
         { name: "VỀ CHÚNG TÔI", dropdownList: [{ name: "Câu chuyện", link: "/OurStory" }, { name: "Tầm nhìn", link: "/Vision" }, { name: "Chiến lược", link: "/Stragery" }], link: "/AboutUs" },
-        { name: "SẢN PHẨM", dropdownList: [{ name: "Tất cả", link: "/All" }, { name: "Set đồ", link: "/Set" }, { name: "Quần/Váy", link: "/TrousersSkirt" }, { name: "Áo", link: "/Shirt" }, { name: "Phụ kiện", link: "/Stuff" }], link: "/Product" },
+        { name: "SẢN PHẨM", dropdownList: [{ name: "Tất cả", link: "/All" }, { name: "Set đồ", link: "/Set" }, { name: "Quần", link: "/Trousers" }, { name: "Áo", link: "/Shirt" }, { name: "Váy", link: "/Skirt" }], link: "/Product" },
         { name: "SALE", dropdownList: [], link: "/Sale" },
         { name: "HỖ TRỢ KHÁCH HÀNG", dropdownList: [{ name: "Chính sách bảo hành", link: "/Policy" }, { name: "Đổi, trả hàng", link: "/Exchange" }, { name: "Vận chuyển", link: "/Delivery" }], link: "/Support" },
         { name: "LIÊN HỆ", dropdownList: [{ name: "Địa chỉ", link: "/Address" }, { name: "Số điện thoại", link: "/Phone" }, { name: "Email", link: "/Email" }], link: "/contact" },

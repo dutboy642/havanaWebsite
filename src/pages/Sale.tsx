@@ -178,6 +178,8 @@ const Sale: React.FC = () => {
                                 originalPrice={product.originalPrice}
                                 discount={product.discount}
                                 variants={product.variants}
+                                productCode={product.productCode}
+                                describe={product.describe}
                             />
                         ))}
                     </div>

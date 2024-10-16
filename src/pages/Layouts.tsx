@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import SearchIcon from "../components/SearchIcon";
@@ -21,9 +21,9 @@ const Layout = () => {
 
                     </div>
                     {/* <div className="text-2xl font-bold text-blue-600">MONAT BLUE</div> */}
-                    <img className="w-24" src={logo} alt="" />
+                    <Link to="/" ><img className="w-24" src={logo} alt="" /></Link>
                     <div className="flex items-center space-x-6 w-16">
-                        <UserIcon />
+                        <UserIcon name="homepage" />
                         <CartIcon />
                     </div>
                 </div>

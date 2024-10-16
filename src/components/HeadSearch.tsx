@@ -27,7 +27,7 @@ const HeaderSearch: React.FC = () => {
             <div className="flex items-center space-x-6">
                 {/* <FiSearch size={24} /> */}
                 <SearchIcon />
-                <UserIcon />
+                <UserIcon name="headsearch" />
                 <div className="relative">
                     {/* <FiShoppingCart size={24} /> */}
                     <CartIcon />

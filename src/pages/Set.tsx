@@ -1,6 +1,6 @@
 import Filter from "../components/Filter";
 import ProductCard from "../components/ProductCard";
-const GeneralShirt: React.FC = () => {
+const Set: React.FC = () => {
     const products = [
         {
             title: "Pants 233 - Quần kaki ống suông",
@@ -156,7 +156,7 @@ const GeneralShirt: React.FC = () => {
                             <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                             </svg>
-                            <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Áo sơ mi</span>
+                            <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Set đồ</span>
                         </div>
                     </li>
                 </ol>
@@ -164,7 +164,7 @@ const GeneralShirt: React.FC = () => {
 
             <div className="grid grid-cols-4 pb-10">
                 <div className="col-span-1">
-                    <Filter title="Áo sơ mi" />
+                    <Filter title="Set đồ" />
                 </div>
                 <div className="col-span-3">
                     <div className="grid grid-cols-4 gap-6">
@@ -178,6 +178,8 @@ const GeneralShirt: React.FC = () => {
                                 originalPrice={product.originalPrice}
                                 discount={product.discount}
                                 variants={product.variants}
+                                productCode={product.productCode}
+                                describe={product.describe}
                             />
                         ))}
                     </div>
@@ -187,4 +189,4 @@ const GeneralShirt: React.FC = () => {
     )
 }
 
-export default GeneralShirt;
+export default Set;
