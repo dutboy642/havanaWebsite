@@ -6,7 +6,7 @@ const CartIcon: React.FC = () => {
 
     return (
         <div className="relative cursor-pointer">
-            <FiShoppingCart size={24} />
+            <FiShoppingCart className="text-[#79D1C3]" size={24} />
             {cartItemCount > 0 && (
                 <span className="absolute -top-2 -right-2 bg-blue-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
                     {cartItemCount}

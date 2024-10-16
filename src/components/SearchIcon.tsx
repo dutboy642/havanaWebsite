@@ -1,12 +1,12 @@
 import React from "react";
 import { FiSearch } from "react-icons/fi";
 
-const UserIcon: React.FC = () => {
+const SearchIcon: React.FC = () => {
     return (
         <div className="cursor-pointer">
-            <FiSearch size={24} />
+            <FiSearch className="text-[#79D1C3]" size={24} />
         </div>
     );
 };
 
-export default UserIcon;
+export default SearchIcon;

@@ -1,6 +1,7 @@
 import React from "react";
 import CouponCard from "../components/CouponCard";
 import ProductCard from "../components/ProductCard";
+import mainImage from "../assets/1.png"
 const Homepage: React.FC = () => {
     const products = [
         {
@@ -64,7 +65,7 @@ const Homepage: React.FC = () => {
     return (
         <div>
             <div className="hover:cursor-pointer">
-                <img src="https://bizweb.dktcdn.net/100/516/928/themes/951952/assets/slider_1.jpg?1726634821799" alt="" />
+                <img className="w-[80%] mx-auto my-4" src={mainImage} alt="" />
             </div>
             {/* discount */}
             <div className="flex justify-center items-center bg-gray-50">

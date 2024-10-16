@@ -1,40 +1,47 @@
 import React from "react";
 
 const Navbar: React.FC = () => {
+    // const navItems = [
+    //     { name: "Tất cả", dropdownList: [], link: "/All" },
+    //     { name: "New", dropdownList: [], link: "/NewProduct" },
+    //     { name: "Quần", dropdownList: [{ name: "Quần dài", link: "/LongTrousers" }, { name: "Quần short", link: "/ShortTrousers" }], link: "/Trousers" },
+    //     { name: "Áo", dropdownList: [{ name: "Áo thun", link: "/TShirt" }, { name: "Áo sơ mi", link: "/GeneralShirt" }], link: "/shirt" },
+    //     { name: "Sweater & Hoodie", dropdownList: [{ name: "Sweater", link: "/Sweater" }, { name: "Hoodie", link: "/Hoodie" }], link: "/SweaterAndHoodie" },
+    //     { name: "Phụ kiện", dropdownList: [], link: "/Stuff" },
+    //     { name: "Sale", dropdownList: [], link: "/Sale" },
+    //     { name: "Về chúng tôi", dropdownList: [], link: "#" },
+    //     { name: "Kiểm tra đơn hàng", dropdownList: [], link: "/CheckOrderPage" },
+    // ];
     const navItems = [
-        { name: "Tất cả", dropdownList: [], link: "/All" },
-        { name: "New", dropdownList: [], link: "/NewProduct" },
-        { name: "Quần", dropdownList: [{ name: "Quần dài", link: "/LongTrousers" }, { name: "Quần short", link: "/ShortTrousers" }], link: "/Trousers" },
-        { name: "Áo", dropdownList: [{ name: "Áo thun", link: "/TShirt" }, { name: "Áo sơ mi", link: "/GeneralShirt" }], link: "/shirt" },
-        { name: "Sweater & Hoodie", dropdownList: [{ name: "Sweater", link: "/Sweater" }, { name: "Hoodie", link: "/Hoodie" }], link: "/SweaterAndHoodie" },
-        { name: "Phụ kiện", dropdownList: [], link: "/Stuff" },
-        { name: "Sale", dropdownList: [], link: "/Sale" },
-        { name: "Về chúng tôi", dropdownList: [], link: "#" },
-        { name: "Kiểm tra đơn hàng", dropdownList: [], link: "/CheckOrderPage" },
-    ];
+        { name: "VỀ CHÚNG TÔI", dropdownList: [{ name: "Câu chuyện", link: "/OurStory" }, { name: "Tầm nhìn", link: "/Vision" }, { name: "Chiến lược", link: "/Stragery" }], link: "/AboutUs" },
+        { name: "SẢN PHẨM", dropdownList: [{ name: "Tất cả", link: "/All" }, { name: "Set đồ", link: "/Set" }, { name: "Quần/Váy", link: "/TrousersSkirt" }, { name: "Áo", link: "/Shirt" }, { name: "Phụ kiện", link: "/Stuff" }], link: "/Product" },
+        { name: "SALE", dropdownList: [], link: "/Sale" },
+        { name: "HỖ TRỢ KHÁCH HÀNG", dropdownList: [{ name: "Chính sách bảo hành", link: "/Policy" }, { name: "Đổi, trả hàng", link: "/Exchange" }, { name: "Vận chuyển", link: "/Delivery" }], link: "/Support" },
+        { name: "LIÊN HỆ", dropdownList: [{ name: "Địa chỉ", link: "/Address" }, { name: "Số điện thoại", link: "/Phone" }, { name: "Email", link: "/Email" }], link: "/contact" },
+    ]
 
     return (
-        <nav className="flex justify-center space-x-8 py-4">
+        <nav className="bg-[#79D1C3] flex justify-center space-x-8 py-4">
             {navItems.map((item, index) => (
                 < div
                     key={index}
                 >
                     <a id={"dropdownHoverButton" + index} data-dropdown-toggle={"dropdownHover" + index} data-dropdown-trigger="hover"
                         href={item.link}
-                        className="text-gray-700 text-sm font-medium hover:cursor-pointer"
+                        className="text-white text-gray-700 text-sm font-medium hover:cursor-pointer"
                     >
 
                         <div className="relative group inline-block">
                             <span className="cursor-pointer">{item.name}</span>
                             <span
-                                className="absolute left-0 bottom-0 h-[1px] w-0 bg-black 
+                                className="absolute left-0 bottom-0 h-[1px] w-0 bg-white 
                    group-hover:w-full transition-all duration-300 ease-in-out"
                             ></span>
                         </div>
                     </a>
                     {
                         item.dropdownList.length > 0 && (
-                            <div id={"dropdownHover" + index} className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700" data-dropdown-placement="bottom-start">
+                            <div id={"dropdownHover" + index} className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700" data-dropdown-placement="bottom-start">
                                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
                                     {item.dropdownList.map((dropdownItem, index) => (
                                         <div

@@ -1,11 +1,15 @@
 // components/HeaderSearch.tsx
-import { FiSearch, FiUser, FiShoppingCart } from "react-icons/fi";
-
+import logo from "../assets/shop_logo.png"
+import UserIcon from "./UserIcon";
+import SearchIcon from "./SearchIcon";
+import CartIcon from "./CartIcon";
+import { FiSearch } from "react-icons/fi";
 const HeaderSearch: React.FC = () => {
     return (
         <header className="flex items-center justify-between px-8 py-4 border-b">
             {/* Logo */}
-            <div className="text-blue-700 text-2xl font-bold">HAVANA</div>
+            {/* <div className="text-blue-700 text-2xl font-bold">HAVANA</div> */}
+            <img src={logo} className="w-24 rounded" alt="" />
 
             {/* Search Bar */}
             <div className="relative flex items-center w-1/2">
@@ -21,10 +25,12 @@ const HeaderSearch: React.FC = () => {
 
             {/* Icons */}
             <div className="flex items-center space-x-6">
-                <FiSearch size={24} />
-                <FiUser size={24} />
+                {/* <FiSearch size={24} /> */}
+                <SearchIcon />
+                <UserIcon />
                 <div className="relative">
-                    <FiShoppingCart size={24} />
+                    {/* <FiShoppingCart size={24} /> */}
+                    <CartIcon />
                     <span className="absolute -top-1 -right-2 bg-blue-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
                         0
                     </span>
