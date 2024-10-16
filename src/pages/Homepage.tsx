@@ -278,6 +278,301 @@ Hướng dẫn bảo quản:
             variants: ["Freesize"],
         }]
         ;
+    const AoDai = [
+        {
+            title: "Áo dài khảm vân BÁCH ĐIỀN voan tơ phối đính nơ cúc ngọc kèm quần dài satin",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1fbb5o7jwpk17.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1fbb5m9pjq4d5.webp",
+            productCode: "AD110",
+            brand: "HAVANA",
+            price: 29299000,
+            originalPrice: 379000,
+            discount: 21,
+            describe: `Áo dài khảm vân BÁCH ĐIỀN voan tơ phối đính nơ cúc ngọc kèm quần dài satin HAVANA AD110
+Freesize dưới 51kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+                + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+- Hướng dẫn sử dụng:
+        + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+                        + Có may, đo theo thông số
+    `,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài cách tân XUÂN THÌ voan tơ 4 tà thêu tay nơ nhỏ kèm quần dài satin",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1dil8oxfn143a.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1dil8p7ceu42c.webp",
+            productCode: "AD103",
+            brand: "HAVANA",
+            price: 259000,
+            originalPrice: 329000,
+            discount: 21,
+            describe: ` Áo dài cách tân XUÂN THÌ voan tơ 4 tà thêu tay nơ nhỏ kèm quần dài satin HAVANA AD103
+Size: S, M
+Màu: Kem - quần kem, Trắng - quần hồng, Đỏ - quần kem, Hồng - quần kem, Xanh lá - quần kem
+
+Hướng dẫn bảo quản:
++ Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+    - Hướng dẫn sử dụng:
++ Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+    + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+        + Sai lệch số đo + -1cm
+            + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+- Chính sách bán hàng:
++ Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+    - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+`,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài LẠC HÀ cổ sen thêu hoa phối dây buộc nơ tôn eo duyên dáng",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1c5g6kka6hk93.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1c5g62j1z6gb0.webp",
+            productCode: "AD106",
+            brand: "HAVANA",
+            price: 289000,
+            originalPrice: 319000,
+            discount: 9,
+            describe: ` Áo dài LẠC HÀ cổ sen thêu hoa phối dây buộc nơ tôn eo duyên dáng HAVANA AD106
+Freesize dưới 55kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài cách tân TỬ KỲ nhung chéo thêu hoa quả đính cúc bọc phối dây buộc nơ cách điệu kèm quần dài satin",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1cekrfq64pk3f.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1cekrfq8xek96.webp",
+            productCode: "AD104",
+            brand: "HAVANA",
+            price: 259000,
+            originalPrice: 329000,
+            discount: 21,
+            describe: ` Áo dài cách tân TỬ KỲ nhung chéo thêu hoa quả đính cúc bọc phối dây buộc nơ cách điệu kèm quần dài satin HAVANA AD104
+Freesize dưới 59kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài voan tơ MẪU ĐƠN 4 tà thêu hoa đính cúc bọc phối nơ buộc dễ thương",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1aq5x54e0bgcf.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1aq5x40fmsc36.webp",
+            productCode: "AD99",
+            brand: "HAVANA",
+            price: 259000,
+            originalPrice: 319000,
+            discount: 19,
+            describe: ` Áo dài voan tơ MẪU ĐƠN 4 tà thêu hoa đính cúc bọc phối nơ buộc dễ thương HAVANA AD99
+Freesize dưới 54kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài lông vũ YẾN PHƯỢNG phối buộc nơ cách điệu kèm quần",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0v56q2ahalp7e.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0v56q2ahaxbaa.webp",
+            productCode: "AD89",
+            brand: "HAVANA",
+            price: 246000,
+            originalPrice: 309000,
+            discount: 42,
+            describe: ` Áo dài lông vũ YẾN PHƯỢNG phối buộc nơ cách điệu kèm quần HAVANA AD89
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài tứ thân Ý HUYÊN phối cúc gỗ cách điệu dây buộc nơ tôn eo duyên dáng",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m19rylc8rcpoa0.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m19rylciqyjc57.webp",
+            productCode: "AD102",
+            brand: "HAVANA",
+            price: 219000,
+            originalPrice: 319000,
+            discount: 31,
+            describe: ` Áo dài tứ thân Ý HUYÊN phối cúc gỗ cách điệu dây buộc nơ tôn eo duyên dáng HAVANA AD102
+Freesize dưới 57kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài đũi THUỲ MIÊN thêu hoa đính cúc ngọc kèm chân váy dáng dài cạp chun có lót lụa trong",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0pm8orcc63x3e.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0pm8orcarjhaa.webp",
+            productCode: "AD90",
+            brand: "HAVANA",
+            price: 249000,
+            originalPrice: 319000,
+            discount: 22,
+            describe: ` Áo dài đũi THUỲ MIÊN thêu hoa đính cúc ngọc kèm chân váy dáng dài cạp chun có lót lụa trong HAVANA AD90
+Freesize dưới 53kg mang vừa thoải mái
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài voan tơ 4 tà UYỂN DƯ cutout vai phối nơ đính ngọc kèm quần",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0uys5hddj7z8c.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0uys676brtbd3.webp",
+            productCode: "AD92",
+            brand: "HAVANA",
+            price: 259000,
+            originalPrice: 299000,
+            discount: 13,
+            describe: ` Áo dài voan tơ 4 tà UYỂN DƯ cutout vai phối nơ đính ngọc kèm quần HAVANA AD92
+    Màu: Đỏ - quần kem, Đỏ - quần đỏ, Hồng - quần hồng, Kem - quần kem
+    Size: S, M
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
+        },
+        {
+            title: "Áo dài VÂN DU lụa trơn phối nơ cách điệu đính cúc bọc kèm quần",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0ufkx04vij314.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0ufkx0ewi5paf.webp",
+            productCode: "AD94",
+            brand: "HAVANA",
+            price: 210000,
+            originalPrice: 249000,
+            discount: 16,
+            describe: `Áo dài VÂN DU lụa trơn phối nơ cách điệu đính cúc bọc kèm quần HAVANA AD94
+    Size: S, M
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"]
+        }
+
+
+    ]
     // const feedback_images = [
     //     { image: "//bizweb.dktcdn.net/100/516/928/themes/951952/assets/insta_1_img.jpg?1726634821799" },
     //     { image: "//bizweb.dktcdn.net/100/516/928/themes/951952/assets/insta_2_img.jpg?1726634821799" },
@@ -329,7 +624,7 @@ Hướng dẫn bảo quản:
                 </div>
 
                 <div className="grid grid-cols-4 gap-6">
-                    {products.map((product, index) => (
+                    {AoDai.slice(0, 4).map((product, index) => (
                         <ProductCard
                             key={index}
                             title={product.title}
@@ -347,7 +642,7 @@ Hướng dẫn bảo quản:
             </div>
             {/* Ảnh */}
             <div className="hover:cursor-pointer p-8 w-[80%] mx-auto">
-                <img src="https://bizweb.dktcdn.net/100/516/928/themes/951952/assets/slide_product_1_img_1_img.jpg?1726634821799" alt="" />
+                <img className="mx-auto" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm93ont15.webp" alt="" />
             </div>
             {/* best seller */}
             <div className="p-8 w-[80%] mx-auto mb-10">
@@ -359,7 +654,7 @@ Hướng dẫn bảo quản:
                 </div>
 
                 <div className="grid grid-cols-4 gap-6">
-                    {products.map((product, index) => (
+                    {products.slice(0, 4).map((product, index) => (
                         <ProductCard
                             key={index}
                             title={product.title}

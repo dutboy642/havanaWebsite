@@ -13,6 +13,7 @@ import Shirt from "../pages/Shirt";
 import Trousers from "../pages/Trousers";
 import Skirt from "../pages/Skirt";
 import ProductDetail from "../pages/ProductDetail";
+import AboutUs from "../pages/AboutUs";
 export const AppRouter = () => {
   return (
     <BrowserRouter>
@@ -31,6 +32,7 @@ export const AppRouter = () => {
           <Route path='LoginForm' element={<LoginForm />} />
           <Route path='RegistForm' element={<RegisterForm />} />
           <Route path='ProductDetail' element={<ProductDetail />} />
+          <Route path='AboutUs' element={<AboutUs />} />
         </Route>
       </Routes>
     </BrowserRouter>
