@@ -3,142 +3,295 @@ import ProductCard from "../components/ProductCard";
 const Set: React.FC = () => {
     const products = [
         {
-            title: "Pants 233 - Quần kaki ống suông",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-52548f02-4733-4b3f-bafb-fd1c0215883e.jpg?v=1726472261863",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/z5425105961600-b336ef83e831a51fe77f53291021eab2.jpg?v=1726472271627",
-            price: 250000,
-            originalPrice: 350000,
-            discount: 29,
-            variants: ["S", "M", "L", "+5"],
+            title: "Set áo sơ mi tay cánh dơi phối nhíu eo cách điệu kèm chân váy dáng bí cạp chun trendy",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lx9mm9nlnw0pa1.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lx9mm9nlnvtn67.webp",
+            productCode: "SAT224",
+            brand: "HAVANA",
+            price: 145000,
+            originalPrice: 179000,
+            discount: 45,
+            describe: `Set áo sơ mi tay cánh dơi phối nhíu eo cách điệu dây rút kèm chân váy dáng bí cạp chun trendy HAVANA SAT224
+Freesize dưới 54kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+                + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+- Hướng dẫn sử dụng:
+        + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
         {
-            title: "Pants 305 - Quần kaki ống suông form rộng",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-1a4ed57c-635a-442d-b390-f671f4d1e61e.jpg?v=1726471214163",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/2-3fd7ced4-1911-4103-a65c-be6a85a04ccf.jpg?v=1726471214163",
-            price: 500000,
-            originalPrice: 650000,
-            discount: 24,
-            variants: ["M", "L"],
+            title: "Set áo sơ mi đũi phối dây buộc hai bên eo tôn dáng kèm quần short cạp chun phong cách ulzzang",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyq9msd8d7dtd0.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyq9qqow1xsd18.webp",
+            productCode: "SAT 237",
+            brand: "HAVANA",
+            price: 149000,
+            originalPrice: 199000,
+            discount: 32,
+            describe: ` Set áo sơ mi đũi phối dây buộc hai bên eo tôn dáng kèm quần short cạp chun phong cách ulzzang HAVANA SAT237
+Freesize dưới 54kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
++ Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+    - Hướng dẫn sử dụng:
++ Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+    + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+        + Sai lệch số đo + -1cm
+            + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+- Chính sách bán hàng:
++ Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+    - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn
+`,
+            variants: ["Freesize"],
         },
         {
-            title: "Widen kaki pants - Quần kaki ống rộng xếp ly",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-3e35b7bf-de57-4d2a-9450-1bab20e58c48.jpg?v=1726563568653",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/3-28585380-7c40-4c4e-83ea-cc97b3cbf615.jpg?v=1726563570853",
-            price: 490000,
-            variants: ["S", "M", "L", "+1"],
+            title: "Set áo sơ mi thêu nơ nhỏ kèm chân váy hai tầng hot trend",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxt3zdcf39i33e.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxt3zdc53obdaf.webp",
+            productCode: "SAT228",
+            brand: "HAVANA",
+            price: 154800,
+            originalPrice: 189000,
+            discount: 18,
+            describe: ` Set áo sơ mi thêu nơ nhỏ kèm chân váy hai tầng hot trend HAVANA SAT228
+Freesize dưới 53kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
         {
-            title: "Pants 207 - Quần kaki xếp ly ống rộng",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-5ef011b0-168b-4a96-9fcf-720359fd04f3.jpg?v=1726469647303",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/55b0394b-4875-4dac-8a0d-c2ed1f2ca9b0.jpg?v=1726469647303",
-            price: 360000,
-            originalPrice: 450000,
-            discount: 20,
-            variants: ["S", "M"],
+            title: "Set áo sơ mi tay bồng đính nơ nhỏ kèm chân váy xếp ly dáng bí cạp chun phong cách dễ thương",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxxvyhoyrnq1e3.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxxvznevmz89c5.webp",
+            productCode: "SAT 243",
+            brand: "HAVANA",
+            price: 169000,
+            originalPrice: 199000,
+            discount: 15,
+            describe: ` Set áo sơ mi tay bồng đính nơ nhỏ kèm chân váy xếp ly dáng bí cạp chun phong cách dễ thương HAVANA SAT243
+Freesize dưới 54kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
         {
-            title: "Pants 233 - Quần kaki ống suông",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-52548f02-4733-4b3f-bafb-fd1c0215883e.jpg?v=1726472261863",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/z5425105961600-b336ef83e831a51fe77f53291021eab2.jpg?v=1726472271627",
-            price: 250000,
-            originalPrice: 350000,
-            discount: 29,
-            variants: ["S", "M", "L", "+5"],
+            title: "Set áo sơ mi cổ nhọn đính nơ phối dây buộc eo kèm quốc short",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lzk91g5gbxal39.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lzk952sr57pp68.webp",
+            productCode: "SAT 246",
+            brand: "HAVANA",
+            price: 149000,
+            originalPrice: 189000,
+            discount: 23,
+            describe: ` Set áo sơ mi cổ nhọn đính nơ phối dây buộc eo kèm quốc short HAVANA SAT246
+Freesize dưới 54kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
         {
-            title: "Pants 305 - Quần kaki ống suông form rộng",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-1a4ed57c-635a-442d-b390-f671f4d1e61e.jpg?v=1726471214163",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/2-3fd7ced4-1911-4103-a65c-be6a85a04ccf.jpg?v=1726471214163",
-            price: 500000,
-            originalPrice: 650000,
-            discount: 24,
-            variants: ["M", "L"],
+            title: "Set áo sơ mi form babydoll có dây buộc eo phối cà vạt kèm chân váy 2 tầng dáng xòe",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyem3dcz3uzl89.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyem3dcz59al78.webp",
+            productCode: "SAT249",
+            brand: "HAVANA",
+            price: 155800,
+            originalPrice: 189000,
+            discount: 18,
+            describe: ` Set áo sơ mi form babydoll có dây buộc eo phối cà vạt kèm chân váy 2 tầng dáng xòe HAVANA SAT249
+Freesize dưới 54kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
         {
-            title: "Widen kaki pants - Quần kaki ống rộng xếp ly",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-3e35b7bf-de57-4d2a-9450-1bab20e58c48.jpg?v=1726563568653",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/3-28585380-7c40-4c4e-83ea-cc97b3cbf615.jpg?v=1726563570853",
-            price: 490000,
-            variants: ["S", "M", "L", "+1"],
+            title: "Set áo sơ mi sọc gân cổ sen phối cúc tàu có dây buộc tôn eo kèm chân váy 3 tầng trendy",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0fcz7m4h5sf57.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0fcz7kqj6jxac.webp",
+            productCode: "SAT265",
+            brand: "HAVANA",
+            price: 145000,
+            originalPrice: 189000,
+            discount: 23,
+            describe: ` Set áo sơ mi sọc gân cổ sen phối cúc tàu có dây buộc tôn eo kèm chân váy 3 tầng trendy HAVANA SAT265
+Freesize dưới 53kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
         {
-            title: "Pants 207 - Quần kaki xếp ly ống rộng",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-5ef011b0-168b-4a96-9fcf-720359fd04f3.jpg?v=1726469647303",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/55b0394b-4875-4dac-8a0d-c2ed1f2ca9b0.jpg?v=1726469647303",
-            price: 360000,
-            originalPrice: 450000,
-            discount: 20,
-            variants: ["S", "M"],
+            title: "Set áo sơ mi tay hến phối nơ nhỏ cách điệu nhíu sườn kèm quần short cạp chun phong cách thanh lịch",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyma270ua4dd97.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyma270ua43x87.webp",
+            productCode: "SAT 259",
+            brand: "HAVANA",
+            price: 149000,
+            originalPrice: 189000,
+            discount: 23,
+            describe: ` Set áo sơ mi tay hến phối nơ nhỏ cách điệu nhíu sườn kèm quần short cạp chun phong cách thanh lịch HAVANA SAT259
+Freesize dưới 53kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
         {
-            title: "Pants 233 - Quần kaki ống suông",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-52548f02-4733-4b3f-bafb-fd1c0215883e.jpg?v=1726472261863",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/z5425105961600-b336ef83e831a51fe77f53291021eab2.jpg?v=1726472271627",
-            price: 250000,
-            originalPrice: 350000,
-            discount: 29,
-            variants: ["S", "M", "L", "+5"],
+            title: "Set áo sơ mi phối hai túi vuông kèm chân váy ngắn xếp ly belt",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-luizgdo3te6q53.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-luizgdo47fv6fb.webp",
+            productCode: "SAT 112",
+            brand: "HAVANA",
+            price: 179000,
+            originalPrice: 219000,
+            discount: 18,
+            describe: ` Set áo sơ mi phối hai túi vuông kèm chân váy ngắn xếp ly belt HAVANA SAT112
+    Freeszize < 53kg
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
         {
-            title: "Pants 305 - Quần kaki ống suông form rộng",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-1a4ed57c-635a-442d-b390-f671f4d1e61e.jpg?v=1726471214163",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/2-3fd7ced4-1911-4103-a65c-be6a85a04ccf.jpg?v=1726471214163",
-            price: 500000,
-            originalPrice: 650000,
-            discount: 24,
-            variants: ["M", "L"],
+            title: "Set 3 món áo croptop caro đính nơ kèm chân váy ngắn xòe",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lx2a8ciawxcpdd.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lx2a8ci0xbyxd3.webp",
+            productCode: "SAT213",
+            brand: "HAVANA",
+            price: 119000,
+            originalPrice: 199000,
+            discount: 40,
+            describe: ` [Tặng khen turban] Set 3 món áo croptop caro đính nơ kèm chân váy ngắn xòe HAVANA SAT213
+Freesize dưới 55kg mang vừa thoải mái
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch A1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["Freesize"],
         },
-        {
-            title: "Widen kaki pants - Quần kaki ống rộng xếp ly",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-3e35b7bf-de57-4d2a-9450-1bab20e58c48.jpg?v=1726563568653",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/3-28585380-7c40-4c4e-83ea-cc97b3cbf615.jpg?v=1726563570853",
-            price: 490000,
-            variants: ["S", "M", "L", "+1"],
-        },
-        {
-            title: "Pants 207 - Quần kaki xếp ly ống rộng",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-5ef011b0-168b-4a96-9fcf-720359fd04f3.jpg?v=1726469647303",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/55b0394b-4875-4dac-8a0d-c2ed1f2ca9b0.jpg?v=1726469647303",
-            price: 360000,
-            originalPrice: 450000,
-            discount: 20,
-            variants: ["S", "M"],
-        },
-        {
-            title: "Pants 233 - Quần kaki ống suông",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-52548f02-4733-4b3f-bafb-fd1c0215883e.jpg?v=1726472261863",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/z5425105961600-b336ef83e831a51fe77f53291021eab2.jpg?v=1726472271627",
-            price: 250000,
-            originalPrice: 350000,
-            discount: 29,
-            variants: ["S", "M", "L", "+5"],
-        },
-        {
-            title: "Pants 305 - Quần kaki ống suông form rộng",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-1a4ed57c-635a-442d-b390-f671f4d1e61e.jpg?v=1726471214163",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/2-3fd7ced4-1911-4103-a65c-be6a85a04ccf.jpg?v=1726471214163",
-            price: 500000,
-            originalPrice: 650000,
-            discount: 24,
-            variants: ["M", "L"],
-        },
-        {
-            title: "Widen kaki pants - Quần kaki ống rộng xếp ly",
-            image: "https://bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-3e35b7bf-de57-4d2a-9450-1bab20e58c48.jpg?v=1726563568653",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/3-28585380-7c40-4c4e-83ea-cc97b3cbf615.jpg?v=1726563570853",
-            price: 490000,
-            variants: ["S", "M", "L", "+1"],
-        },
-        {
-            title: "Pants 207 - Quần kaki xếp ly ống rộng",
-            image: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/1-5ef011b0-168b-4a96-9fcf-720359fd04f3.jpg?v=1726469647303",
-            image2: "//bizweb.dktcdn.net/thumb/grande/100/516/928/products/55b0394b-4875-4dac-8a0d-c2ed1f2ca9b0.jpg?v=1726469647303",
-            price: 360000,
-            originalPrice: 450000,
-            discount: 20,
-            variants: ["S", "M"],
-        },
-    ];
+    ]
+        ;
     return (
         <div className="max-w-[1055px] mx-auto">
             <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
@@ -167,6 +320,17 @@ const Set: React.FC = () => {
                     <Filter title="Set đồ" />
                 </div>
                 <div className="col-span-3">
+                    <div className="flex flex-row-reverse mb-4">
+                        <div>
+                            <span>Sắp xếp</span>
+                            <select className="px-2 py-1 rounded ms-2">
+                                <option value="">Tên A → Z</option>
+                                <option value="">Tên Z → A</option>
+                                <option value="">Giá tăng dần</option>
+                                <option value="">Giá giảm dần</option>
+                            </select>
+                        </div>
+                    </div>
                     <div className="grid grid-cols-4 gap-6">
                         {products.map((product, index) => (
                             <ProductCard

@@ -26,14 +26,14 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`
-            ,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
             variants: ["Freesize"],
         },
         {
             title: "Áo sơ mi ngắn tay vạt bầu thêu trái tim đôi",
             image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lt4r40vxvg78e2.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltbvo43a4z2x29.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltbvo438xfh529.webp",
             productCode: "AO283",
             brand: "HAVANA",
             price: 105000,
@@ -59,7 +59,7 @@ Hướng dẫn bảo quản:
         {
             title: "Áo sơ mi kiểu hở vai vai tay bồng phối nơ, áo sơ mi kẻ sọc",
             image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm99axlf8.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm96hspd5.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm8tupwd9.webp",
             productCode: "AO141",
             brand: "HAVANA",
             price: 139000,
@@ -80,12 +80,12 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
             variants: ["Freesize"],
         },
         {
             title: "Áo babydoll cổ sơ mi tay ngắn vạt xòe dáng ngắn màu vintage, áo sơ mi dáng ngắn formbabydoll",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr72oaubpmf86d.webp",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr72oaubk04955.webp",
             image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr72oaubmt958e.webp",
             productCode: "AO136",
             brand: "HAVANA",
@@ -107,13 +107,13 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
             variants: ["Freesize"],
         },
         {
             title: "Set áo thun giấy phối nút kèm áo quây buộc dây",
             image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ll8pb5g0xadka0.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ll8pb5g1pdqgfb.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ll8pb5g103ig4e.webp",
             productCode: "HE308",
             brand: "HAVANA",
             price: 139000,
@@ -142,8 +142,8 @@ HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG
         },
         {
             title: "[Tặng kèm khoác choàng] Áo thun babytee thêu logo con ngựa kèm khoác choàng thuỷ thủ",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lv31hffl71fdc5.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lulvhjfkhdsi29.webp",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0slqmm9isj114.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0slrb6tkcy738.webp",
             productCode: "ATH205",
             brand: "HAVANA",
             price: 106800,
@@ -164,7 +164,7 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
             variants: ["Freesize"],
         },
         {
@@ -191,13 +191,13 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
             variants: ["Freesize"],
         },
         {
             title: "Áo mongtoghi basic cổ tròn thêu chữ ' Butter'",
             image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyg3ejie1dwha9.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyg3ejie1dn17e.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyg3ejie5lcdd0.webp",
             productCode: "ATH335",
             brand: "HAVANA",
             price: 129000,
@@ -218,13 +218,13 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
             variants: ["Freesize"],
         },
         {
             title: "Áo gile len lông thỏ hoạ tiết tổ ong cài cúc bọc đính hoa mai",
             image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0zkyuzehfa75b.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0zkyuzeitunc9.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0zkyuzeiu5734.webp",
             productCode: "LEN130",
             brand: "HAVANA",
             price: 159000,
@@ -233,10 +233,10 @@ Hướng dẫn bảo quản:
             describe: `Áo gile len lông thỏ hoạ tiết tổ ong cài cúc bọc đính hoa mai HAVANA LEN130
 Freesize dưới 54kg mang vừa thoải mái
 Hướng dẫn bảo quản:
-                + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
 + Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
         - Hướng dẫn sử dụng:
-        + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
         + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
             + Sai lệch số đo + -1cm
                 + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
@@ -245,13 +245,13 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
             variants: ["Freesize"],
         },
         {
             title: "Áo kiểu nữ trễ vai dài tay phối hoa hồng ở tay cách điệu hot girl",
             image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0pot8j2nn9rc7.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0i94qxsorn1d6.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0pom9l4cm8f5c.webp",
             productCode: "AO371",
             brand: "HAVANA",
             price: 139000,
@@ -272,9 +272,11 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
             variants: ["Freesize"],
-        }]
+        },
+
+    ]
         ;
     return (
         <div className="max-w-[1055px] mx-auto">
@@ -304,6 +306,17 @@ Hướng dẫn bảo quản:
                     <Filter title="Áo" />
                 </div>
                 <div className="col-span-3">
+                    <div className="flex flex-row-reverse mb-4">
+                        <div>
+                            <span>Sắp xếp</span>
+                            <select className="px-2 py-1 rounded ms-2">
+                                <option value="">Tên A → Z</option>
+                                <option value="">Tên Z → A</option>
+                                <option value="">Giá tăng dần</option>
+                                <option value="">Giá giảm dần</option>
+                            </select>
+                        </div>
+                    </div>
                     <div className="grid grid-cols-4 gap-6">
                         {products.map((product, index) => (
                             <ProductCard

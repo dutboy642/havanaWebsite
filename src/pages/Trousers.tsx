@@ -327,6 +327,17 @@ Hướng dẫn sử dụng:
                     <Filter title="Quần" />
                 </div>
                 <div className="col-span-3">
+                    <div className="flex flex-row-reverse mb-4">
+                        <div>
+                            <span>Sắp xếp</span>
+                            <select className="px-2 py-1 rounded ms-2">
+                                <option value="">Tên A → Z</option>
+                                <option value="">Tên Z → A</option>
+                                <option value="">Giá tăng dần</option>
+                                <option value="">Giá giảm dần</option>
+                            </select>
+                        </div>
+                    </div>
                     <div className="grid grid-cols-4 gap-6">
                         {products.map((product, index) => (
                             <ProductCard

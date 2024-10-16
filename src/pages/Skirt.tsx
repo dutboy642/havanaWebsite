@@ -2,46 +2,51 @@ import Filter from "../components/Filter";
 import ProductCard from "../components/ProductCard";
 const Skirt: React.FC = () => {
     const products = [
+
         {
-            title: "Áo kiểu linen nhún thân dáng babydoll trễ vai tay bồng tiểu thư 2 dây buộc nơ",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lzlc5uzgwv2l73.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lzlc5v0ktu1975.webp",
-            productCode: "AO362",
+            title: "Váy sơ mi cộc tay, sơ mi khuy gỗ eo chun co giãn, váy thanh lịch form xòe",
+            image: "https://down-vn.img.susercontent.com/file/4d45b6ebe366fef186639efe1dc17f96.webp",
+            image2: "https://down-vn.img.susercontent.com/file/c9bde33500a3d7f115e0771ccac25777.webp",
+            productCode: "AE167",
             brand: "HAVANA",
-            price: 95000,
-            originalPrice: 139000,
-            discount: 32,
-            describe: `Áo kiểu linen nhún thân dáng babydoll trễ vai tay bồng tiểu thư 2 dây buộc nơ HAVANA AO362
-Freesize dưới 53kg mang vừa thoải mái
-Hướng dẫn bảo quản:
-                + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+            price: 115000,
+            originalPrice: 189000,
+            discount: 39,
+            describe: `- Tên sản phẩm: Váy sơ mi cộc tay, sơ mi khuy gỗ eo chun co giãn, váy thanh lịch form xòe
+                - Thông tin sản phẩm:
+                + Đầm phù hợp mang đi làm và đi chơi
+Dài: 85 cm
+Eo: từ 60-78cm
+Vai: 35cm
++ Freesize dưới 55kg mang vừa luôn ạ
+        - Hướng dẫn bảo quản:
+        + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
 - Hướng dẫn sử dụng:
         + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
         + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
             + Sai lệch số đo + -1cm
                 + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`
-            ,
+    - Cam kết của shop:
+    + Hình sản phẩm là ảnh thật 100 % do shop chụp, sản phẩm gửi đi là sản phẩm giống hình
+        + Hàng đã được cắt chỉ thừa và kiểm tra trước khi gửi đi, nếu có chỉ thừa sót lại bám vào mong các nàng thông cảm giúp shop ạ
+            - Quy định đổi trả:
+    + Nếu sản phẩm bị lỗi, sai màu, sai size, shop sẽ hỗ trợ đổi trả và chịu toàn bộ phí ship
+        + Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship(kèm video khưi hàng để được chúng mình hỗ trợ nhanh nhất có thể ạ)`,
             variants: ["Freesize"],
         },
+
+
         {
-            title: "Áo sơ mi ngắn tay vạt bầu thêu trái tim đôi",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lt4r40vxvg78e2.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltbvo43a4z2x29.webp",
-            productCode: "AO283",
+            title: "Chân váy ngắn xòe 4 tầng nhún bèo họa tiết in nơ chấm bi",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwqlajjehcd59a.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwqlajjek5i174.webp",
+            productCode: "CV247",
             brand: "HAVANA",
-            price: 105000,
-            originalPrice: 149000,
-            discount: 30,
-            describe: `Áo sơ mi ngắn tay vạt bầu thêu trái tim đôi HAVANA  AO283
-Freesize < 54kg
-dài áo 63cm, dài tay 15cm, v1 < 92cm, v2 < 77 cm
+            price: 115000,
+            originalPrice: 189000,
+            discount: 39,
+            describe: `Chân váy ngắn xòe 4 tầng nhún bèo họa tiết in nơ chấm bi Havana CV247
+Freesize dưới 53kg mang vừa thoải mái
 Hướng dẫn bảo quản:
 + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
 + Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
@@ -49,51 +54,29 @@ Hướng dẫn bảo quản:
 + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
     + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
         + Sai lệch số đo + -1cm
-            - Chính sách bán hàng:
-+ Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
-    + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-        + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-            + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
+            + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+- Chính sách bán hàng:
++ Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+    - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm
+`,
             variants: ["Freesize"],
         },
+
         {
-            title: "Áo sơ mi kiểu hở vai vai tay bồng phối nơ, áo sơ mi kẻ sọc",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm99axlf8.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm96hspd5.webp",
-            productCode: "AO141",
+            title: "Chân váy kaki thô dáng dài xẻ tà sau lưng chun ",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyn5k3w1x9vxd7.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyn5k3w1vvkxbb.webp",
+            productCode: "CV253",
             brand: "HAVANA",
-            price: 139000,
-            originalPrice: 199000,
-            discount: 30,
-            describe: `Áo sơ mi kiểu hở vai vai tay bồng phối nơ, áo sơ mi kẻ sọc Havana AO141
-    Freesize < 56kg mang vừa tùy chiều cao
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
-            variants: ["Freesize"],
-        },
-        {
-            title: "Áo babydoll cổ sơ mi tay ngắn vạt xòe dáng ngắn màu vintage, áo sơ mi dáng ngắn formbabydoll",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr72oaubpmf86d.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr72oaubmt958e.webp",
-            productCode: "AO136",
-            brand: "HAVANA",
-            price: 104000,
-            originalPrice: 199000,
-            discount: 48,
-            describe: `Áo babydoll cổ sơ mi tay ngắn vạt xòe dáng ngắn màu vintage HAVANA, áo sơ mi dáng ngắn formbabydoll AO136
-    Freesize < 56kg mang vừa tùy chiều cao
+            price: 129000,
+            originalPrice: 169000,
+            discount: 24,
+            describe: `Chân váy kaki thô dáng dài xẻ tà sau lưng chun HAVANA CV253
+Freesize dưới 54kg mang vừa thoải mái
+        * Thông số kích thước: dài 88cm eo < 75cm mông < 100cm
 Hướng dẫn bảo quản:
     + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
 + Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
@@ -107,21 +90,117 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
+            variants: ["Freesize"],
+        },
+
+        {
+            title: "Chân váy ngắn xếp li chất thu umi lưng chun có khóa kéo",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyq9msd8bstd61.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyq9msd8r8st95.webp",
+            productCode: "CV251",
+            brand: "HAVANA",
+            price: 105000,
+            originalPrice: 145000,
+            discount: 28,
+            describe: `Chân váy ngắn xếp li chất thu umi lưng chun có khóa kéo HAVANA CV251
+Freesize dưới 55kg mang vừa thoải mái tùy chiều cao
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen `,
+            variants: ["Freesize"],
+        },
+
+        {
+            title: "Chân váy jean dáng dài xẻ tà 2 túi sau sọc viền nổi ngang gối",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-m08nvp45gu7he3.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-m08nvp45jnnz70.webp",
+            productCode: "CVA0002",
+            brand: "HAVANA",
+            price: 155000,
+            originalPrice: 189000,
+            discount: 18,
+            describe: `Denim ByHavana - Chân váy jean dáng dài xẻ tà 2 túi sau sọc viền nổi ngang gối CVA0002
+MÔ TẢ SẢN PHẨM:
+    - Chất liệu jeans cao cấp dày dặn
+        - Thông số kích thước:
+Size s: dài váy 86, eo 70, V3 84
+Size m: dài váy 86, eo 72, V3 90
+Size L: dài váy 86, eo 84, V3 92
+HƯỚNG DẪN BẢO QUẢN:
+    - Để giữ màu quần jeans đẹp như mới, trong lần giặt đầu tiên bạn không nên giặt bằng xà phòng.
+- Giặt tay là cách hiệu quả để giữ quần jeans không bị phai màu.
+- Hạn chế dùng nước xả vải với quần jeans.Nước xả vải có tác dụng làm mềm vải, dễ khiến quần jeans mất dáng, không còn đứng form.
+- Nếu dùng máy giặt, bạn nhớ lộn trái quần jeans trước khi cho vào máy.
+- Để quần jeans được bền đẹp, bạn không nên giặt quần jeans quá nhiều lần.Sau 5 đến 10 lần mặc có thể đem quần ra giặt.
+- Không vắt kiệt nước khi giặt: Do chất liệu để làm nên quần jeans có tính co dãn nên những tác động mạnh đều có thể làm mất dáng chiếc quần yêu thích của bạn.
+- Không phơi quần jeans dưới nắng gắt.Bạn chỉ cần phơi quần ở những nơi thoáng mát, có nhiều gió là được.Và đừng quên việc lộn trái quần để phơi
+        - LƯU Ý MUA HÀNG:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - CHÍNH SÁCH MUA HÀNG:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen `,
+            variants: ["S", "M", "L"],
+        },
+
+        {
+            title: "Chân váy midi dạ cashmere caro phối 3 tầng lưng chun co giãn",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lodecwgt3jsj28.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lodecwgt6cxfd3.webp",
+            productCode: "QJ35",
+            brand: "HAVANA",
+            price: 168000,
+            originalPrice: 168000,
+            discount:0,
+            describe: `Chân váy midi dạ cashmere caro phối 3 tầng lưng chun co giãn HAVANA QJ35
+    Freesize < 56kg
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
             variants: ["Freesize"],
         },
         {
-            title: "Set áo thun giấy phối nút kèm áo quây buộc dây",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ll8pb5g0xadka0.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ll8pb5g1pdqgfb.webp",
-            productCode: "HE308",
+            title: "Đầm trơn sọc gân cổ tròn kèm váy lót hai dây bên trong vải lụa",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ls9c987qpvb8a6.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ls9c987rkrt06f.webp",
+            productCode: "HE113",
             brand: "HAVANA",
-            price: 139000,
-            originalPrice: 169000,
-            discount: 18,
-            describe: `Set áo thun giấy phối nút kèm áo quây buộc dây HE308
-Kèm áo quây cùng màu bên trong
-Freesize dưới 53kg mang vừa
+            price: 159000,
+            originalPrice: 199000,
+            discount: 20,
+            describe: `Tên sản phẩm: Đầm trơn sọc gân cổ tròn kèm hai dây bên trong vải lụa HE113
+                                        - Thông số sản phẩm:
+Chiều dài váy: 108 cm
+    V1 < 95cm
+Chiều rộng vai: 33cm
         - Hướng dẫn bảo quản:
 Hình thật shop chụp nên các nàng yên tâm mua hàng thôi ạ
 HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG
@@ -137,74 +216,49 @@ HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG
         + Hàng đã được cắt chỉ thừa và kiểm tra trước khi gửi đi, nếu có chỉ thừa sót lại bám vào mong các nàng thông cảm giúp shop ạ
             - Quy định đổi trả:
     + Nếu sản phẩm bị lỗi, sai màu, sai size, shop sẽ hỗ trợ đổi trả và chịu toàn bộ phí ship
-        + Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship(kèm video khui hàng để được chúng mình hỗ trợ nhanh nhất có thể ạ`,
+        + Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship(kèm video khưi hàng để được chúng mình hỗ trợ nhanh nhất có thể ạ) `,
             variants: ["Freesize"],
         },
         {
-            title: "[Tặng kèm khoác choàng] Áo thun babytee thêu logo con ngựa kèm khoác choàng thuỷ thủ",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lv31hffl71fdc5.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lulvhjfkhdsi29.webp",
-            productCode: "ATH205",
-            brand: "HAVANA",
-            price: 106800,
-            originalPrice: 179000,
-            discount: 40,
-            describe: `[Tặng kèm khoác choàng] Áo babytee thêu logo con ngựa kèm khoác choàng thuỷ thủ HAVANA ATH205
-Freesize dưới 53kg mang vừa thoải mái
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
-            variants: ["Freesize"],
-        },
-        {
-            title: "Áo len xù kẻ ngang phối cúc vai mặc 2 kiểu QC",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0pojyvwwivj44.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0pm8orcrmof82.webp",
-            productCode: "LEN121",
-            brand: "HAVANA",
-            price: 280000,
-            originalPrice: 340000,
-            discount: 18,
-            describe: `Áo len xù kẻ ngang phối cúc vai mặc 2 kiểu QC HAVANA LEN121
-Freesize dưới 55kg mang vừa thoải mái
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
-            variants: ["Freesize"],
-        },
-        {
-            title: "Áo mongtoghi basic cổ tròn thêu chữ ' Butter'",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyg3ejie1dwha9.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyg3ejie1dn17e.webp",
-            productCode: "ATH335",
+            title: "Chân váy Jeans dáng dài form chữ A thiết kế túi giả ",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lru1n94ewres38.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lru1n94ouy8448.webp",
+            productCode: "CV114",
             brand: "HAVANA",
             price: 129000,
+            originalPrice: 199000,
+            discount: 35,
+            describe: `Chân váy Jeans dáng dài form chữ A thiết kế túi giả HAVANA CV114
+    Size: S, M, L
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["S", "M", "L"],
+        },
+        {
+            title: "Chân váy midi thun Umi form A xoè phong cách ulzzang",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0in8dke3mofae.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0in8dke0t7x44.webp",
+            productCode: "CV273",
+            brand: "HAVANA",
+            price: 140000,
             originalPrice: 189000,
-            discount: 32,
-            describe: `Áo mongtoghi basic cổ tròn thêu chữ " Butter" HAVANA ATH335
-Freesize dưới 53 kg mang vừa thoải mái
+            discount: 26,
+            describe: `(HÀNG QC LOẠI 1)Chân váy midi thun Umi form A xoè phong cách ulzzang HAVANA CV273
+Freesize dưới 56kg mang vừa thoải mái
+
 Hướng dẫn bảo quản:
     + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
 + Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
@@ -218,47 +272,50 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen `,
             variants: ["Freesize"],
         },
+
         {
-            title: "Áo gile len lông thỏ hoạ tiết tổ ong cài cúc bọc đính hoa mai",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0zkyuzehfa75b.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0zkyuzeitunc9.webp",
-            productCode: "LEN130",
+            title: "Chân váy Jeans dáng dài form chữ A thiết kế túi giả ",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lru1n94ewres38.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lru1n94f0z44c7.webp",
+            productCode: "CV114",
             brand: "HAVANA",
-            price: 159000,
-            originalPrice: 189000,
-            discount: 16,
-            describe: `Áo gile len lông thỏ hoạ tiết tổ ong cài cúc bọc đính hoa mai HAVANA LEN130
-Freesize dưới 54kg mang vừa thoải mái
+            price: 129000,
+            originalPrice: 199000,
+            discount: 35,
+            describe: `Chân váy Jeans dáng dài form chữ A thiết kế túi giả HAVANA CV114
+    Size: S, M, L
+
 Hướng dẫn bảo quản:
-                + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
 + Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
         - Hướng dẫn sử dụng:
-        + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
         + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
             + Sai lệch số đo + -1cm
                 + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
     - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
-            variants: ["Freesize"],
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
+    `,
+            variants: ["S", "M", "L"],
         },
         {
-            title: "Áo kiểu nữ trễ vai dài tay phối hoa hồng ở tay cách điệu hot girl",
-            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0pot8j2nn9rc7.webp",
-            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m0i94qxsorn1d6.webp",
-            productCode: "AO371",
+            title: "Chân váy dáng dài basic 2 túi xẻ sau phong cách thanh lịch",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltbvo439mpqc55.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltbvo439o4as01.webp",
+            productCode: "CV174",
             brand: "HAVANA",
-            price: 139000,
-            originalPrice: 169000,
-            discount: 18,
-            describe: `Áo kiểu nữ trễ vai dài tay phối hoa hồng ở tay cách điệu hot girl HAVANA AO371
-Freesize dưới 53kg mang vừa thoải mái
+            price: 145000,
+            originalPrice: 189000,
+            discount: 23,
+            describe: `Chân váy dáng dài basic 2 túi xẻ sau phong cách thanh lịch HAVANA CV174
+    Size: S, M, L
+
 Hướng dẫn bảo quản:
     + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
 + Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
@@ -272,9 +329,43 @@ Hướng dẫn bảo quản:
         - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
             + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
                 + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn`,
-            variants: ["Freesize"],
-        }]
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen `,
+            variants: ["S", "M", "L"],
+        },
+        {
+            title: "Chân váy dáng dài công sở form A túi giả kèm belt",
+            image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltesi7gnk5ok0c.webp",
+            image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ltesi7gnoddw89.webp",
+            productCode: "CV170",
+            brand: "HAVANA",
+            price: 186000,
+            originalPrice: 189000,
+            discount: 2,
+            describe: `Chân váy dáng dài công sở form A túi giả kèm belt HAVANA CV170
+    Size: S, M
+
+Hướng dẫn bảo quản:
+    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
++ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
+        - Hướng dẫn sử dụng:
+    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
+        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
+            + Sai lệch số đo + -1cm
+                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
+    - Chính sách bán hàng:
+    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
+        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
+            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
+                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
+                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen`,
+            variants: ["S", "M"],
+        },
+
+
+
+
+
+    ]
         ;
     return (
         <div className="max-w-[1055px] mx-auto">
@@ -304,6 +395,17 @@ Hướng dẫn bảo quản:
                     <Filter title="Váy" />
                 </div>
                 <div className="col-span-3">
+                    <div className="flex flex-row-reverse mb-4">
+                        <div>
+                            <span>Sắp xếp</span>
+                            <select className="px-2 py-1 rounded ms-2">
+                                <option value="">Tên A → Z</option>
+                                <option value="">Tên Z → A</option>
+                                <option value="">Giá tăng dần</option>
+                                <option value="">Giá giảm dần</option>
+                            </select>
+                        </div>
+                    </div>
                     <div className="grid grid-cols-4 gap-6">
                         {products.map((product, index) => (
                             <ProductCard
