@@ -13,6 +13,8 @@ import Trousers from "../pages/Trousers";
 import Skirt from "../pages/Skirt";
 import ProductDetail from "../pages/ProductDetail";
 import AboutUs from "../pages/AboutUs";
+import ContactUs from "../pages/Contact";
+import CustomerSupport from "../pages/Support";
 export const AppRouter = () => {
   return (
     <BrowserRouter>
@@ -31,6 +33,8 @@ export const AppRouter = () => {
           <Route path='RegistForm' element={<RegisterForm />} />
           <Route path='ProductDetail' element={<ProductDetail />} />
           <Route path='AboutUs' element={<AboutUs />} />
+          <Route path='ContactUs' element={<ContactUs />} />
+          <Route path='Support' element={<CustomerSupport />} />
         </Route>
       </Routes>
     </BrowserRouter>
