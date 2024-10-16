@@ -2,11 +2,57 @@ import React from "react";
 
 const AboutUs: React.FC = () => {
     return (
-        <div className="max-w-4xl mx-auto px-6 py-12 space-y-12">
-            <img src="//bizweb.dktcdn.net/100/516/928/files/monat-blue-website-09-14fd940f-ef08-47d6-b558-02da16da1916.jpg?v=1716892061755" alt="" />
-            <img src="//bizweb.dktcdn.net/100/516/928/files/monat-blue-website-06-2e222609-f597-49bd-8777-f2ef1929e987.jpg?v=1716890424881" alt="" />
-            <img src="//bizweb.dktcdn.net/100/516/928/files/monat-blue-website-07-d7e7546b-f68d-4008-95d3-8086680331b3.jpg?v=1716890715835" alt="" />
-            <img src="//bizweb.dktcdn.net/100/516/928/files/monat-blue-website-08-22912c8c-1586-49a1-a0d2-9fb388732c73.jpg?v=1716890442372" alt="" />
+        <div className="max-w-6xl mx-auto px-6 py-12 space-y-12">
+            {/* Ảnh Header */}
+            <div className="w-full">
+                <img
+                    src="https://via.placeholder.com/1200x600" // Thay bằng link ảnh của bạn
+                    alt="Monat Blue"
+                    className="w-full h-auto"
+                />
+            </div>
+
+            {/* Phần giới thiệu chính */}
+            <section className="text-center">
+                <h1 className="text-3xl font-semibold mb-4">VỀ CHÚNG TÔI...</h1>
+                <p className="text-lg text-gray-600">
+                    HAVANA - cửa hàng cung cấp các sản phẩm thời trang nữ trendy tại Đà Nẵng
+                </p>
+            </section>
+
+            {/* Phần giới thiệu các khối */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* Khối 1 */}
+                <div className="bg-gray-100 p-6 rounded-lg">
+                    <img
+                        src="https://via.placeholder.com/600x400" // Thay bằng link ảnh thực tế
+                        alt="Giới thiệu 1"
+                        className="w-full h-auto rounded-lg mb-4"
+                    />
+                    <h2 className="text-2xl font-semibold mb-2">TẦM NHÌN...</h2>
+                    <p className="text-gray-600">
+
+                        Tạo dựng cộng đồng thời trang bền vững.
+                        Tạo ra điểm đến lý tưởng để khách hàng có thể thoải mái chọn lựa, khám phá xu hướng thời trang mới và tìm kiếm phong cách riêng cho mình.
+                        Tạo ra những sản phẩm thời trang chất lượng với giá cả phải chăng.
+                        Mang lại cho khách hàng những trải nghiệm mua sắm tuyệt vời nhất.
+                    </p>
+                </div>
+
+                {/* Khối 2 */}
+                <div className="bg-gray-100 p-6 rounded-lg">
+                    <img
+                        src="https://via.placeholder.com/600x400" // Thay bằng link ảnh thực tế
+                        alt="Giới thiệu 2"
+                        className="w-full h-auto rounded-lg mb-4"
+                    />
+                    <h2 className="text-2xl font-semibold mb-2">SỨ MỆNH...</h2>
+                    <p className="text-gray-600">
+                        Từ thời trang đến lối sống, chúng tôi luôn hướng tới phong cách hòa nhập và tinh thần sáng tạo,
+                        để khẳng định bản sắc của từng cá nhân.
+                    </p>
+                </div>
+            </div>
         </div>
     );
 };

@@ -341,6 +341,8 @@ Hướng dẫn bảo quản:
                                 originalPrice={product.originalPrice}
                                 discount={product.discount}
                                 variants={product.variants}
+                                describe={product.describe}
+                                productCode={product.productCode}
                             />
                         ))}
                     </div>
