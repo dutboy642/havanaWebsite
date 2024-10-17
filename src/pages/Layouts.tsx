@@ -7,8 +7,13 @@ import CartIcon from "../components/CartIcon";
 import Navbar from "../components/Navbar";
 import logo from "../assets/shop_logo.png"
 import HeadSearch from "../components/HeadSearch";
+import { useEffect } from "react";
+import { initFlowbite } from "flowbite";
 
 const Layout = () => {
+    useEffect(() => {
+        initFlowbite();
+    }, [])
     return (
         <div className="min-h-screen">
             <Header />
