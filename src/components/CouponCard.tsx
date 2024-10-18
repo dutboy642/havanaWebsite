@@ -8,7 +8,7 @@ interface CouponCardProps {
 
 const CouponCard: React.FC<CouponCardProps> = ({ title, description, expiry }) => {
     return (
-        <div className="flex border rounded-lg shadow-md p-4 w-80 mx-2">
+        <div className="flex border rounded-lg shadow-md p-4 w-80 mx-2 bg-white">
             {/* Phần bên trái */}
             <div className="flex-1">
                 <h3 className="text-blue-600 font-bold text-lg">{title}</h3>

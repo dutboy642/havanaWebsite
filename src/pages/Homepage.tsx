@@ -1,9 +1,10 @@
 import React from "react";
 import CouponCard from "../components/CouponCard";
 import ProductCard from "../components/ProductCard";
-import mainImage from "../assets/1.png"
+import mainImage from "../assets/SALE.png"
 import { Link } from "react-router-dom";
 import ScrollToTop from "../components/ScrollToTop";
+import grassBg from "../assets/bg.png"
 const Homepage: React.FC = () => {
     const products = [
         {
@@ -599,13 +600,17 @@ Hướng dẫn bảo quản:
         },
     ];
     return (
-        <div>
+        <div style={{
+            background: `url(${grassBg}) no-repeat fixed center`,
+            backgroundSize: '100vw 100vh'
+        }}>
+
             <ScrollToTop />
             <div className="hover:cursor-pointer">
-                <img className=" my-4" src={mainImage} alt="" />
+                <img className=" py-4" src={mainImage} alt="" />
             </div>
             {/* discount */}
-            <div className="flex justify-center items-center bg-gray-50">
+            <div className="flex justify-center items-center">
                 <div className="flex space-x-4">
                     {coupons.map((coupon, index) => (
                         <CouponCard
@@ -646,10 +651,10 @@ Hướng dẫn bảo quản:
             </div>
             {/* Ảnh */}
             <div className="hover:cursor-pointer p-8 ">
-                <img className="mx-auto" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm93ont15.webp" alt="" />
+                <img className="mx-auto rounded" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm93ont15.webp" alt="" />
             </div>
             {/* best seller */}
-            <div className="p-8  mb-10">
+            <div className="p-8  pb-10">
                 <div className="flex justify-between items-center mb-4">
                     <h1></h1>
                     <h2 className="text-5xl font-bold">BEST SELLER</h2>

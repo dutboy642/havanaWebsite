@@ -150,7 +150,7 @@ Hướng dẫn bảo quản:
             image2: "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1fbb5m9pjq4d5.webp",
             productCode: "AD110",
             brand: "HAVANA",
-            price: 29299000,
+            price: 299000,
             originalPrice: 379000,
             discount: 21,
             describe: `Áo dài khảm vân BÁCH ĐIỀN voan tơ phối đính nơ cúc ngọc kèm quần dài satin HAVANA AD110
@@ -294,7 +294,7 @@ Hướng dẫn bảo quản:
     ];
     return (
         <div className="max-w-[1055px] mx-auto">
-            <ScrollToTop/>
+            <ScrollToTop />
             <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
                 <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                     <li className="inline-flex items-center">

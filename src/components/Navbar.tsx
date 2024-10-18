@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
     const navItems = [
         { name: "VỀ CHÚNG TÔI", dropdownList: [{ name: "Về chúng tôi", link: "/AboutUs#aboutUs" }, { name: "Tầm nhìn", link: "/AboutUs#vision" }, { name: "Sứ mệnh", link: "/AboutUs#suMenh" }], link: "/AboutUs" },
         { name: "SẢN PHẨM", dropdownList: [{ name: "Tất cả", link: "/All" }, { name: "Set đồ", link: "/Set" }, { name: "Quần", link: "/Trousers" }, { name: "Áo", link: "/Shirt" }, { name: "Váy", link: "/Skirt" }], link: "/All" },
-        { name: "SALE", dropdownList: [], link: "/Sale" },
+        { name: "HÀNG TỒN KHO", dropdownList: [], link: "/Sale" },
         { name: "HỖ TRỢ KHÁCH HÀNG", dropdownList: [{ name: "Chính sách bảo hành", link: "/Support#Policy" }, { name: "Đổi, trả hàng", link: "/Support#Exchange" }, { name: "Vận chuyển", link: "/Support#Delivery" }], link: "/Support" },
         { name: "LIÊN HỆ", dropdownList: [{ name: "Địa chỉ", link: "/ContactUs#Address" }, { name: "Số điện thoại", link: "/ContactUs#Phone" }, { name: "Email", link: "/ContactUs#Email" }], link: "/ContactUs" },
     ]
@@ -36,30 +36,33 @@ const Navbar: React.FC = () => {
                             <span
                                 className="absolute left-0 bottom-0 h-[1px] w-0 bg-white 
                    group-hover:w-full transition-all duration-300 ease-in-out"
-                            ></span>
-                        </div>
-                    </a>
-                    {
-                        item.dropdownList.length > 0 && (
-                            <div id={"dropdownHover" + index} className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700" data-dropdown-placement="bottom-start">
-                                <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
-                                    {item.dropdownList.map((dropdownItem, index) => (
-                                        <div
-                                            key={index}
-                                        >
-                                            <li>
-                                                <a href={dropdownItem.link} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{dropdownItem.name}</a>
-                                            </li>
+                            >
+                                {
+                                    item.dropdownList.length > 0 && (
+                                        <div id={"dropdownHover" + index} className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700" data-dropdown-placement="bottom-start">
+                                            <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+                                                {item.dropdownList.map((dropdownItem, index) => (
+                                                    <div
+                                                        key={index}
+                                                    >
+                                                        <li>
+                                                            <a href={dropdownItem.link} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{dropdownItem.name}</a>
+                                                        </li>
 
 
+                                                    </div>
+                                                ))}
+
+
+                                            </ul>
                                         </div>
-                                    ))}
+                                    )
+                                }
+                            </span>
+                        </div>
 
+                    </a>
 
-                                </ul>
-                            </div>
-                        )
-                    }
                 </div>
             ))}
         </nav>

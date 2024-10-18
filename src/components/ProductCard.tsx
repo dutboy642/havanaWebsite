@@ -72,7 +72,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
     const [currentImage, setCurrentImage] = useState(image);
 
     return (
-        <Link to={link} className="w-full p-4">
+        <Link to={link} className="w-full p-4 bg-white rounded">
             <div
                 className="relative overflow-hidden "
                 onMouseEnter={() => setCurrentImage(image2)}
