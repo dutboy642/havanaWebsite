@@ -2,6 +2,8 @@ import React from "react";
 import CouponCard from "../components/CouponCard";
 import ProductCard from "../components/ProductCard";
 import mainImage from "../assets/1.png"
+import { Link } from "react-router-dom";
+import ScrollToTop from "../components/ScrollToTop";
 const Homepage: React.FC = () => {
     const products = [
         {
@@ -598,8 +600,9 @@ Hướng dẫn bảo quản:
     ];
     return (
         <div>
+            <ScrollToTop />
             <div className="hover:cursor-pointer">
-                <img className="w-[80%] mx-auto my-4" src={mainImage} alt="" />
+                <img className=" my-4" src={mainImage} alt="" />
             </div>
             {/* discount */}
             <div className="flex justify-center items-center bg-gray-50">
@@ -615,15 +618,16 @@ Hướng dẫn bảo quản:
                 </div>
             </div>
             {/* new arrival */}
-            <div className="p-8 w-[80%] mx-auto">
+            <div className="p-8 ">
                 <div className="flex justify-between items-center mb-4">
-                    <h2 className="text-xl font-bold">NEW ARRIVAL</h2>
-                    <a href="#" className="text-blue-500 text-sm">
+                    <h1></h1>
+                    <h2 className="text-5xl font-bold">NEW ARRIVAL</h2>
+                    <Link to="/All" className="text-blue-500 text-sm hover:underline ">
                         Xem tất cả
-                    </a>
+                    </Link>
                 </div>
 
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 gap-6">
                     {AoDai.slice(0, 4).map((product, index) => (
                         <ProductCard
                             key={index}
@@ -641,19 +645,20 @@ Hướng dẫn bảo quản:
                 </div>
             </div>
             {/* Ảnh */}
-            <div className="hover:cursor-pointer p-8 w-[80%] mx-auto">
+            <div className="hover:cursor-pointer p-8 ">
                 <img className="mx-auto" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm93ont15.webp" alt="" />
             </div>
             {/* best seller */}
-            <div className="p-8 w-[80%] mx-auto mb-10">
+            <div className="p-8  mb-10">
                 <div className="flex justify-between items-center mb-4">
-                    <h2 className="text-xl font-bold">BEST SELLER</h2>
-                    <a href="#" className="text-blue-500 text-sm">
+                    <h1></h1>
+                    <h2 className="text-5xl font-bold">BEST SELLER</h2>
+                    <a href="#" className="text-blue-500 text-sm hover:underline">
                         Xem tất cả
                     </a>
                 </div>
 
-                <div className="grid grid-cols-4 gap-6">
+                <div className="grid grid-cols-2 gap-6">
                     {products.slice(0, 4).map((product, index) => (
                         <ProductCard
                             key={index}
@@ -671,7 +676,7 @@ Hướng dẫn bảo quản:
                 </div>
             </div>
             {/* t shirt */}
-            {/* <div className="p-8 w-[80%] mx-auto">
+            {/* <div className="p-8 ">
                 <div className="grid grid-cols-3">
                     <div className="">
                         <img src="https://bizweb.dktcdn.net/100/516/928/themes/951952/assets/section_product_image_1_banner.jpg?1726634821799" alt="" />
@@ -695,7 +700,7 @@ Hướng dẫn bảo quản:
                 </div>
             </div> */}
             {/*  Quần */}
-            {/* <div className="p-8 w-[80%] mx-auto">
+            {/* <div className="p-8 ">
                 <div className="grid grid-cols-3">
 
                     <div className="col-span-2">
@@ -720,7 +725,7 @@ Hướng dẫn bảo quản:
                 </div>
             </div> */}
             {/* Áo sọc */}
-            {/* <div className="p-8 w-[80%] mx-auto">
+            {/* <div className="p-8 ">
                 <div className="grid grid-cols-3">
                     <div className="">
                         <img src="https://bizweb.dktcdn.net/100/516/928/themes/951952/assets/section_product_image_3_banner.jpg?1726634821799" alt="" />
@@ -744,7 +749,7 @@ Hướng dẫn bảo quản:
                 </div>
             </div> */}
 
-            {/* <div className="p-8 w-[80%] mx-auto">
+            {/* <div className="p-8 ">
                 <div className="flex justify-between items-center mb-4">
                     <h2 className="text-xl font-bold">FEEDBACK</h2>
                 </div>

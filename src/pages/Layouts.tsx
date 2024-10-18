@@ -5,7 +5,7 @@ import SearchIcon from "../components/SearchIcon";
 import UserIcon from "../components/UserIcon";
 import CartIcon from "../components/CartIcon";
 import Navbar from "../components/Navbar";
-import logo from "../assets/shop_logo.png"
+import logo from "../assets/shop_logo2.png"
 import HeadSearch from "../components/HeadSearch";
 import { useEffect } from "react";
 import { initFlowbite } from "flowbite";
@@ -26,7 +26,7 @@ const Layout = () => {
 
                     </div>
                     {/* <div className="text-2xl font-bold text-blue-600">MONAT BLUE</div> */}
-                    <Link to="/" ><img className="w-24" src={logo} alt="" /></Link>
+                    <Link to="/" ><img className="w-24 py-4" src={logo} alt="" /></Link>
                     <div className="flex items-center space-x-6 w-16">
                         <UserIcon name="homepage" />
                         <CartIcon />

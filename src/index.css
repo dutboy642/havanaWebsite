@@ -4,9 +4,10 @@
 
 .two-line-ellipsis {
     display: -webkit-box;
-    -webkit-line-clamp: 2;
-    /* Giới hạn 2 dòng */
+    -webkit-line-clamp: 1; /* Giới hạn tối đa 2 dòng */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    min-height: 1.5em; /* Tạo chiều cao tối thiểu cho 2 dòng */
+    line-height: 1.5em; /* Điều chỉnh line-height nếu cần */
 }

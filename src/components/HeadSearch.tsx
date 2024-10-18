@@ -1,5 +1,5 @@
 // components/HeaderSearch.tsx
-import logo from "../assets/shop_logo.png"
+import logo from "../assets/shop_logo2.png"
 import UserIcon from "./UserIcon";
 import SearchIcon from "./SearchIcon";
 import CartIcon from "./CartIcon";
@@ -9,7 +9,7 @@ const HeaderSearch: React.FC = () => {
         <header className="flex items-center justify-between px-8 py-4 border-b">
             {/* Logo */}
             {/* <div className="text-blue-700 text-2xl font-bold">HAVANA</div> */}
-            <img src={logo} className="w-24 rounded" alt="" />
+            <img src={logo} className="w-24 py-2 rounded" alt="" />
 
             {/* Search Bar */}
             <div className="relative flex items-center w-1/2">

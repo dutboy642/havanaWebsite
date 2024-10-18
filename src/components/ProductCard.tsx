@@ -74,20 +74,22 @@ const ProductCard: React.FC<ProductCardProps> = ({
     return (
         <Link to={link} className="w-full p-4">
             <div
-                className="relative overflow-hidden"
+                className="relative overflow-hidden "
                 onMouseEnter={() => setCurrentImage(image2)}
                 onMouseLeave={() => setCurrentImage(image)}
             >
                 {/* Hình ảnh sản phẩm */}
-                <img
-                    src={currentImage}
-                    alt={title}
-                    className="hover:cursor-pointer w-48 h-48 object-contain rounded-lg transition-transform duration-300 ease-in-out transform scale-110 hover:scale-90 delay-150"
-                />
+                <div>
+                    <img
+                        src={currentImage}
+                        alt={title}
+                        className="mx-auto hover:cursor-pointer w-full object-contain rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-90 hover:scale-90 delay-150 rounded"
+                    />
+                </div>
                 {/* Nhãn giảm giá */}
                 {discount && (
-                    <span className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
-                        -{discount}%
+                    <span className=" absolute w-12 top-2 right-1 bg-red-500 text-white text-xs px-2 py-1 rounded">
+                        <div className="mx-auto text-center">-{discount}%</div>
                     </span>
                 )}
             </div>
@@ -98,11 +100,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
                 <div className="flex items-center mt-1">
                     {/* Giá hiện tại */}
-                    <span className="text-red-600 font-bold text-lg">{price.toLocaleString()}₫</span>
+                    <span className="text-red-600 font-bold text-3xl">{price.toLocaleString()}₫</span>
 
                     {/* Giá gốc (nếu có) */}
                     {originalPrice && (
-                        <span className="text-gray-400 text-sm line-through ml-2">
+                        <span className="text-gray-400 text-xl line-through ml-2">
                             {originalPrice.toLocaleString()}₫
                         </span>
                     )}

@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                 >
                     <a id={"dropdownHoverButton" + index} data-dropdown-toggle={"dropdownHover" + index} data-dropdown-trigger="hover"
                         href={item.link}
-                        className="text-white text-gray-700 text-sm font-medium hover:cursor-pointer"
+                        className="text-gray-900 font-semibold text-sm font-medium hover:cursor-pointer"
                     >
 
                         <div className="relative group inline-block">

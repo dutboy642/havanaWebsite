@@ -1,5 +1,6 @@
 import Filter from "../components/Filter";
 import ProductCard from "../components/ProductCard";
+import ScrollToTop from "../components/ScrollToTop";
 const Trousers: React.FC = () => {
     const products = [
         {
@@ -301,6 +302,7 @@ Hướng dẫn sử dụng:
     ];
     return (
         <div className="max-w-[1055px] mx-auto">
+            <ScrollToTop />
             <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
                 <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                     <li className="inline-flex items-center">
@@ -338,7 +340,7 @@ Hướng dẫn sử dụng:
                             </select>
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 gap-6">
                         {products.map((product, index) => (
                             <ProductCard
                                 key={index}
