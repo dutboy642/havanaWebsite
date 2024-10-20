@@ -310,7 +310,7 @@ Hướng dẫn bảo quản:
                             <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
                             </svg>
-                            <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Sale</span>
+                            <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Hàng tồn kho</span>
                         </div>
                     </li>
                 </ol>
@@ -318,7 +318,7 @@ Hướng dẫn bảo quản:
 
             <div className="grid grid-cols-4 pb-10">
                 <div className="col-span-1">
-                    <Filter title="Sale" />
+                    <Filter title="Hàng tồn kho" />
                 </div>
                 <div className="col-span-3">
                     <div className="flex flex-row-reverse mb-4">
@@ -332,7 +332,7 @@ Hướng dẫn bảo quản:
                             </select>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-6">
+                    <div className="grid grid-cols-3 gap-6">
                         {products.map((product, index) => (
                             <ProductCard
                                 key={index}

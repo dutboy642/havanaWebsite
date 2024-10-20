@@ -295,7 +295,7 @@ Hướng dẫn bảo quản:
         ;
     return (
         <div className="max-w-[1055px] mx-auto">
-            <ScrollToTop/>
+            <ScrollToTop />
             <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
                 <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                     <li className="inline-flex items-center">
@@ -333,7 +333,7 @@ Hướng dẫn bảo quản:
                             </select>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-6">
+                    <div className="grid grid-cols-3 gap-6">
                         {products.map((product, index) => (
                             <ProductCard
                                 key={index}

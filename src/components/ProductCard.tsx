@@ -100,7 +100,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
                 <div className="flex items-center mt-1">
                     {/* Giá hiện tại */}
-                    <span className="text-red-600 font-bold text-3xl">{price.toLocaleString()}₫</span>
+                    <span className="text-red-600 font-bold text-2xl">{price.toLocaleString()}₫</span>
 
                     {/* Giá gốc (nếu có) */}
                     {originalPrice && (

@@ -632,8 +632,8 @@ Hướng dẫn bảo quản:
                     </Link>
                 </div>
 
-                <div className="grid grid-cols-2 gap-6">
-                    {AoDai.slice(0, 4).map((product, index) => (
+                <div className="grid grid-cols-3 gap-6">
+                    {AoDai.slice(0, 3).map((product, index) => (
                         <ProductCard
                             key={index}
                             title={product.title}
@@ -663,8 +663,8 @@ Hướng dẫn bảo quản:
                     </a>
                 </div>
 
-                <div className="grid grid-cols-2 gap-6">
-                    {products.slice(0, 4).map((product, index) => (
+                <div className="grid grid-cols-3 gap-6">
+                    {products.slice(0, 3).map((product, index) => (
                         <ProductCard
                             key={index}
                             title={product.title}
