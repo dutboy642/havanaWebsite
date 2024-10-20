@@ -15,6 +15,7 @@ import ProductDetail from "../pages/ProductDetail";
 import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/Contact";
 import CustomerSupport from "../pages/Support";
+import ProductPage from "../pages/ProductPage";
 export const AppRouter = () => {
   return (
     <BrowserRouter>
@@ -31,7 +32,7 @@ export const AppRouter = () => {
           <Route path='CheckOrderPage' element={<CheckOrderPage />} />
           <Route path='LoginForm' element={<LoginForm />} />
           <Route path='RegistForm' element={<RegisterForm />} />
-          <Route path='ProductDetail' element={<ProductDetail />} />
+          <Route path='ProductDetail' element={<ProductPage />} />
           <Route path='AboutUs' element={<AboutUs />} />
           <Route path='ContactUs' element={<ContactUs />} />
           <Route path='Support' element={<CustomerSupport />} />

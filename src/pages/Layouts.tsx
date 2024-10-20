@@ -17,7 +17,7 @@ const Layout = () => {
     return (
         <div className="min-h-screen">
             <Header />
-            <div className="sticky top-0 bg-white z-10">
+            <div className="sticky top-0 bg-white z-40">
                 <div className="flex items-center justify-between px-8 mx-16">
                     <div className="flex items-center space-x-6 w-16">
                         <button type="button" data-drawer-target="drawer-top-example" data-drawer-show="drawer-top-example" data-drawer-placement="top" aria-controls="drawer-top-example">
