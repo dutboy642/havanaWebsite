@@ -79,6 +79,22 @@ const PriceSection: React.FC<PriceSectionProps> = ({
                     Mua ngay
                 </button>
             </div>
+            <div className='text-center pt-2'>
+                <span>Gọi đặt mua <span className='font-bold'>0383.502.273</span> (9:30 - 22:00)</span>
+            </div>
+            <div className='grid grid-cols-2 gap-6 mt-2' >
+                <span className='flex items-center'>
+                    <img className='size-6 me-2' src="//bizweb.dktcdn.net/100/516/928/themes/951952/assets/policy_product_image_1.png?1726634821799" alt="" />
+                    Giao hàng toàn quốc
+                </span>
+                <span className='flex items-center'>
+                    <img className='size-6 me-2' src="//bizweb.dktcdn.net/100/516/928/themes/951952/assets/policy_product_image_4.png?1726634821799" alt="" />
+                    Cam kết chính hãng</span>
+            </div>
+            <span className='flex h-12  mt-8'>
+                <img className='h-full size-12 border-[1px] border-gray-200' src="https://wishlists.sapoapps.vn/content/images/iwish_add.png" alt="" />
+                <span className='h-full flex items-center text-cyan-500 px-2 border-[1px] border-gray-200'>Thêm vào yêu thích</span>
+            </span>
         </div>
     );
 };

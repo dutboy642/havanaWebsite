@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaFacebookF, FaTwitter, FaPinterestP } from "react-icons/fa";
 import { useLocation } from 'react-router-dom';
 import notfound from '../assets/Not found.png'
+import ScrollToTop from "../components/ScrollToTop";
+import { initFlowbite } from "flowbite";
 function useQuery() {
     return new URLSearchParams(useLocation().search);
 }
@@ -27,6 +29,9 @@ function useQuery() {
 // };
 
 const ProductDetail: React.FC = () => {
+    useEffect(() => {
+        initFlowbite()
+    }, [])
     const query = useQuery();
 
     // Lấy các tham số từ URL
@@ -45,6 +50,7 @@ const ProductDetail: React.FC = () => {
 
     return (
         <div className="max-w-6xl mx-auto p-6">
+            <ScrollToTop />
             <div className="grid grid-cols-12 gap-6">
                 {/* Hình ảnh sản phẩm */}
                 <div className="col-span-3 space-y-4">
