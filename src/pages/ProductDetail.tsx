@@ -150,6 +150,7 @@ const ProductDetail: React.FC = () => {
                         <FaTwitter className="text-blue-400 cursor-pointer" />
                         <FaPinterestP className="text-red-600 cursor-pointer" />
                     </div>
+                    
                 </div>
             </div>
         </div>
