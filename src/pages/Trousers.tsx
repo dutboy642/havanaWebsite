@@ -12,25 +12,36 @@ const Trousers: React.FC = () => {
             price: 120000,
             originalPrice: 160000,
             discount: 25,
-            describe: `
-Thông số kích thước:
-                S: dài 99, v3 98, v2 66, rộng ống 28
-M: dài 100, v3 102, v2 68, rộng ống 32
-Hướng dẫn bảo quản:
-                + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-- Hướng dẫn sử dụng:
-        + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch A1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhen
-    `,
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Thông số kích thước:</h2>
+    <ul style="list-style-type: none; margin-left: 0;">
+        <li><strong>S:</strong> dài 99, v3 98, v2 66, rộng ống 28</li>
+        <li><strong>M:</strong> dài 100, v3 102, v2 68, rộng ống 32</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yên tâm mua hàng nhen.</li>
+    </ul>
+</div>
+`,
             variants: ["S", "M"],
         },
         {
@@ -42,23 +53,33 @@ Hướng dẫn bảo quản:
             price: 169000,
             originalPrice: 199000,
             discount: 15,
-            describe: `Size: S, M, L
-Freesize dưới 54kg mang vừa thoải mái
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Kích thước:</h2>
+    <p>Size: S, M, L<br>Freesize dưới 54kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-+ Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-    - Hướng dẫn sử dụng:
-+ Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-    + Màu của sản phẩm sai lệch A1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-        + Sai lệch số đo + -1cm
-            + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-- Chính sách bán hàng:
-+ Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-    - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
-        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhe
-                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhen
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yên tâm mua hàng nhen.</li>
+    </ul>
+</div>
+
 `,
             variants: ["S", "M", "L", "XL"],
         },
@@ -71,24 +92,33 @@ Hướng dẫn bảo quản:
             price: 139000,
             originalPrice: 179000,
             discount: 22,
-            describe: `Quần đũi cạp chun ống rộng phong cách ulzzang HAVANA QJ210
-Freesize dưới 60kg mang vừa thoải mái
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Quần đũi cạp chun ống rộng phong cách ulzzang HAVANA QJ210</h2>
+    <p>Freesize dưới 60kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-                + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-        + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yên tâm mua hàng nhen.</li>
+    </ul>
+</div>
+`,
             variants: ["Freesize"],
         },
         {
@@ -100,29 +130,45 @@ Hướng dẫn bảo quản:
             price: 119000,
             originalPrice: 169000,
             discount: 30,
-            describe: `Quần ống rộng chất voan đũi cạp chun HE201
-Freesize dưới 60kg mang vừa thoải mái
-Thông số kích thước:
-    - Eo < 78cm
-    - Chiều dài: 92cm
-        - Ống rộng: 46 cm
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Quần ống rộng chất voan đũi cạp chun HE201</h2>
+    <p>Freesize dưới 60kg mang vừa thoải mái</p>
 
-            - Hướng dẫn bảo quản:
-Hình thật shop chụp nên các nàng yên tâm mua hàng thôi ạ
-HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG
-    - Giặt riêng sản phẩm với lần giặt đầu tiên.
-- Không sử dụng bột giặt có chất tẩy nồng độ cao.
-- Khi phơi các bạn nên lộn ngược lại để màu của sản phẩm được bền lâu
-    - Hướng dẫn sử dụng:
-+ Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-    + Sai lệch số đo + -1cm
-        + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-- Cam kết của shop:
-+ Hình sản phẩm là ảnh thật 100 % do shop chụp, sản phẩm gửi đi là sản phẩm giống hình
-    + Hàng đã được cắt chỉ thừa và kiểm tra trước khi gửi đi, nếu có chỉ thừa sót lại bám vào mong các nàng thông cảm giúp shop ạ
-        - Quy định đổi trả:
-+ Nếu sản phẩm bị lỗi, sai màu, sai size, shop sẽ hỗ trợ đổi trả và chịu toàn bộ phí ship
-    + Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship(kèm video khưi hàng để được chúng mình hỗ trợ nhanh nhất có thể ạ)
+    <h3 style="color: #2980b9;">Thông số kích thước:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Eo &lt; 78cm</li>
+        <li>Chiều dài: 92cm</li>
+        <li>Ống rộng: 46 cm</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <p>Hình thật shop chụp nên các nàng yên tâm mua hàng thôi ạ</p>
+    <h4 style="color: #2980b9;">HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG:</h4>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Giặt riêng sản phẩm với lần giặt đầu tiên.</li>
+        <li>Không sử dụng bột giặt có chất tẩy nồng độ cao.</li>
+        <li>Khi phơi, các bạn nên lộn ngược lại để màu của sản phẩm được bền lâu.</li>
+    </ul>
+
+    <h4 style="color: #2980b9;">Hướng dẫn sử dụng:</h4>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Cam kết của shop:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Hình sản phẩm là ảnh thật 100 % do shop chụp, sản phẩm gửi đi là sản phẩm giống hình.</li>
+        <li>Hàng đã được cắt chỉ thừa và kiểm tra trước khi gửi đi; nếu có chỉ thừa sót lại bám vào, mong các nàng thông cảm giúp shop ạ.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Quy định đổi trả:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Nếu sản phẩm bị lỗi, sai màu, sai size, shop sẽ hỗ trợ đổi trả và chịu toàn bộ phí ship.</li>
+        <li>Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship (kèm video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+    </ul>
+</div>
 `,
             variants: ["Freesize"],
         },
@@ -135,23 +181,34 @@ HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG
             price: 145000,
             originalPrice: 199000,
             discount: 27,
-            describe: `Quần short jean co dãn 4 chiều túi vuông 2 viên 2 đai havana qj209
-Freesize dưới 51kg mang vừa thoải mái
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhen
-    `,
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Quần short jean co dãn 4 chiều túi vuông 2 viên 2 đai HAVANA QJ209</h2>
+    <p>Freesize dưới 51kg mang vừa thoải mái</p>
+
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm), nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt, nên bạn yêu đừng ghi chú phân loại riêng nhe.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình, nên bạn yêu yên tâm mua hàng nhen.</li>
+    </ul>
+</div>
+`,
             variants: ["Freesize"],
         },
         {
@@ -163,26 +220,40 @@ Hướng dẫn bảo quản:
             price: 128000,
             originalPrice: 199000,
             discount: 36,
-            describe: ` Quần short chất kaki xếp li có túi form rộng qj204 havana
-Thông số kích thước:
-size M: v2 < 68cm, v3 < 96cm, dài quần 34
-Size S  v2 < 64 cm, v3 < 92cm, dài quần 33
-size L   v2 < 70 cm, v3 < 100, dài quần 35cm
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhen
-    `,
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Quần short chất kaki xếp li có túi form rộng HAVANA QJ204</h2>
+
+    <h3 style="color: #2980b9;">Thông số kích thước:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Size M: v2 &lt; 68cm, v3 &lt; 96cm, dài quần 34cm</li>
+        <li>Size S: v2 &lt; 64cm, v3 &lt; 92cm, dài quần 33cm</li>
+        <li>Size L: v2 &lt; 70cm, v3 &lt; 100cm, dài quần 35cm</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm), nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt, nên bạn yêu đừng ghi chú phân loại riêng nhe.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình, nên bạn yêu yên tâm mua hàng nhen.</li>
+    </ul>
+</div>
+`,
             variants: ["S", "M", "L"],
         },
         {
@@ -194,29 +265,40 @@ Hướng dẫn bảo quản:
             price: 179000,
             originalPrice: 239000,
             discount: 25,
-            describe: `Quần jeans ống rộng form xòe tua gấu, quần bò ông suông form rộng AE705
-    Size: S, M, L
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Quần jeans ống rộng form xòe tua gấu HAVANA AE705</h2>
+    
+    <h3 style="color: #2980b9;">Size:</h3>
+    <p>S, M, L</p>
 
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <p>Hình thật shop chụp nên các nàng yên tâm mua hàng thôi ạ</p>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Giặt riêng sản phẩm với lần giặt đầu tiên.</li>
+        <li>Không sử dụng bột giặt có chất tẩy nồng độ cao.</li>
+        <li>Khi phơi các bạn nên lộn ngược lại để màu của sản phẩm được bền lâu.</li>
+    </ul>
 
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
 
+    <h3 style="color: #2980b9;">Cam kết của shop:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Hình sản phẩm là ảnh thật 100 % do shop chụp, sản phẩm gửi đi là sản phẩm giống hình.</li>
+        <li>Hàng đã được cắt chỉ thừa và kiểm tra trước khi gửi đi, nếu có chỉ thừa sót lại bám vào mong các nàng thông cảm giúp shop ạ.</li>
+    </ul>
 
-        - Hướng dẫn bảo quản:
-Hình thật shop chụp nên các nàng yên tâm mua hàng thôi ạ
-HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG
-        - Giặt riêng sản phẩm với lần giặt đầu tiên.
-- Không sử dụng bột giặt có chất tẩy nồng độ cao.
-- Khi phơi các bạn nên lộn ngược lại để màu của sản phẩm được bền lâu
-        - Hướng dẫn sử dụng:
-    + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-        + Sai lệch số đo + -1cm
-            + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Cam kết của shop:
-    + Hình sản phẩm là ảnh thật 100 % do shop chụp, sản phẩm gửi đi là sản phẩm giống hình
-        + Hàng đã được cắt chỉ thừa và kiểm tra trước khi gửi đi, nếu có chỉ thừa sót lại bám vào mong các nàng thông cảm giúp shop ạ
-            - Quy định đổi trả:
-    + Nếu sản phẩm bị lỗi, sai màu, sai size, shop sẽ hỗ trợ đổi trả và chịu toàn bộ phí ship
-        + Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship(kèm video khui hàng để được chúng mình hỗ trợ nhanh nhất có thể ạ)
-    `,
+    <h3 style="color: #2980b9;">Quy định đổi trả:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Nếu sản phẩm bị lỗi, sai màu, sai size, shop sẽ hỗ trợ đổi trả và chịu toàn bộ phí ship.</li>
+        <li>Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship (kèm video khui hàng để được chúng mình hỗ trợ nhanh nhất có thể ạ).</li>
+    </ul>
+</div>
+`,
             variants: ["S", "M", "L"],
         },
         {
@@ -228,25 +310,42 @@ HƯỚNG DẪN BẢO QUẢN VÀ SỬ DỤNG
             price: 129000,
             originalPrice: 229000,
             discount: 44,
-            describe: `Tên sản phẩm: Quần ống suông form rộng, quần ống đứng cạp cao phong cách Hàn Quốc chất tuyết mưa không nhăn dày, có size lớn trên 60kg
-Mô tả sản phẩm:
-    Size: S, M, L
-    Màu: kem, đen, nâu
-Size S: dài 97cm, eo 66cm, v3 < 90cm, ống 23cm
-Size M: dài 99cm, eo 68cm, v3 < 94cm, ống 24cm
-Size L: dài 99cm, eo 70cm, v3 < 96cm, ống 24cm
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Cam kết của shop:
-    + Hình sản phẩm là ảnh thật 100 % do shop chụp, sản phẩm gửi đi là sản phẩm giống hình
-        + Hàng đã được cắt chỉ thừa và kiểm tra trước khi gửi đi, nếu có chỉ thừa sót lại bám vào mong các nàng thông cảm giúp shop ạ
-            - Quy định đổi trả:
-    + Nếu sản phẩm bị lỗi, sai màu, sai size, shop sẽ hỗ trợ đổi trả và chịu toàn bộ phí ship
-        + Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship(kèm video khui hàng để được chúng mình hỗ trợ nhanh nhất có thể ạ)
-    `,
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Quần ống suông form rộng, quần ống đứng cạp cao phong cách Hàn Quốc</h2>
+    
+    <h3 style="color: #2980b9;">Thông tin sản phẩm:</h3>
+    <p>Chất liệu: Tuyết mưa không nhăn, dày</p>
+    <p>Size: S, M, L</p>
+    <p>Màu: Kem, đen, nâu</p>
+    
+    <h3 style="color: #2980b9;">Thông số kích thước:</h3>
+    <ul style="list-style-type: none; margin-left: 20px;">
+        <li><strong>Size S:</strong> Dài 97cm, Eo 66cm, V3 < 90cm, Ống 23cm</li>
+        <li><strong>Size M:</strong> Dài 99cm, Eo 68cm, V3 < 94cm, Ống 24cm</li>
+        <li><strong>Size L:</strong> Dài 99cm, Eo 70cm, V3 < 96cm, Ống 24cm</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Cam kết của shop:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Hình sản phẩm là ảnh thật 100 % do shop chụp, sản phẩm gửi đi là sản phẩm giống hình.</li>
+        <li>Hàng đã được cắt chỉ thừa và kiểm tra trước khi gửi đi, nếu có chỉ thừa sót lại bám vào mong các nàng thông cảm giúp shop ạ.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Quy định đổi trả:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Nếu sản phẩm bị lỗi, sai màu, sai size, shop sẽ hỗ trợ đổi trả và chịu toàn bộ phí ship.</li>
+        <li>Nếu shop gửi thiếu sản phẩm, shop sẽ ship thêm sản phẩm và chịu toàn bộ phí ship (kèm video khui hàng để được chúng mình hỗ trợ nhanh nhất có thể ạ).</li>
+    </ul>
+</div>
+`,
             variants: ["S", "M", "L"],
         },
         {
@@ -258,18 +357,24 @@ Size L: dài 99cm, eo 70cm, v3 < 96cm, ống 24cm
             price: 145000,
             originalPrice: 170000,
             discount: 15,
-            describe: `THÔNG TIN SẢN PHẨM 
- QUẦN SUÔNG ỐNG RỘNG
-        - Sản phẩm có 3 size: S M L
-Chúng mình có bảng size chi tiết ở phần hình ảnh nhé
- CAM KẾT VÀ BẢO HÀNH 
-Toàn bộ ảnh sản phẩm và video đều do team Havana tự chụp 100 %
-        Form dáng của sản phẩm đẹp chuẩn y hình.Đảm bảo vải chất lượng tốt 100 %.
-Tất cả các đơn hàng trước khi gửi đi chúng mình đều kiểm tra rất kĩ, đóng gói cẩn thận, tránh sai sót.  
-Hàng có sẵn 100 % , giao hàng ngay khi nhận được đơn. 
-Hỗ trợ đổi trả theo quy định của Shopee 
-Đổi trả sản phẩm trong vòng 3 ngày nếu do lỗi sản xuất.
-Nếu có bất kì khiếu nại cần chúng mình  hỗ trợ về sản phẩm, khi nhận được sản phẩm Quý Khách hàng vui lòng quay lại video quá trình mở sản phẩm để được đảm bảo 100 % đổi lại sản phẩm mới nếu hàng chúng mình giao bị lỗi ạ.`,
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">THÔNG TIN SẢN PHẨM</h2>
+    <h3 style="color: #2980b9;">QUẦN SUÔNG ỐNG RỘNG</h3>
+    <p>- Sản phẩm có 3 size: S, M, L</p>
+    <p>Chúng mình có bảng size chi tiết ở phần hình ảnh nhé.</p>
+
+    <h2 style="color: #2c3e50;">CAM KẾT VÀ BẢO HÀNH</h2>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Toàn bộ ảnh sản phẩm và video đều do team Havana tự chụp 100 %.</li>
+        <li>Form dáng của sản phẩm đẹp chuẩn y hình. Đảm bảo vải chất lượng tốt 100 %.</li>
+        <li>Tất cả các đơn hàng trước khi gửi đi chúng mình đều kiểm tra rất kĩ, đóng gói cẩn thận, tránh sai sót.</li>
+        <li>Hàng có sẵn 100 %, giao hàng ngay khi nhận được đơn.</li>
+        <li>Hỗ trợ đổi trả theo quy định của Shopee.</li>
+        <li>Đổi trả sản phẩm trong vòng 3 ngày nếu do lỗi sản xuất.</li>
+        <li>Nếu có bất kỳ khiếu nại cần chúng mình hỗ trợ về sản phẩm, khi nhận được sản phẩm Quý Khách hàng vui lòng quay lại video quá trình mở sản phẩm để được đảm bảo 100 % đổi lại sản phẩm mới nếu hàng chúng mình giao bị lỗi ạ.</li>
+    </ul>
+</div>
+`,
             variants: ["S", "M", "L"],
         },
         {
@@ -281,22 +386,30 @@ Nếu có bất kì khiếu nại cần chúng mình  hỗ trợ về sản ph�
             price: 135000,
             originalPrice: 165000,
             discount: 18,
-            describe: `MÔ TẢ SẢN PHẨM
-Quần tây ống loe cạp cao form suông dài
-    màu: đen
-    size: S M L XL
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">MÔ TẢ SẢN PHẨM</h2>
+    <h3 style="color: #2980b9;">Quần tây ống loe cạp cao form suông dài</h3>
+    <p><strong>Màu:</strong> đen</p>
+    <p><strong>Size:</strong> S, M, L, XL</p>
 
-Mô tả:
-    - Quần tây ống loe nhẹ cực hack dáng
-        - Lưng cao trên rốn cực sang chảnh
-            - Chất liệu vải tốt tạo cảm giác thoải mái cho người mặc
-                - Thiết kế 2 nút tạo điểm nhấn cho quần tây
-                    - Dễ phối quần tây ống loe với áo sơ mi, áo thun
-                        - Lên form chuẩn, tôn dáng
-                            - Hình thật 100 % shop chụp
-Hướng dẫn sử dụng:
-    - Không nên giặt hoặc ngâm chung với các sản phẩm khác màu.
-- Vì lý do vận chuyển nên sản phẩm có thể có nếp gấp, việc giặt hoặc ủi sơ sẽ giúp sản phẩm có trạng thái đẹp nhất.`,
+    <h4 style="color: #2980b9;">Mô tả:</h4>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Quần tây ống loe nhẹ cực hack dáng</li>
+        <li>Lưng cao trên rốn cực sang chảnh</li>
+        <li>Chất liệu vải tốt tạo cảm giác thoải mái cho người mặc</li>
+        <li>Thiết kế 2 nút tạo điểm nhấn cho quần tây</li>
+        <li>Dễ phối quần tây ống loe với áo sơ mi, áo thun</li>
+        <li>Lên form chuẩn, tôn dáng</li>
+        <li>Hình thật 100 % shop chụp</li>
+    </ul>
+
+    <h4 style="color: #2980b9;">Hướng dẫn sử dụng:</h4>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không nên giặt hoặc ngâm chung với các sản phẩm khác màu.</li>
+        <li>Vì lý do vận chuyển nên sản phẩm có thể có nếp gấp, việc giặt hoặc ủi sơ sẽ giúp sản phẩm có trạng thái đẹp nhất.</li>
+    </ul>
+</div>
+`,
             variants: ["S", "M", "L", "XL"],
         },
     ];

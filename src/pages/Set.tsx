@@ -12,7 +12,34 @@ const Set: React.FC = () => {
             price: 145000,
             originalPrice: 179000,
             discount: 45,
-            describe: ``,
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi tay cánh dơi phối nhíu eo cách điệu dây rút kèm chân váy dáng bí cạp chun trendy HAVANA SAT224</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
+
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+`,
             variants: ["Freesize"],
         },
         {
@@ -24,23 +51,33 @@ const Set: React.FC = () => {
             price: 149000,
             originalPrice: 199000,
             discount: 32,
-            describe: ` Set áo sơ mi đũi phối dây buộc hai bên eo tôn dáng kèm quần short cạp chun phong cách ulzzang HAVANA SAT237
-Freesize dưới 54kg mang vừa thoải mái
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi đũi phối dây buộc hai bên eo tôn dáng kèm quần short cạp chun phong cách ulzzang HAVANA SAT237</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-+ Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-    - Hướng dẫn sử dụng:
-+ Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-    + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-        + Sai lệch số đo + -1cm
-            + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-- Chính sách bán hàng:
-+ Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-    - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhn
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
 `,
             variants: ["Freesize"],
         },
@@ -53,24 +90,34 @@ Hướng dẫn bảo quản:
             price: 154800,
             originalPrice: 189000,
             discount: 18,
-            describe: ` Set áo sơ mi thêu nơ nhỏ kèm chân váy hai tầng hot trend HAVANA SAT228
-Freesize dưới 53kg mang vừa thoải mái
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi thêu nơ nhỏ kèm chân váy hai tầng hot trend HAVANA SAT228</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+`,
             variants: ["Freesize"],
         },
         {
@@ -82,24 +129,34 @@ Hướng dẫn bảo quản:
             price: 169000,
             originalPrice: 199000,
             discount: 15,
-            describe: ` Set áo sơ mi tay bồng đính nơ nhỏ kèm chân váy xếp ly dáng bí cạp chun phong cách dễ thương HAVANA SAT243
-Freesize dưới 54kg mang vừa thoải mái
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi tay bồng đính nơ nhỏ kèm chân váy xếp ly dáng bí cạp chun phong cách dễ thương HAVANA SAT243</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+ `,
             variants: ["Freesize"],
         },
         {
@@ -111,24 +168,34 @@ Hướng dẫn bảo quản:
             price: 149000,
             originalPrice: 189000,
             discount: 23,
-            describe: ` Set áo sơ mi cổ nhọn đính nơ phối dây buộc eo kèm quốc short HAVANA SAT246
-Freesize dưới 54kg mang vừa thoải mái
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi cổ nhọn đính nơ phối dây buộc eo kèm quần short HAVANA SAT246</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+ `,
             variants: ["Freesize"],
         },
         {
@@ -140,24 +207,34 @@ Hướng dẫn bảo quản:
             price: 155800,
             originalPrice: 189000,
             discount: 18,
-            describe: ` Set áo sơ mi form babydoll có dây buộc eo phối cà vạt kèm chân váy 2 tầng dáng xòe HAVANA SAT249
-Freesize dưới 54kg mang vừa thoải mái
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi form babydoll có dây buộc eo phối cà vạt kèm chân váy 2 tầng dáng xòe HAVANA SAT249</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+`,
             variants: ["Freesize"],
         },
         {
@@ -169,24 +246,34 @@ Hướng dẫn bảo quản:
             price: 145000,
             originalPrice: 189000,
             discount: 23,
-            describe: ` Set áo sơ mi sọc gân cổ sen phối cúc tàu có dây buộc tôn eo kèm chân váy 3 tầng trendy HAVANA SAT265
-Freesize dưới 53kg mang vừa thoải mái
+            describe: ` <div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi sọc gân cổ sen phối cúc tàu có dây buộc tôn eo kèm chân váy 3 tầng trendy HAVANA SAT265</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+`,
             variants: ["Freesize"],
         },
         {
@@ -198,24 +285,34 @@ Hướng dẫn bảo quản:
             price: 149000,
             originalPrice: 189000,
             discount: 23,
-            describe: ` Set áo sơ mi tay hến phối nơ nhỏ cách điệu nhíu sườn kèm quần short cạp chun phong cách thanh lịch HAVANA SAT259
-Freesize dưới 53kg mang vừa thoải mái
+            describe: ` <div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi tay hến phối nơ nhỏ cách điệu nhíu sườn kèm quần short cạp chun phong cách thanh lịch HAVANA SAT259</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+ `,
             variants: ["Freesize"],
         },
         {
@@ -227,22 +324,33 @@ Hướng dẫn bảo quản:
             price: 179000,
             originalPrice: 219000,
             discount: 18,
-            describe: ` Set áo sơ mi phối hai túi vuông kèm chân váy ngắn xếp ly belt HAVANA SAT112
-    Freeszize < 53kg
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">Set áo sơ mi phối hai túi vuông kèm chân váy ngắn xếp ly belt HAVANA SAT112</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize < 53kg</p>
 
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-        + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-            + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+`,
             variants: ["Freesize"],
         },
         {
@@ -254,24 +362,34 @@ Hướng dẫn bảo quản:
             price: 119000,
             originalPrice: 199000,
             discount: 40,
-            describe: ` [Tặng khen turban] Set 3 món áo croptop caro đính nơ kèm chân váy ngắn xòe HAVANA SAT213
-Freesize dưới 55kg mang vừa thoải mái
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+    <h2 style="color: #2c3e50;">[Tặng khăn turban] Set 3 món áo croptop caro đính nơ kèm chân váy ngắn xòe HAVANA SAT213</h2>
+    <p style="font-size: 16px; color: #34495e;">Freesize dưới 55kg mang vừa thoải mái</p>
 
-Hướng dẫn bảo quản:
-    + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-        - Hướng dẫn sử dụng:
-    + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch A1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+    <h3 style="color: #2980b9;">Hướng dẫn bảo quản:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Không dùng nước nóng hoặc xà phòng có tính kiềm quá cao để giặt áo loại này.</li>
+        <li>Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới.</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Hướng dẫn sử dụng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ.</li>
+        <li>Màu của sản phẩm sai lệch 1 - 5% do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài.</li>
+        <li>Sai lệch số đo + -1cm.</li>
+        <li>Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình (số đo mang tính chất tham khảo do mỗi dáng người là khác nhau).</li>
+    </ul>
+
+    <h3 style="color: #2980b9;">Chính sách bán hàng:</h3>
+    <ul style="list-style-type: disc; margin-left: 20px;">
+        <li>Tất cả vấn đề về sản phẩm (lỗi sản phẩm, sai màu/size/mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình.</li>
+        <li>Thân thiện ngay sau khi nhận được hàng ạ (kèm hình ảnh và video khui hàng để được hỗ trợ nhanh nhất có thể ạ).</li>
+        <li>Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác.</li>
+        <li>Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn yêu đừng ghi chú phân loại riêng nhé.</li>
+        <li>Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn yêu yên tâm mua hàng nhé.</li>
+    </ul>
+</div>
+`,
             variants: ["Freesize"],
         },
     ]
