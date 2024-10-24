@@ -12,24 +12,7 @@ const Set: React.FC = () => {
             price: 145000,
             originalPrice: 179000,
             discount: 45,
-            describe: `Set áo sơ mi tay cánh dơi phối nhíu eo cách điệu dây rút kèm chân váy dáng bí cạp chun trendy HAVANA SAT224
-Freesize dưới 54kg mang vừa thoải mái
-
-Hướng dẫn bảo quản:
-                + Không dùng nước nóng hoăc xà phòng có tính kiềm quá cao để giặt áo loại này.
-+ Đối với việc ủi vải lụa, khi ủi nên có một lớp khăn hoặc vải mỏng phía dưới
-- Hướng dẫn sử dụng:
-        + Các nàng tham khảo bảng thông số chi tiết để chọn size kĩ hơn ạ
-        + Màu của sản phẩm sai lệch 1 - 5 % do ánh sáng của mỗi điện thoại là khác nhau và chênh lệch ánh sáng bên ngoài
-            + Sai lệch số đo + -1cm
-                + Mẫu cao 1m6, nặng 44kg mang fit dáng rộng như hình(số đo mang tính chất tham khảo do mỗi dáng người là khác nhau)
-    - Chính sách bán hàng:
-    + Tất cả vấn đề về sản phẩm(lỗi sản phẩm, sai màu / size / mẫu, thiếu sản phẩm) nàng cứ nhắn tin cho Havana để được hỗ trợ giải quyết nhiệt tình
-        - thân thiện ngay sau khi nhận được hàng ạ(kèm hình ảnh và video khưi hàng để được hỗ trợ nhanh nhất có thể ạ)
-            + Chúng mình hỗ trợ đổi hàng trong vòng 7 ngày kể từ ngày nhận hàng đối với sản phẩm chưa qua sử dụng - còn nguyên tem mác
-                + Havana chỉ gửi hàng đúng theo sản phẩm trong đơn hàng đã được đặt nên bạn iu đừng ghi chú phân loại riêng nhe
-                    + Sản phẩm của Havana đã được chọn lọc và kiểm tra sản phẩm vô cùng tỉ mỉ, nói không với hàng kém chất lượng và không giống hình nên bạn iu yên tâm mua hàng nhen
-    `,
+            describe: ``,
             variants: ["Freesize"],
         },
         {

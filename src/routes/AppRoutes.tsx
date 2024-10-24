@@ -11,7 +11,7 @@ import RegisterForm from "../pages/Regist";
 import Shirt from "../pages/Shirt";
 import Trousers from "../pages/Trousers";
 import Skirt from "../pages/Skirt";
-import ProductDetail from "../pages/ProductDetail";
+// import ProductDetail from "../pages/ProductDetail";
 import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/Contact";
 import CustomerSupport from "../pages/Support";
