@@ -83,7 +83,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                     <img
                         src={currentImage}
                         alt={title}
-                        className="mx-auto hover:cursor-pointer w-full object-contain rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-90 hover:scale-90 delay-150 rounded"
+                        className="mx-auto hover:cursor-pointer w-full h-48 object-contain rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-90 hover:scale-90 delay-150 rounded"
                     />
                 </div>
                 {/* Nhãn giảm giá */}
