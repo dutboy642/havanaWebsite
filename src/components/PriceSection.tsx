@@ -94,7 +94,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({
             </div>
             <span onClick={() => { setIsSave(!isSave) }} className='flex items-center h-12  mt-8 hover:cursor-pointer'>
                 {/* <img className='h-full size-12 border-[1px] border-gray-200' src="https://wishlists.sapoapps.vn/content/images/iwish_add.png" alt="" /> */}
-                <i className={isSave ? "flex content-center h-full size-12 text-4xl text-center border-[1px] border-gray-200 text-gray-200 fa fa-heart" : "flex content-center h-full size-12 text-4xl text-center border-[1px] border-gray-200 text-red-300 fa fa-heart"} aria-hidden="true"></i>
+                <i className={!isSave ? "flex content-center h-full size-12 text-4xl text-center border-[1px] border-gray-200 text-gray-200 fa fa-heart" : "flex content-center h-full size-12 text-4xl text-center border-[1px] border-gray-200 text-red-400 fa fa-heart"} aria-hidden="true"></i>
                 <span className='h-full flex items-center text-cyan-500 px-2 border-[1px] border-gray-200'>Thêm vào yêu thích</span>
             </span>
         </div>
