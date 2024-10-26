@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs: React.FC = () => {
     return (
-        <div className="max-w-6xl mx-auto px-6 py-12 space-y-12">
+        <div className="w-full mx-auto px-6 py-12 space-y-12">
             {/* Ảnh Header */}
             <div className="w-full">
                 <img
@@ -21,7 +21,7 @@ const AboutUs: React.FC = () => {
             </section>
 
             {/* Phần giới thiệu các khối */}
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-8 text-center">
                 {/* Khối 1 */}
                 <div className="bg-gray-100 p-6 rounded-lg">
                     <img

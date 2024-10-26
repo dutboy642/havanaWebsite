@@ -1,4 +1,5 @@
 import Filter from "../components/Filter";
+import FloatingButtons from "../components/FloatingButtons";
 import ProductCard from "../components/ProductCard";
 import ScrollToTop from "../components/ScrollToTop";
 const Set: React.FC = () => {
@@ -12,7 +13,7 @@ const Set: React.FC = () => {
             price: 145000,
             originalPrice: 179000,
             discount: 45,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi tay cánh dơi phối nhíu eo cách điệu dây rút kèm chân váy dáng bí cạp chun trendy HAVANA SAT224</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
@@ -51,7 +52,7 @@ const Set: React.FC = () => {
             price: 149000,
             originalPrice: 199000,
             discount: 32,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi đũi phối dây buộc hai bên eo tôn dáng kèm quần short cạp chun phong cách ulzzang HAVANA SAT237</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
@@ -90,7 +91,7 @@ const Set: React.FC = () => {
             price: 154800,
             originalPrice: 189000,
             discount: 18,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi thêu nơ nhỏ kèm chân váy hai tầng hot trend HAVANA SAT228</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
@@ -129,7 +130,7 @@ const Set: React.FC = () => {
             price: 169000,
             originalPrice: 199000,
             discount: 15,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi tay bồng đính nơ nhỏ kèm chân váy xếp ly dáng bí cạp chun phong cách dễ thương HAVANA SAT243</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
@@ -168,7 +169,7 @@ const Set: React.FC = () => {
             price: 149000,
             originalPrice: 189000,
             discount: 23,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi cổ nhọn đính nơ phối dây buộc eo kèm quần short HAVANA SAT246</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
@@ -207,7 +208,7 @@ const Set: React.FC = () => {
             price: 155800,
             originalPrice: 189000,
             discount: 18,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi form babydoll có dây buộc eo phối cà vạt kèm chân váy 2 tầng dáng xòe HAVANA SAT249</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
@@ -246,7 +247,7 @@ const Set: React.FC = () => {
             price: 145000,
             originalPrice: 189000,
             discount: 23,
-            describe: ` <div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: ` <div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi sọc gân cổ sen phối cúc tàu có dây buộc tôn eo kèm chân váy 3 tầng trendy HAVANA SAT265</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
@@ -285,7 +286,7 @@ const Set: React.FC = () => {
             price: 149000,
             originalPrice: 189000,
             discount: 23,
-            describe: ` <div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: ` <div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi tay hến phối nơ nhỏ cách điệu nhíu sườn kèm quần short cạp chun phong cách thanh lịch HAVANA SAT259</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
@@ -324,7 +325,7 @@ const Set: React.FC = () => {
             price: 179000,
             originalPrice: 219000,
             discount: 18,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo sơ mi phối hai túi vuông kèm chân váy ngắn xếp ly belt HAVANA SAT112</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize < 53kg</p>
 
@@ -362,7 +363,7 @@ const Set: React.FC = () => {
             price: 119000,
             originalPrice: 199000,
             discount: 40,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">[Tặng khăn turban] Set 3 món áo croptop caro đính nơ kèm chân váy ngắn xòe HAVANA SAT213</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 55kg mang vừa thoải mái</p>
 
@@ -452,6 +453,8 @@ const Set: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <FloatingButtons></FloatingButtons>
+
         </div>
     )
 }

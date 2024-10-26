@@ -1,4 +1,5 @@
 import Filter from "../components/Filter";
+import FloatingButtons from "../components/FloatingButtons";
 import ProductCard from "../components/ProductCard";
 import ScrollToTop from "../components/ScrollToTop";
 const Skirt: React.FC = () => {
@@ -13,7 +14,7 @@ const Skirt: React.FC = () => {
             price: 115000,
             originalPrice: 189000,
             discount: 39,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Váy sơ mi cộc tay, sơ mi khuy gỗ eo chun co giãn, váy thanh lịch form xòe</h2>
 
     <h3 style="color: #2980b9;">Thông tin sản phẩm:</h3>
@@ -64,7 +65,7 @@ const Skirt: React.FC = () => {
             price: 115000,
             originalPrice: 189000,
             discount: 39,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Chân váy ngắn xòe 4 tầng nhún bèo họa tiết in nơ chấm bi</h2>
 
     <h3 style="color: #2980b9;">Thông tin sản phẩm:</h3>
@@ -108,7 +109,7 @@ const Skirt: React.FC = () => {
             price: 129000,
             originalPrice: 169000,
             discount: 24,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Chân váy kaki thô dáng dài xẻ tà sau lưng chun</h2>
 
     <h3 style="color: #2980b9;">Thông tin sản phẩm:</h3>
@@ -153,7 +154,7 @@ const Skirt: React.FC = () => {
             price: 105000,
             originalPrice: 145000,
             discount: 28,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Chân váy ngắn xếp li chất thu umi lưng chun có khóa kéo</h2>
 
     <h3 style="color: #2980b9;">Thông tin sản phẩm:</h3>
@@ -197,7 +198,7 @@ const Skirt: React.FC = () => {
             price: 155000,
             originalPrice: 189000,
             discount: 18,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Denim ByHavana - Chân váy jean dáng dài xẻ tà 2 túi sau sọc viền nổi ngang gối CVA0002</h2>
 
     <h3 style="color: #2980b9;">MÔ TẢ SẢN PHẨM:</h3>
@@ -252,7 +253,7 @@ const Skirt: React.FC = () => {
             price: 168000,
             originalPrice: 168000,
             discount: 0,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Chân váy midi dạ cashmere caro phối 3 tầng lưng chun co giãn HAVANA QJ35</h2>
     <p><strong>Freesize:</strong> < 56kg</p>
 
@@ -290,7 +291,7 @@ const Skirt: React.FC = () => {
             price: 159000,
             originalPrice: 199000,
             discount: 20,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Đầm trơn sọc gân cổ tròn kèm hai dây bên trong vải lụa HE113</h2>
     
     <h3 style="color: #2980b9;">Thông số sản phẩm:</h3>
@@ -341,7 +342,7 @@ const Skirt: React.FC = () => {
             price: 129000,
             originalPrice: 199000,
             discount: 35,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Chân váy Jeans dáng dài form chữ A thiết kế túi giả HAVANA CV114</h2>
     
     <h3 style="color: #2980b9;">Size:</h3>
@@ -381,7 +382,7 @@ const Skirt: React.FC = () => {
             price: 140000,
             originalPrice: 189000,
             discount: 26,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">(HÀNG QC LOẠI 1) Chân váy midi thun Umi form A xoè phong cách ulzzang HAVANA CV273</h2>
     
     <h3 style="color: #2980b9;">Freesize:</h3>
@@ -422,7 +423,7 @@ const Skirt: React.FC = () => {
             price: 129000,
             originalPrice: 199000,
             discount: 35,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Chân váy Jeans dáng dài form chữ A thiết kế túi giả HAVANA CV114</h2>
     
     <h3 style="color: #2980b9;">Size:</h3>
@@ -462,7 +463,7 @@ const Skirt: React.FC = () => {
             price: 145000,
             originalPrice: 189000,
             discount: 23,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Chân váy dáng dài basic 2 túi xẻ sau phong cách thanh lịch HAVANA CV174</h2>
     
     <h3 style="color: #2980b9;">Size:</h3>
@@ -502,7 +503,7 @@ const Skirt: React.FC = () => {
             price: 186000,
             originalPrice: 189000,
             discount: 2,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Chân váy dáng dài công sở form A túi giả kèm belt HAVANA CV170</h2>
     
     <h3 style="color: #2980b9;">Size:</h3>
@@ -598,6 +599,8 @@ const Skirt: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <FloatingButtons></FloatingButtons>
+
         </div>
     )
 }

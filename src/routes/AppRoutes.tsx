@@ -18,6 +18,7 @@ import CustomerSupport from "../pages/Support";
 import ProductPage from "../pages/ProductPage";
 import { ToastProvider } from "../components/CustomToast";
 import { AuthProvider, useAuth } from "../components/AuthContext";
+import Checkout from "../pages/Checkout";
 const ProtectedRoute = ({ element }: { element: JSX.Element }) => {
   const { isLoggedIn } = useAuth();
   return isLoggedIn ? <Navigate to="/" /> : element;
@@ -52,6 +53,7 @@ export const AppRouter = () => {
               <Route path='ContactUs' element={<ContactUs />} />
               <Route path='Support' element={<CustomerSupport />} />
             </Route>
+            <Route path='Checkout' element={<Checkout />} />
           </Routes>
         </BrowserRouter>
       </ToastProvider>

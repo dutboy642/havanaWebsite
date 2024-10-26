@@ -4,6 +4,7 @@ import PriceSection from '../components/PriceSection';
 import ProductImages from '../components/ProductImages';
 import { useLocation } from 'react-router-dom';
 import TabComponent from '../components/TabComponent';
+import FloatingButtons from '../components/FloatingButtons';
 function useQuery() {
   return new URLSearchParams(useLocation().search);
 }
@@ -39,6 +40,7 @@ const ProductPage: React.FC = () => {
         </div>
         <TabComponent description={describe || ''} />
       </div>
+      <FloatingButtons></FloatingButtons>
 
     </div>
   );

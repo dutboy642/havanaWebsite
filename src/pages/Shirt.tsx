@@ -1,4 +1,5 @@
 import Filter from "../components/Filter";
+import FloatingButtons from "../components/FloatingButtons";
 import ProductCard from "../components/ProductCard";
 import ScrollToTop from "../components/ScrollToTop";
 const Shirt: React.FC = () => {
@@ -12,7 +13,7 @@ const Shirt: React.FC = () => {
             price: 95000,
             originalPrice: 139000,
             discount: 32,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo kiểu linen nhún thân dáng babydoll trễ vai tay bồng tiểu thư 2 dây buộc nơ HAVANA AO362</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
@@ -51,7 +52,7 @@ const Shirt: React.FC = () => {
             price: 105000,
             originalPrice: 149000,
             discount: 30,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo sơ mi ngắn tay vạt bầu thêu trái tim đôi HAVANA AO283</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize < 54kg</p>
     <p style="font-size: 16px; color: #34495e;">Dài áo: 63cm, Dài tay: 15cm, V1 < 92cm, V2 < 77cm</p>
@@ -90,7 +91,7 @@ const Shirt: React.FC = () => {
             price: 139000,
             originalPrice: 199000,
             discount: 30,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo sơ mi kiểu hở vai tay bồng phối nơ, áo sơ mi kẻ sọc HAVANA AO141</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize < 56kg mang vừa tùy chiều cao</p>
 
@@ -129,7 +130,7 @@ const Shirt: React.FC = () => {
             price: 104000,
             originalPrice: 199000,
             discount: 48,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo babydoll cổ sơ mi tay ngắn vạt xòe dáng ngắn màu vintage HAVANA, áo sơ mi dáng ngắn formbabydoll AO136</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize < 56kg mang vừa tùy chiều cao</p>
 
@@ -168,7 +169,7 @@ const Shirt: React.FC = () => {
             price: 139000,
             originalPrice: 169000,
             discount: 18,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Set áo thun giấy phối nút kèm áo quây buộc dây HE308</h2>
     <p style="font-size: 16px; color: #34495e;">Kèm áo quây cùng màu bên trong<br>Freesize dưới 53kg mang vừa</p>
 
@@ -215,7 +216,7 @@ const Shirt: React.FC = () => {
             price: 106800,
             originalPrice: 179000,
             discount: 40,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">[Tặng kèm khoác choàng] Áo babytee thêu logo con ngựa kèm khoác choàng thuỷ thủ HAVANA ATH205</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
@@ -254,7 +255,7 @@ const Shirt: React.FC = () => {
             price: 280000,
             originalPrice: 340000,
             discount: 18,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo len xù kẻ ngang phối cúc vai mặc 2 kiểu QC HAVANA LEN121</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 55kg mang vừa thoải mái</p>
 
@@ -293,7 +294,7 @@ const Shirt: React.FC = () => {
             price: 129000,
             originalPrice: 189000,
             discount: 32,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo mongtoghi basic cổ tròn thêu chữ "Butter" HAVANA ATH335</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 53 kg mang vừa thoải mái</p>
 
@@ -332,7 +333,7 @@ const Shirt: React.FC = () => {
             price: 159000,
             originalPrice: 189000,
             discount: 16,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo gile len lông thỏ hoạ tiết tổ ong cài cúc bọc đính hoa mai HAVANA LEN130</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 54kg mang vừa thoải mái</p>
 
@@ -371,7 +372,7 @@ const Shirt: React.FC = () => {
             price: 139000,
             originalPrice: 169000,
             discount: 18,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo kiểu nữ trễ vai dài tay phối hoa hồng ở tay cách điệu hot girl HAVANA AO371</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
@@ -462,6 +463,8 @@ const Shirt: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <FloatingButtons></FloatingButtons>
+
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import { useAuth } from "./AuthContext";
 
 interface PriceSectionProps {
     price: string,
@@ -18,6 +19,7 @@ const PriceSection: React.FC<PriceSectionProps> = ({
     const [size, setSize] = useState<string>('S');
     const [quantity, setQuantity] = useState<number>(1);
     const [isSave, setIsSave] = useState<boolean>(false);
+    // const { isLoggedIn } = useAuth(); // Lấy trạng thái và hàm logout từ context
 
     return (
         <div className="mt-8">

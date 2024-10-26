@@ -1,4 +1,5 @@
 import Filter from "../components/Filter";
+import FloatingButtons from "../components/FloatingButtons";
 import ProductCard from "../components/ProductCard";
 import ScrollToTop from "../components/ScrollToTop";
 const Trousers: React.FC = () => {
@@ -12,7 +13,7 @@ const Trousers: React.FC = () => {
             price: 120000,
             originalPrice: 160000,
             discount: 25,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Thông số kích thước:</h2>
     <ul style="list-style-type: none; margin-left: 0;">
         <li><strong>S:</strong> dài 99, v3 98, v2 66, rộng ống 28</li>
@@ -53,7 +54,7 @@ const Trousers: React.FC = () => {
             price: 169000,
             originalPrice: 199000,
             discount: 15,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Kích thước:</h2>
     <p>Size: S, M, L<br>Freesize dưới 54kg mang vừa thoải mái</p>
 
@@ -92,7 +93,7 @@ const Trousers: React.FC = () => {
             price: 139000,
             originalPrice: 179000,
             discount: 22,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Quần đũi cạp chun ống rộng phong cách ulzzang HAVANA QJ210</h2>
     <p>Freesize dưới 60kg mang vừa thoải mái</p>
 
@@ -130,7 +131,7 @@ const Trousers: React.FC = () => {
             price: 119000,
             originalPrice: 169000,
             discount: 30,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Quần ống rộng chất voan đũi cạp chun HE201</h2>
     <p>Freesize dưới 60kg mang vừa thoải mái</p>
 
@@ -181,7 +182,7 @@ const Trousers: React.FC = () => {
             price: 145000,
             originalPrice: 199000,
             discount: 27,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Quần short jean co dãn 4 chiều túi vuông 2 viên 2 đai HAVANA QJ209</h2>
     <p>Freesize dưới 51kg mang vừa thoải mái</p>
 
@@ -220,7 +221,7 @@ const Trousers: React.FC = () => {
             price: 128000,
             originalPrice: 199000,
             discount: 36,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Quần short chất kaki xếp li có túi form rộng HAVANA QJ204</h2>
 
     <h3 style="color: #2980b9;">Thông số kích thước:</h3>
@@ -265,7 +266,7 @@ const Trousers: React.FC = () => {
             price: 179000,
             originalPrice: 239000,
             discount: 25,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Quần jeans ống rộng form xòe tua gấu HAVANA AE705</h2>
     
     <h3 style="color: #2980b9;">Size:</h3>
@@ -310,7 +311,7 @@ const Trousers: React.FC = () => {
             price: 129000,
             originalPrice: 229000,
             discount: 44,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Quần ống suông form rộng, quần ống đứng cạp cao phong cách Hàn Quốc</h2>
     
     <h3 style="color: #2980b9;">Thông tin sản phẩm:</h3>
@@ -357,7 +358,7 @@ const Trousers: React.FC = () => {
             price: 145000,
             originalPrice: 170000,
             discount: 15,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">THÔNG TIN SẢN PHẨM</h2>
     <h3 style="color: #2980b9;">QUẦN SUÔNG ỐNG RỘNG</h3>
     <p>- Sản phẩm có 3 size: S, M, L</p>
@@ -386,7 +387,7 @@ const Trousers: React.FC = () => {
             price: 135000,
             originalPrice: 165000,
             discount: 18,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">MÔ TẢ SẢN PHẨM</h2>
     <h3 style="color: #2980b9;">Quần tây ống loe cạp cao form suông dài</h3>
     <p><strong>Màu:</strong> đen</p>
@@ -471,6 +472,8 @@ const Trousers: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <FloatingButtons></FloatingButtons>
+
         </div>
     )
 }

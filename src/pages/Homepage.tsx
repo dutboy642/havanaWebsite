@@ -16,7 +16,7 @@ const Homepage: React.FC = () => {
             price: 95000,
             originalPrice: 139000,
             discount: 32,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo kiểu linen nhún thân dáng babydoll trễ vai tay bồng tiểu thư 2 dây buộc nơ HAVANA AO362</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize dưới 53kg mang vừa thoải mái</p>
 
@@ -55,7 +55,7 @@ const Homepage: React.FC = () => {
             price: 105000,
             originalPrice: 149000,
             discount: 30,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo sơ mi ngắn tay vạt bầu thêu trái tim đôi HAVANA AO283</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize < 54kg</p>
     <p style="font-size: 16px; color: #34495e;">Dài áo: 63cm, Dài tay: 15cm, V1 < 92cm, V2 < 77cm</p>
@@ -94,7 +94,7 @@ const Homepage: React.FC = () => {
             price: 139000,
             originalPrice: 199000,
             discount: 30,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">Áo sơ mi kiểu hở vai tay bồng phối nơ, áo sơ mi kẻ sọc HAVANA AO141</h2>
     <p style="font-size: 16px; color: #34495e;">Freesize < 56kg mang vừa tùy chiều cao</p>
 
@@ -135,7 +135,7 @@ const Homepage: React.FC = () => {
             price: 299000,
             originalPrice: 379000,
             discount: 21,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">MÔ TẢ SẢN PHẨM</h2>
     <h3 style="color: #2980b9;">Áo dài khảm vân BÁCH ĐIỀN voan tơ phối đính nơ cúc ngọc kèm quần dài satin HAVANA AD110</h3>
     <p><strong>Freesize:</strong> dưới 51kg mang vừa thoải mái</p>
@@ -176,7 +176,7 @@ const Homepage: React.FC = () => {
             price: 259000,
             originalPrice: 329000,
             discount: 21,
-            describe: ` <div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: ` <div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">MÔ TẢ SẢN PHẨM</h2>
     <h3 style="color: #2980b9;">Áo dài cách tân XUÂN THÌ voan tơ 4 tà thêu tay nơ nhỏ kèm quần dài satin HAVANA AD103</h3>
     <p><strong>Size:</strong> S, M</p>
@@ -217,7 +217,7 @@ const Homepage: React.FC = () => {
             price: 289000,
             originalPrice: 319000,
             discount: 9,
-            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+            describe: `<div style="font-family: Arial, sans-serif; line-height: 1.6; width: 100%; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
     <h2 style="color: #2c3e50;">MÔ TẢ SẢN PHẨM</h2>
     <h3 style="color: #2980b9;">Áo dài LẠC HÀ cổ sen thêu hoa phối dây buộc nơ tôn eo duyên dáng HAVANA AD106</h3>
     <p><strong>Freesize:</strong> Dưới 55kg mang vừa thoải mái</p>

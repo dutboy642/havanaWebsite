@@ -13,21 +13,21 @@ const TabComponent: React.FC<TabProps> = ({
             case "description":
                 return (
                     <div className="p-4">
-                        <h2 className="font-bold text-lg">Mô tả sản phẩm</h2>
+                        <h2 className="font-bold text-lg mb-5">Mô tả sản phẩm</h2>
                         <p dangerouslySetInnerHTML={{ __html: description }}></p>
                     </div>
                 );
             case "shipping":
                 return (
                     <div className="p-4">
-                        <h2 className="font-bold text-lg">Chính sách giao hàng</h2>
+                        <h2 className="font-bold text-lg mb-5">Chính sách giao hàng</h2>
                         <p>Giao hàng toàn quốc trong vòng 3-5 ngày làm việc.</p>
                     </div>
                 );
             case "return":
                 return (
                     <div className="p-4">
-                        <h2 className="font-bold text-lg">Chính sách đổi trả</h2>
+                        <h2 className="font-bold text-lg mb-5">Chính sách đổi trả</h2>
                         <p>Đổi trả trong vòng 7 ngày với điều kiện sản phẩm chưa qua sử dụng.</p>
                     </div>
                 );
