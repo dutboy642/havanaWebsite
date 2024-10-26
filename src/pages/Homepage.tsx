@@ -4,7 +4,7 @@ import ProductCard from "../components/ProductCard";
 import mainImage from "../assets/SALE.png"
 import { Link } from "react-router-dom";
 import ScrollToTop from "../components/ScrollToTop";
-import grassBg from "../assets/bg.png"
+// import grassBg from "../assets/bg.png"
 const Homepage: React.FC = () => {
     const products = [
         {
@@ -477,10 +477,13 @@ Hướng dẫn bảo quản:
         },
     ];
     return (
-        <div style={{
-            background: `url(${grassBg}) no-repeat fixed center`,
-            backgroundSize: '100vw 100vh'
-        }}>
+        <div
+            // style={{
+            // background: `url(${grassBg}) no-repeat fixed center`,
+            // backgroundSize: '100vw 100vh'
+            // }}
+            className="mb-20"
+        >
 
             <ScrollToTop />
             <div className="hover:cursor-pointer">

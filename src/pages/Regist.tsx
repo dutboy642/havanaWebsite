@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useToast } from "../components/CustomToast";
 
 const RegisterForm: React.FC = () => {
     const [formData, setFormData] = useState({
@@ -10,6 +11,8 @@ const RegisterForm: React.FC = () => {
         password: "",
     });
 
+    const { success, error } = useToast(); // Lấy hàm toast từ context
+
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setFormData({
             ...formData,
@@ -19,8 +22,28 @@ const RegisterForm: React.FC = () => {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // Logic xử lý submit form đăng ký
-        console.log("Form data:", formData);
+
+        try {
+            // Lưu dữ liệu vào localStorage
+            const existingUsers = JSON.parse(localStorage.getItem("users") || "[]");
+            existingUsers.push(formData);
+            localStorage.setItem("users", JSON.stringify(existingUsers));
+
+            // Hiển thị toast thông báo thành công và reset form
+            success("Đăng ký thành công!");
+            
+            setFormData({
+                lastName: "",
+                firstName: "",
+                phoneNumber: "",
+                birthDate: "",
+                email: "",
+                password: "",
+            });
+        } catch (err) {
+            console.error("Lỗi đăng ký:", err);
+            error("Có lỗi xảy ra, vui lòng thử lại.");
+        }
     };
 
     return (
@@ -35,7 +58,9 @@ const RegisterForm: React.FC = () => {
                     <h3 className="text-lg font-semibold mb-4 text-center">THÔNG TIN CÁ NHÂN</h3>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-medium mb-1">Họ <span className="text-red-500">*</span></label>
+                        <label className="block text-sm font-medium mb-1">
+                            Họ <span className="text-red-500">*</span>
+                        </label>
                         <input
                             type="text"
                             name="lastName"
@@ -48,7 +73,9 @@ const RegisterForm: React.FC = () => {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-medium mb-1">Tên <span className="text-red-500">*</span></label>
+                        <label className="block text-sm font-medium mb-1">
+                            Tên <span className="text-red-500">*</span>
+                        </label>
                         <input
                             type="text"
                             name="firstName"
@@ -61,7 +88,9 @@ const RegisterForm: React.FC = () => {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-medium mb-1">Số điện thoại <span className="text-red-500">*</span></label>
+                        <label className="block text-sm font-medium mb-1">
+                            Số điện thoại <span className="text-red-500">*</span>
+                        </label>
                         <input
                             type="text"
                             name="phoneNumber"
@@ -86,7 +115,9 @@ const RegisterForm: React.FC = () => {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-medium mb-1">Email <span className="text-red-500">*</span></label>
+                        <label className="block text-sm font-medium mb-1">
+                            Email <span className="text-red-500">*</span>
+                        </label>
                         <input
                             type="email"
                             name="email"
@@ -99,7 +130,9 @@ const RegisterForm: React.FC = () => {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-medium mb-1">Mật khẩu <span className="text-red-500">*</span></label>
+                        <label className="block text-sm font-medium mb-1">
+                            Mật khẩu <span className="text-red-500">*</span>
+                        </label>
                         <input
                             type="password"
                             name="password"

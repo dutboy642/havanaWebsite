@@ -1,4 +1,5 @@
 import Filter from "../components/Filter";
+import FloatingButtons from "../components/FloatingButtons";
 import ProductCard from "../components/ProductCard";
 import ScrollToTop from "../components/ScrollToTop";
 const All: React.FC = () => {
@@ -397,7 +398,7 @@ const All: React.FC = () => {
         },
     ];
     return (
-        <div className="max-w-[1055px] mx-auto">
+        <div className="w-[90%] mx-auto">
             <ScrollToTop />
             <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
                 <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -454,6 +455,7 @@ const All: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <FloatingButtons></FloatingButtons>
         </div>
     )
 }

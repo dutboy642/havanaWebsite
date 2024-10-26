@@ -293,7 +293,7 @@ Hướng dẫn bảo quản:
         },
     ];
     return (
-        <div className="max-w-[1055px] mx-auto">
+        <div className="w-[90%] mx-auto">
             <ScrollToTop />
             <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
                 <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
