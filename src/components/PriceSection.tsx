@@ -161,9 +161,16 @@ const PriceSection: React.FC<PriceSectionProps> = ({
                     </div>
                 </div>
 
-                <button className="flex-1 bg-black text-white py-3 px-4 rounded">
+                <Link
+                    onClick={() => {
+                        addProduct(title, parseInt(price), image, quantity, size);
+                    }}
+                    className="text-center flex-1 bg-black text-white py-3 px-4 rounded" to='/checkout'>
+                    {/* <button  */}
+                    {/* > */}
                     Mua ngay
-                </button>
+                    {/* </button> */}
+                </Link>
             </div>
             <div className='text-center pt-6'>
                 <span>Gọi đặt mua <span className='font-bold'>0383.502.273</span> (9:30 - 22:00)</span>
