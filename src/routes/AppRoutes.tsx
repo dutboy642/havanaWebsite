@@ -19,6 +19,8 @@ import ProductPage from "../pages/ProductPage";
 import { ToastProvider } from "../components/CustomToast";
 import { AuthProvider, useAuth } from "../components/AuthContext";
 import Checkout from "../pages/Checkout";
+import { ProductProvider } from "../components/ProductContext";
+import Cart from "../pages/Cart";
 const ProtectedRoute = ({ element }: { element: JSX.Element }) => {
   const { isLoggedIn } = useAuth();
   return isLoggedIn ? <Navigate to="/" /> : element;
@@ -28,34 +30,37 @@ export const AppRouter = () => {
   return (
     <AuthProvider>
       <ToastProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Layout />} >
-              <Route index element={<Homepage />} />
-              {/* <Route path='Home' element={<Homepage />} /> */}
-              <Route path='Set' element={<Set />} />
-              <Route path='Trousers' element={<Trousers />} />
-              <Route path='Skirt' element={<Skirt />} />
-              <Route path='Shirt' element={<Shirt />} />
-              <Route path='All' element={<All />} />
-              <Route path='Sale' element={<Sale />} />
-              <Route path='CheckOrderPage' element={<CheckOrderPage />} />
-              <Route
-                path="LoginForm"
-                element={<ProtectedRoute element={<LoginForm />} />}
-              />
-              <Route
-                path="RegistForm"
-                element={<ProtectedRoute element={<RegisterForm />} />}
-              />
-              <Route path='ProductDetail' element={<ProductPage />} />
-              <Route path='AboutUs' element={<AboutUs />} />
-              <Route path='ContactUs' element={<ContactUs />} />
-              <Route path='Support' element={<CustomerSupport />} />
-            </Route>
-            <Route path='Checkout' element={<Checkout />} />
-          </Routes>
-        </BrowserRouter>
+        <ProductProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Layout />} >
+                <Route index element={<Homepage />} />
+                {/* <Route path='Home' element={<Homepage />} /> */}
+                <Route path='Set' element={<Set />} />
+                <Route path='Trousers' element={<Trousers />} />
+                <Route path='Skirt' element={<Skirt />} />
+                <Route path='Shirt' element={<Shirt />} />
+                <Route path='All' element={<All />} />
+                <Route path='Sale' element={<Sale />} />
+                <Route path='CheckOrderPage' element={<CheckOrderPage />} />
+                <Route path='Cart' element={<Cart />} />
+                <Route
+                  path="LoginForm"
+                  element={<ProtectedRoute element={<LoginForm />} />}
+                />
+                <Route
+                  path="RegistForm"
+                  element={<ProtectedRoute element={<RegisterForm />} />}
+                />
+                <Route path='ProductDetail' element={<ProductPage />} />
+                <Route path='AboutUs' element={<AboutUs />} />
+                <Route path='ContactUs' element={<ContactUs />} />
+                <Route path='Support' element={<CustomerSupport />} />
+              </Route>
+              <Route path='Checkout' element={<Checkout />} />
+            </Routes>
+          </BrowserRouter>
+        </ProductProvider>
       </ToastProvider>
     </AuthProvider>
 

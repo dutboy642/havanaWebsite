@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const CheckoutInformation: React.FC = () => {
     const [paymentMethod, setPaymentMethod] = useState("");
@@ -7,7 +8,7 @@ const CheckoutInformation: React.FC = () => {
     return (
         <div className="flex justify-center items-center min-h-screen bg-gray-100">
             <div className="w-full bg-white p-6 rounded-lg">
-                <h2 className="text-2xl font-bold text-blue-500 mb-6">HAVANA</h2>
+                <h2 className="text-2xl font-bold text-blue-500 mb-6"><Link to='/'>HAVANA</Link></h2>
                 <div className='grid grid-cols-2'>
 
                     <div className="p-4 w-full max-w-md mx-auto bg-white rounded-md">
