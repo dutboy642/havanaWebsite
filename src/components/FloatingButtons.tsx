@@ -24,7 +24,7 @@ const FloatingButtons: React.FC = () => {
     }, []);
 
     return (
-        <div className="fixed bottom-16 right-4 flex flex-col items-center space-y-2 z-50">
+        <div className="fixed bottom-16 right-10 flex flex-col items-center space-y-2 z-50">
             {isVisible && (
                 <button
                     onClick={scrollToTop}

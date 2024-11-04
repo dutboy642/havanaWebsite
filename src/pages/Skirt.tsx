@@ -1,7 +1,11 @@
-import Filter from "../components/Filter";
+import { useEffect, useState } from "react";
+// import Filter from "../components/Filter";
 import FloatingButtons from "../components/FloatingButtons";
 import ProductCard from "../components/ProductCard";
 import ScrollToTop from "../components/ScrollToTop";
+import PriceFilter from "../components/PriceFilter";
+import SortFilter from "../components/SortFilter";
+// import TypeFilter from "../components/TypeFilter";
 const Skirt: React.FC = () => {
     const products = [
 
@@ -541,6 +545,64 @@ const Skirt: React.FC = () => {
 
     ]
         ;
+    // State để lưu bộ lọc giá và thứ tự sắp xếp
+    const [priceFilter, setPriceFilter] = useState<string[]>([]);
+    const [sortOrder, setSortOrder] = useState<string>("");
+
+    // State để lưu danh sách sản phẩm đã lọc
+    const [filteredProducts, setFilteredProducts] = useState(products);
+
+    // Hàm xử lý thay đổi bộ lọc giá
+    const handlePriceFilterChange = (selectedPrices: string[]) => {
+        setPriceFilter(selectedPrices);
+    };
+
+    // Hàm xử lý thay đổi thứ tự sắp xếp
+    const handleSortOrderChange = (order: string) => {
+        setSortOrder(order);
+    };
+
+    // Cập nhật danh sách sản phẩm dựa trên bộ lọc
+    useEffect(() => {
+        let updatedProducts = [...products];
+
+        // Lọc sản phẩm dựa trên giá
+        if (priceFilter.length > 0) {
+            updatedProducts = updatedProducts.filter((product) => {
+                return priceFilter.some((priceRange) => {
+                    switch (priceRange) {
+                        case "Giá dưới 200.000đ":
+                            return product.price < 200000;
+                        case "200.000đ - 300.000đ":
+                            return product.price >= 200000 && product.price <= 300000;
+                        case "300.000đ - 500.000đ":
+                            return product.price >= 300000 && product.price <= 500000;
+                        case "500.000đ - 700.000đ":
+                            return product.price >= 500000 && product.price <= 700000;
+                        case "700.000đ - 1.000.000đ":
+                            return product.price >= 700000 && product.price <= 1000000;
+                        case "Giá trên 1.000.000đ":
+                            return product.price > 1000000;
+                        default:
+                            return true;
+                    }
+                });
+            });
+        }
+
+        // Sắp xếp sản phẩm dựa trên thứ tự sắp xếp
+        if (sortOrder === "az") {
+            updatedProducts.sort((a, b) => a.title.localeCompare(b.title));
+        } else if (sortOrder === "za") {
+            updatedProducts.sort((a, b) => b.title.localeCompare(a.title));
+        } else if (sortOrder === "priceAsc") {
+            updatedProducts.sort((a, b) => a.price - b.price);
+        } else if (sortOrder === "priceDesc") {
+            updatedProducts.sort((a, b) => b.price - a.price);
+        }
+
+        setFilteredProducts(updatedProducts);
+    }, [priceFilter, sortOrder]);
     return (
         <div className="w-[90%] mx-auto">
             <ScrollToTop />
@@ -567,11 +629,17 @@ const Skirt: React.FC = () => {
 
             <div className="grid grid-cols-4 pb-10">
                 <div className="col-span-1">
-                    <Filter title="Váy" />
+                    <div className="p-4 w-full bg-white rounded-lg shadow">
+                        <h2 className="text-lg font-bold mb-4">Váy</h2>
+                        {/* <PriceFilter onFilterChange={handleFilterChange} /> */}
+                        <PriceFilter onFilterChange={handlePriceFilterChange} />
+                        {/* <TypeFilter /> */}
+                        {/* <button className="text-blue-500 mt-2">Xem thêm</button> */}
+                    </div>
                 </div>
                 <div className="col-span-3">
                     <div className="flex flex-row-reverse mb-4">
-                        <div>
+                        {/* <div>
                             <span>Sắp xếp</span>
                             <select className="px-2 py-1 rounded ms-2">
                                 <option value="">Tên A → Z</option>
@@ -579,12 +647,14 @@ const Skirt: React.FC = () => {
                                 <option value="">Giá tăng dần</option>
                                 <option value="">Giá giảm dần</option>
                             </select>
-                        </div>
+                        </div> */}
+                        {/* <SortFilter onSortChange={handleSortChange}></SortFilter> */}
+                        <SortFilter onSortChange={handleSortOrderChange} />
                     </div>
                     <div className="grid grid-cols-3 gap-6">
-                        {products.map((product, index) => (
+                        {filteredProducts.map((product) => (
                             <ProductCard
-                                key={index}
+                                key={product.title}
                                 title={product.title}
                                 image={product.image}
                                 image2={product.image2}
