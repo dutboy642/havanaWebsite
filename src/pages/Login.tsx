@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"; // Đảm bảo bạn đã cài 
 import { useToast } from "../components/CustomToast";
 import { useAuth } from "../components/AuthContext";
 // import FacebookLoginButton from "../components/SocialButton";
-import FBButton from "../components/SocialButton";
+// import FBButton from "../components/SocialButton";
 
 const LoginForm = () => {
     const [email, setEmail] = useState("");
@@ -106,7 +106,7 @@ const LoginForm = () => {
                         <i className="fa fa-facebook"></i>
                         <span>Facebook</span>
                     </button>
-                    <FBButton />
+                    {/* <FBButton /> */}
                     <button className="flex items-center space-x-2 bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition">
                         <i className="fa fa-google"></i>
                         <span>Google</span>
