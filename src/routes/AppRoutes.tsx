@@ -14,13 +14,15 @@ import Skirt from "../pages/Skirt";
 // import ProductDetail from "../pages/ProductDetail";
 import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/Contact";
-import CustomerSupport from "../pages/Support";
+// import CustomerSupport from "../pages/Support";
+import CustomerInstruct from "../pages/CustomerInstruc";
 import ProductPage from "../pages/ProductPage";
 import { ToastProvider } from "../components/CustomToast";
 import { AuthProvider, useAuth } from "../components/AuthContext";
 import Checkout from "../pages/Checkout";
 import { ProductProvider } from "../components/ProductContext";
 import Cart from "../pages/Cart";
+import SearchResults from "../pages/SearchResults";
 const ProtectedRoute = ({ element }: { element: JSX.Element }) => {
   const { isLoggedIn } = useAuth();
   return isLoggedIn ? <Navigate to="/" /> : element;
@@ -55,7 +57,8 @@ export const AppRouter = () => {
                 <Route path='ProductDetail' element={<ProductPage />} />
                 <Route path='AboutUs' element={<AboutUs />} />
                 <Route path='ContactUs' element={<ContactUs />} />
-                <Route path='Support' element={<CustomerSupport />} />
+                <Route path='Support' element={<CustomerInstruct />} />
+                <Route path='SearchResults' element={<SearchResults />} />
               </Route>
               <Route path='Checkout' element={<Checkout />} />
             </Routes>

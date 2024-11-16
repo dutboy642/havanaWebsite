@@ -15,7 +15,7 @@ const AboutUs: React.FC = () => {
             {/* Phần giới thiệu chính */}
             <section className="text-center">
                 <h1 id="aboutUs" className="text-3xl font-semibold mb-4">VỀ CHÚNG TÔI...</h1>
-                <p className="text-lg text-gray-600">
+                <p className="text-xl text-lg text-gray-600">
                     HAVANA - cửa hàng cung cấp các sản phẩm thời trang nữ trendy tại Đà Nẵng
                 </p>
             </section>
@@ -30,7 +30,7 @@ const AboutUs: React.FC = () => {
                         className="w-full h-auto rounded-lg mb-4"
                     />
                     <h2 id="vision" className="text-2xl font-semibold mb-2 text-center">TẦM NHÌN...</h2>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 text-xl ">
 
                         Tạo dựng cộng đồng thời trang bền vững.
                         Tạo ra điểm đến lý tưởng để khách hàng có thể thoải mái chọn lựa, khám phá xu hướng thời trang mới và tìm kiếm phong cách riêng cho mình.
@@ -47,7 +47,7 @@ const AboutUs: React.FC = () => {
                         className="w-full h-auto rounded-lg mb-4"
                     />
                     <h2 id="suMenh" className="text-2xl font-semibold mb-2 text-center">SỨ MỆNH...</h2>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 text-xl ">
                         Từ thời trang đến lối sống, chúng tôi luôn hướng tới phong cách hòa nhập và tinh thần sáng tạo,
                         để khẳng định bản sắc của từng cá nhân.
                     </p>
