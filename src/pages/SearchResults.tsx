@@ -2275,7 +2275,91 @@ const SearchResults: React.FC = () => {
         //     </div>
         //     <FloatingButtons></FloatingButtons>
         // </div>
-        <div className="w-[90%] mx-auto">
+        // <div className="w-[90%] mx-auto">
+        //     <ScrollToTop />
+        //     <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
+        //         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+        //             <li className="inline-flex items-center">
+        //                 <a href="/" className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+        //                     <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+        //                         <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
+        //                     </svg>
+        //                     Trang chủ
+        //                 </a>
+        //             </li>
+        //             <li aria-current="page">
+        //                 <div className="flex items-center">
+        //                     <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+        //                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
+        //                     </svg>
+        //                     <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Kết quả tìm kiếm</span>
+        //                 </div>
+        //             </li>
+        //         </ol>
+        //     </nav>
+
+        //     <div className="grid grid-cols-4 pb-10">
+        //         <div className="col-span-1">
+        //             <div className="p-4 w-full bg-white rounded-lg shadow">
+        //                 <h2 className="text-lg font-bold mb-4">Kết quả tìm kiếm cho {search}</h2>
+        //                 <PriceFilter onFilterChange={handlePriceFilterChange} />
+        //             </div>
+        //         </div>
+        //         <div className="col-span-3">
+        //             <div className="flex flex-row-reverse mb-4">
+        //                 <SortFilter onSortChange={handleSortOrderChange} />
+        //             </div>
+        //             <div className="grid grid-cols-3 gap-6">
+        //                 {paginatedProducts.map((product) => (
+        //                     <ProductCard
+        //                         key={product.title}
+        //                         title={product.title}
+        //                         image={product.image}
+        //                         image2={product.image2}
+        //                         price={product.price}
+        //                         originalPrice={product.originalPrice}
+        //                         discount={product.discount}
+        //                         variants={product.variants}
+        //                         describe={product.describe}
+        //                         productCode={product.productCode}
+        //                     />
+        //                 ))}
+        //             </div>
+
+        //             {/* Phân trang */}
+        //             <div className="flex justify-center mt-6">
+        //                 <button
+        //                     onClick={() => handlePageChange(currentPage - 1)}
+        //                     disabled={currentPage === 1}
+        //                     className="px-4 py-2 mx-1 bg-gray-200 rounded hover:bg-gray-300 disabled:bg-gray-100"
+        //                 >
+        //                     Trước
+        //                 </button>
+        //                 {Array.from({ length: totalPages }, (_, index) => (
+        //                     <button
+        //                         key={index + 1}
+        //                         onClick={() => handlePageChange(index + 1)}
+        //                         className={`px-4 py-2 mx-1 ${currentPage === index + 1
+        //                             ? "bg-blue-500 text-white"
+        //                             : "bg-gray-200 hover:bg-gray-300"
+        //                             } rounded`}
+        //                     >
+        //                         {index + 1}
+        //                     </button>
+        //                 ))}
+        //                 <button
+        //                     onClick={() => handlePageChange(currentPage + 1)}
+        //                     disabled={currentPage === totalPages}
+        //                     className="px-4 py-2 mx-1 bg-gray-200 rounded hover:bg-gray-300 disabled:bg-gray-100"
+        //                 >
+        //                     Tiếp
+        //                 </button>
+        //             </div>
+        //         </div>
+        //     </div>
+        //     <FloatingButtons />
+        // </div>
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <ScrollToTop />
             <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
                 <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -2298,18 +2382,23 @@ const SearchResults: React.FC = () => {
                 </ol>
             </nav>
 
-            <div className="grid grid-cols-4 pb-10">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 pb-10">
+                {/* Sidebar */}
                 <div className="col-span-1">
                     <div className="p-4 w-full bg-white rounded-lg shadow">
                         <h2 className="text-lg font-bold mb-4">Kết quả tìm kiếm cho {search}</h2>
                         <PriceFilter onFilterChange={handlePriceFilterChange} />
                     </div>
                 </div>
-                <div className="col-span-3">
+
+                {/* Main Content */}
+                <div className="col-span-1 lg:col-span-3">
                     <div className="flex flex-row-reverse mb-4">
                         <SortFilter onSortChange={handleSortOrderChange} />
                     </div>
-                    <div className="grid grid-cols-3 gap-6">
+
+                    {/* Product Grid */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {paginatedProducts.map((product) => (
                             <ProductCard
                                 key={product.title}
@@ -2326,7 +2415,7 @@ const SearchResults: React.FC = () => {
                         ))}
                     </div>
 
-                    {/* Phân trang */}
+                    {/* Pagination */}
                     <div className="flex justify-center mt-6">
                         <button
                             onClick={() => handlePageChange(currentPage - 1)}
@@ -2359,6 +2448,7 @@ const SearchResults: React.FC = () => {
             </div>
             <FloatingButtons />
         </div>
+
     )
 }
 

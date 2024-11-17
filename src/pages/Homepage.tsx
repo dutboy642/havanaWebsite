@@ -477,21 +477,94 @@ Hướng dẫn bảo quản:
         },
     ];
     return (
-        <div
-            // style={{
-            // background: `url(${grassBg}) no-repeat fixed center`,
-            // backgroundSize: '100vw 100vh'
-            // }}
-            className="mb-20"
-        >
+        // <div
+        //     className="mb-20"
+        // >
 
+        //     <ScrollToTop />
+        //     <div className="hover:cursor-pointer">
+        //         <img className=" py-4" src={mainImage} alt="" />
+        //     </div>
+        //     {/* discount */}
+        //     <div className="flex justify-center items-center">
+        //         <div className="flex space-x-4">
+        //             {coupons.map((coupon, index) => (
+        //                 <CouponCard
+        //                     key={index}
+        //                     title={coupon.title}
+        //                     description={coupon.description}
+        //                     expiry={coupon.expiry}
+        //                 />
+        //             ))}
+        //         </div>
+        //     </div>
+        //     {/* new arrival */}
+        //     <div className="p-8 ">
+        //         <div className="flex justify-between items-center mb-4">
+        //             <h1></h1>
+        //             <h2 className="text-5xl font-bold">NEW ARRIVAL</h2>
+        //             <Link to="/All" className="text-blue-500 text-sm hover:underline ">
+        //                 Xem tất cả
+        //             </Link>
+        //         </div>
+
+        //         <div className="grid grid-cols-3 gap-6">
+        //             {AoDai.slice(0, 3).map((product, index) => (
+        //                 <ProductCard
+        //                     key={index}
+        //                     title={product.title}
+        //                     image={product.image}
+        //                     image2={product.image2}
+        //                     price={product.price}
+        //                     originalPrice={product.originalPrice}
+        //                     discount={product.discount}
+        //                     variants={product.variants}
+        //                     productCode={product.productCode}
+        //                     describe={product.describe}
+        //                 />
+        //             ))}
+        //         </div>
+        //     </div>
+        //     {/* Ảnh */}
+        //     <div className="hover:cursor-pointer p-8 ">
+        //         <img className="mx-auto rounded" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm93ont15.webp" alt="" />
+        //     </div>
+        //     {/* best seller */}
+        //     <div className="p-8  pb-10">
+        //         <div className="flex justify-between items-center mb-4">
+        //             <h1></h1>
+        //             <h2 className="text-5xl font-bold">BEST SELLER</h2>
+        //             <a href="#" className="text-blue-500 text-sm hover:underline">
+        //                 Xem tất cả
+        //             </a>
+        //         </div>
+
+        //         <div className="grid grid-cols-3 gap-6">
+        //             {products.slice(0, 3).map((product, index) => (
+        //                 <ProductCard
+        //                     key={index}
+        //                     title={product.title}
+        //                     image={product.image}
+        //                     image2={product.image2}
+        //                     price={product.price}
+        //                     originalPrice={product.originalPrice}
+        //                     discount={product.discount}
+        //                     variants={product.variants}
+        //                     productCode={product.productCode}
+        //                     describe={product.describe}
+        //                 />
+        //             ))}
+        //         </div>
+        //     </div>
+        // </div>
+        <div className="mb-20">
             <ScrollToTop />
             <div className="hover:cursor-pointer">
-                <img className=" py-4" src={mainImage} alt="" />
+                <img className="py-4" src={mainImage} alt="" />
             </div>
             {/* discount */}
             <div className="flex justify-center items-center">
-                <div className="flex space-x-4">
+                <div className="flex flex-wrap justify-center gap-4">
                     {coupons.map((coupon, index) => (
                         <CouponCard
                             key={index}
@@ -503,16 +576,16 @@ Hướng dẫn bảo quản:
                 </div>
             </div>
             {/* new arrival */}
-            <div className="p-8 ">
-                <div className="flex justify-between items-center mb-4">
+            <div className="p-4 sm:p-6 md:p-8">
+                <div className="flex flex-col sm:flex-row justify-between items-center mb-4">
                     <h1></h1>
-                    <h2 className="text-5xl font-bold">NEW ARRIVAL</h2>
-                    <Link to="/All" className="text-blue-500 text-sm hover:underline ">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">NEW ARRIVAL</h2>
+                    <Link to="/All" className="text-blue-500 text-sm hover:underline">
                         Xem tất cả
                     </Link>
                 </div>
 
-                <div className="grid grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
                     {AoDai.slice(0, 3).map((product, index) => (
                         <ProductCard
                             key={index}
@@ -530,20 +603,20 @@ Hướng dẫn bảo quản:
                 </div>
             </div>
             {/* Ảnh */}
-            <div className="hover:cursor-pointer p-8 ">
+            <div className="hover:cursor-pointer p-4 sm:p-6 md:p-8">
                 <img className="mx-auto rounded" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lra19mm93ont15.webp" alt="" />
             </div>
             {/* best seller */}
-            <div className="p-8  pb-10">
-                <div className="flex justify-between items-center mb-4">
+            <div className="p-4 sm:p-6 md:p-8 pb-6 md:pb-10">
+                <div className="flex flex-col sm:flex-row justify-between items-center mb-4">
                     <h1></h1>
-                    <h2 className="text-5xl font-bold">BEST SELLER</h2>
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">BEST SELLER</h2>
                     <a href="#" className="text-blue-500 text-sm hover:underline">
                         Xem tất cả
                     </a>
                 </div>
 
-                <div className="grid grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
                     {products.slice(0, 3).map((product, index) => (
                         <ProductCard
                             key={index}
@@ -560,92 +633,8 @@ Hướng dẫn bảo quản:
                     ))}
                 </div>
             </div>
-            {/* t shirt */}
-            {/* <div className="p-8 ">
-                <div className="grid grid-cols-3">
-                    <div className="">
-                        <img src="https://bizweb.dktcdn.net/100/516/928/themes/951952/assets/section_product_image_1_banner.jpg?1726634821799" alt="" />
-                    </div>
-                    <div className="col-span-2">
-                        <div className="grid grid-cols-3 gap-6">
-                            {products.map((product, index) => (
-                                <ProductCard
-                                    key={index}
-                                    title={product.title}
-                                    image={product.image}
-                                    image2={product.image2}
-                                    price={product.price}
-                                    originalPrice={product.originalPrice}
-                                    discount={product.discount}
-                                    variants={product.variants}
-                                />
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-            {/*  Quần */}
-            {/* <div className="p-8 ">
-                <div className="grid grid-cols-3">
-
-                    <div className="col-span-2">
-                        <div className="grid grid-cols-3 gap-4">
-                            {products.map((product, index) => (
-                                <ProductCard
-                                    key={index}
-                                    title={product.title}
-                                    image={product.image}
-                                    image2={product.image2}
-                                    price={product.price}
-                                    originalPrice={product.originalPrice}
-                                    discount={product.discount}
-                                    variants={product.variants}
-                                />
-                            ))}
-                        </div>
-                    </div>
-                    <div className="">
-                        <img src="https://bizweb.dktcdn.net/100/516/928/themes/951952/assets/section_product_image_2_banner.jpg?1726634821799" alt="" />
-                    </div>
-                </div>
-            </div> */}
-            {/* Áo sọc */}
-            {/* <div className="p-8 ">
-                <div className="grid grid-cols-3">
-                    <div className="">
-                        <img src="https://bizweb.dktcdn.net/100/516/928/themes/951952/assets/section_product_image_3_banner.jpg?1726634821799" alt="" />
-                    </div>
-                    <div className="col-span-2">
-                        <div className="grid grid-cols-3 gap-6">
-                            {products.map((product, index) => (
-                                <ProductCard
-                                    key={index}
-                                    title={product.title}
-                                    image={product.image}
-                                    image2={product.image2}
-                                    price={product.price}
-                                    originalPrice={product.originalPrice}
-                                    discount={product.discount}
-                                    variants={product.variants}
-                                />
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
-            {/* <div className="p-8 ">
-                <div className="flex justify-between items-center mb-4">
-                    <h2 className="text-xl font-bold">FEEDBACK</h2>
-                </div>
-                <div className="grid grid-cols-4 gap-3">
-                    {feedback_images.map((item) => (
-                        <img key={item.image} src={item.image} alt="" />
-                    ))}
-                </div>
-            </div> */}
-
         </div>
+
     );
 };
 

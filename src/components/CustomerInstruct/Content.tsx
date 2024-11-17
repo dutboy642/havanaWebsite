@@ -28,12 +28,12 @@ const Content: React.FC<ContentProps> = ({ contentKey }) => {
                     //     <h2 className="text-xl font-semibold mb-2">Bước 1: Đăng ký tài khoản:</h2>
                     //     <p className="mb-4">Bấm chọn “Đăng ký” để đăng ký tài khoản FM</p>
                     // </div>
-                    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+                    <div className="w-full bg-gray-100 min-h-screen flex items-center justify-center">
                         <Instructions />
                     </div>
                 );
             case 'size':
-                return <div className="min-h-screen bg-gray-100 flex justify-center">
+                return <div className="w-full min-h-screen bg-gray-100 flex justify-center">
                     <SizeGuide />
                 </div>;
             case 'terms':
@@ -46,7 +46,7 @@ const Content: React.FC<ContentProps> = ({ contentKey }) => {
     };
 
     return (
-        <div className="w-3/4 p-8">
+        <div className="md:w-full sm:w-full lg:w-3/4 xl:w-3/4 p-8">
             {renderContent()}
         </div>
     );

@@ -604,7 +604,75 @@ const Skirt: React.FC = () => {
         setFilteredProducts(updatedProducts);
     }, [priceFilter, sortOrder]);
     return (
-        <div className="w-[90%] mx-auto">
+        // <div className="w-[90%] mx-auto">
+        //     <ScrollToTop />
+        //     <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
+        //         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+        //             <li className="inline-flex items-center">
+        //                 <a href="/" className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+        //                     <svg className="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+        //                         <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
+        //                     </svg>
+        //                     Trang chủ
+        //                 </a>
+        //             </li>
+        //             <li aria-current="page">
+        //                 <div className="flex items-center">
+        //                     <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+        //                         <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
+        //                     </svg>
+        //                     <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Váy</span>
+        //                 </div>
+        //             </li>
+        //         </ol>
+        //     </nav>
+
+        //     <div className="grid grid-cols-4 pb-10">
+        //         <div className="col-span-1">
+        //             <div className="p-4 w-full bg-white rounded-lg shadow">
+        //                 <h2 className="text-lg font-bold mb-4">Váy</h2>
+        //                 {/* <PriceFilter onFilterChange={handleFilterChange} /> */}
+        //                 <PriceFilter onFilterChange={handlePriceFilterChange} />
+        //                 {/* <TypeFilter /> */}
+        //                 {/* <button className="text-blue-500 mt-2">Xem thêm</button> */}
+        //             </div>
+        //         </div>
+        //         <div className="col-span-3">
+        //             <div className="flex flex-row-reverse mb-4">
+        //                 {/* <div>
+        //                     <span>Sắp xếp</span>
+        //                     <select className="px-2 py-1 rounded ms-2">
+        //                         <option value="">Tên A → Z</option>
+        //                         <option value="">Tên Z → A</option>
+        //                         <option value="">Giá tăng dần</option>
+        //                         <option value="">Giá giảm dần</option>
+        //                     </select>
+        //                 </div> */}
+        //                 {/* <SortFilter onSortChange={handleSortChange}></SortFilter> */}
+        //                 <SortFilter onSortChange={handleSortOrderChange} />
+        //             </div>
+        //             <div className="grid grid-cols-3 gap-6">
+        //                 {filteredProducts.map((product) => (
+        //                     <ProductCard
+        //                         key={product.title}
+        //                         title={product.title}
+        //                         image={product.image}
+        //                         image2={product.image2}
+        //                         price={product.price}
+        //                         originalPrice={product.originalPrice}
+        //                         discount={product.discount}
+        //                         variants={product.variants}
+        //                         productCode={product.productCode}
+        //                         describe={product.describe}
+        //                     />
+        //                 ))}
+        //             </div>
+        //         </div>
+        //     </div>
+        //     <FloatingButtons></FloatingButtons>
+
+        // </div>
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <ScrollToTop />
             <nav className="flex mt-8 mb-4" aria-label="Breadcrumb">
                 <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -619,7 +687,7 @@ const Skirt: React.FC = () => {
                     <li aria-current="page">
                         <div className="flex items-center">
                             <svg className="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                <path stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                             </svg>
                             <span className="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Váy</span>
                         </div>
@@ -627,31 +695,23 @@ const Skirt: React.FC = () => {
                 </ol>
             </nav>
 
-            <div className="grid grid-cols-4 pb-10">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 pb-10">
+                {/* Sidebar */}
                 <div className="col-span-1">
                     <div className="p-4 w-full bg-white rounded-lg shadow">
                         <h2 className="text-lg font-bold mb-4">Váy</h2>
-                        {/* <PriceFilter onFilterChange={handleFilterChange} /> */}
                         <PriceFilter onFilterChange={handlePriceFilterChange} />
-                        {/* <TypeFilter /> */}
-                        {/* <button className="text-blue-500 mt-2">Xem thêm</button> */}
                     </div>
                 </div>
-                <div className="col-span-3">
+
+                {/* Main Content */}
+                <div className="col-span-1 lg:col-span-3">
                     <div className="flex flex-row-reverse mb-4">
-                        {/* <div>
-                            <span>Sắp xếp</span>
-                            <select className="px-2 py-1 rounded ms-2">
-                                <option value="">Tên A → Z</option>
-                                <option value="">Tên Z → A</option>
-                                <option value="">Giá tăng dần</option>
-                                <option value="">Giá giảm dần</option>
-                            </select>
-                        </div> */}
-                        {/* <SortFilter onSortChange={handleSortChange}></SortFilter> */}
                         <SortFilter onSortChange={handleSortOrderChange} />
                     </div>
-                    <div className="grid grid-cols-3 gap-6">
+
+                    {/* Product Grid */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                         {filteredProducts.map((product) => (
                             <ProductCard
                                 key={product.title}
@@ -669,9 +729,9 @@ const Skirt: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <FloatingButtons></FloatingButtons>
-
+            <FloatingButtons />
         </div>
+
     )
 }
 
