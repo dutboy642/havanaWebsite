@@ -75,7 +75,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onSelect }) => {
         //         ))}
         //     </div>
         // </div>
-        <div className="relative">
+        <div className="relative w-1/4">
             {/* Nút menu chỉ hiển thị trên màn hình nhỏ */}
             <button
                 className="sm:hidden bg-gray-700 text-white p-2 rounded-full shadow-lg focus:outline-none"
@@ -87,7 +87,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onSelect }) => {
             {/* Sidebar */}
             <div
                 className={`absolute top-0 left-0 h-full bg-gray-100 p-4 space-y-4 transition-transform transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
-                    } sm:translate-x-0 sm:relative sm:w-1/2 sm:block`}
+                    } sm:translate-x-0 sm:relative sm:w-full sm:block`}
                 style={{ maxHeight: '100%' }} // Giới hạn chiều cao trong container
             >
                 {[
