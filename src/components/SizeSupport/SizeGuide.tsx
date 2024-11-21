@@ -4,7 +4,7 @@ import Table from './Table';
 
 const SizeGuide: React.FC = () => {
     const [activeTab, setActiveTab] = useState(0);
-    const tabs = ['Thời trang Nam', 'Thời trang Nữ', 'Thời trang Trẻ em'];
+    const tabs = ['Thời trang Nam', 'Thời trang Nữ'];
 
     // Dữ liệu mẫu cho bảng
     const sizeData = [
