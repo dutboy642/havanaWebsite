@@ -15,7 +15,7 @@ const Shop: React.FC = () => {
         //     </div>
         // </div>
         <div className="p-4 sm:p-6 md:p-8 lg:p-10">
-            <h3 className="mb-2 text-lg sm:text-xl md:text-2xl font-bold">LIÊN HỆ</h3>
+            <h3 className="mb-2 text-lg sm:text-xl md:text-lg font-bold">LIÊN HỆ</h3>
             <div className='h-[4px] w-8 bg-white mb-1'></div>
             <div className='flex flex-wrap gap-4 justify-start'>
                 <img className='w-12 h-12 sm:w-16 sm:h-16 md:w-10 md:h-10 mb-1 rounded hover:opacity-70 hover:cursor-pointer hover:text-cyan-500' src={facebook} />

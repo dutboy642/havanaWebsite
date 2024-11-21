@@ -1,8 +1,10 @@
 import React from "react";
+import ScrollToTop from "../components/ScrollToTop";
 
 const CustomerSupport: React.FC = () => {
     return (
         <div className="bg-gray-50 py-12">
+            <ScrollToTop></ScrollToTop>
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 text-center mb-12">
                     Hỗ Trợ Khách Hàng

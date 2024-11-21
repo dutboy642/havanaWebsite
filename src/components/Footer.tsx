@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
         //     </div>
         // </footer>
         <footer className="bg-black text-white py-10 text-xs">
-            <div className="container mx-auto w-[90%] md:w-[85%] lg:w-[85%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-8 lg:gap-2">
+            <div className="container mx-auto w-[90%] md:w-[95%] lg:w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 lg:gap-2">
                 <ContactInfo />
                 <CustomerSupport />
                 <AboutUs />

@@ -3,6 +3,8 @@ import ContactInfo from '../ContactSupport/ContactInfo';
 import ComplaintForm from '../ContactSupport/ComplaintForm';
 import Instructions from '../GuideSupport/Instructions';
 import SizeGuide from '../SizeSupport/SizeGuide';
+import PolicyPage from '../Policy';
+import FAQPage from '../QA';
 
 interface ContentProps {
     contentKey: string;
@@ -37,9 +39,10 @@ const Content: React.FC<ContentProps> = ({ contentKey }) => {
                     <SizeGuide />
                 </div>;
             case 'terms':
-                return <div><h1 className="text-2xl font-bold mb-4">Điều khoản và chính sách</h1><p>Nội dung điều khoản và chính sách...</p></div>;
+                return <div>
+                    <PolicyPage></PolicyPage></div>;
             case 'faq':
-                return <div><h1 className="text-2xl font-bold mb-4">Câu hỏi thường gặp</h1><p>Nội dung câu hỏi thường gặp...</p></div>;
+                return <div><FAQPage /></div>;
             default:
                 return <div><h1 className="text-2xl font-bold mb-4">Chọn mục từ thanh bên để xem nội dung</h1></div>;
         }

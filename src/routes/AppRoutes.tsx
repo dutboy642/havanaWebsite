@@ -23,6 +23,7 @@ import Checkout from "../pages/Checkout";
 import { ProductProvider } from "../components/ProductContext";
 import Cart from "../pages/Cart";
 import SearchResults from "../pages/SearchResults";
+import ScrollToTop from "../components/ScrollToTop";
 const ProtectedRoute = ({ element }: { element: JSX.Element }) => {
   const { isLoggedIn } = useAuth();
   return isLoggedIn ? <Navigate to="/" /> : element;
@@ -34,6 +35,7 @@ export const AppRouter = () => {
       <ToastProvider>
         <ProductProvider>
           <BrowserRouter>
+            <ScrollToTop />
             <Routes>
               <Route path="/" element={<Layout />} >
                 <Route index element={<Homepage />} />
