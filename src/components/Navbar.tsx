@@ -4,7 +4,7 @@ const Navbar: React.FC = () => {
     const navItems = [
         { name: "VỀ CHÚNG TÔI", dropdownList: [{ name: "Về chúng tôi", link: "/AboutUs#aboutUs" }, { name: "Tầm nhìn", link: "/AboutUs#vision" }, { name: "Sứ mệnh", link: "/AboutUs#suMenh" }], link: "/AboutUs" },
         { name: "SẢN PHẨM", dropdownList: [{ name: "Tất cả", link: "/All" }, { name: "Set đồ", link: "/Set" }, { name: "Quần", link: "/Trousers" }, { name: "Áo", link: "/Shirt" }, { name: "Váy", link: "/Skirt" }], link: "/All" },
-        // { name: "HÀNG TỒN KHO", dropdownList: [], link: "/Sale" },
+        { name: "BLOGS", dropdownList: [], link: "/Articles" },
         // { name: "HỖ TRỢ KHÁCH HÀNG", dropdownList: [{ name: "Chính sách bảo hành", link: "/Support#Policy" }, { name: "Đổi, trả hàng", link: "/Support#Exchange" }, { name: "Vận chuyển", link: "/Support#Delivery" }], link: "/Support" },
         { name: "HỖ TRỢ KHÁCH HÀNG", dropdownList: [], link: "/Support" },
         // { name: "LIÊN HỆ", dropdownList: [{ name: "Địa chỉ", link: "/ContactUs#Address" }, { name: "Số điện thoại", link: "/ContactUs#Phone" }, { name: "Email", link: "/ContactUs#Email" }], link: "/ContactUs" },

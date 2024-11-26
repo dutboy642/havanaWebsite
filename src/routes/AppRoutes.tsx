@@ -24,6 +24,10 @@ import { ProductProvider } from "../components/ProductContext";
 import Cart from "../pages/Cart";
 import SearchResults from "../pages/SearchResults";
 import ScrollToTop from "../components/ScrollToTop";
+import ArticlesGrid from "../pages/Articles";
+import BlackFriday from "../pages/Articles/BlackFriday";
+import FashionTrends from "../pages/Articles/FashionTrend";
+import FashionGuide from "../pages/Articles/FashionGuide";
 const ProtectedRoute = ({ element }: { element: JSX.Element }) => {
   const { isLoggedIn } = useAuth();
   return isLoggedIn ? <Navigate to="/" /> : element;
@@ -48,6 +52,10 @@ export const AppRouter = () => {
                 <Route path='Sale' element={<Sale />} />
                 <Route path='CheckOrderPage' element={<CheckOrderPage />} />
                 <Route path='Cart' element={<Cart />} />
+                <Route path='Articles' element={<ArticlesGrid />} />
+                <Route path="BlackFriday" element={<BlackFriday />} />
+                <Route path="FashionTrend" element={<FashionTrends />} />
+                <Route path="FashionGuide" element={<FashionGuide />} />
                 <Route
                   path="LoginForm"
                   element={<ProtectedRoute element={<LoginForm />} />}
