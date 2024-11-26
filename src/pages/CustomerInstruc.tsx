@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../components/CustomerInstruct/Sidebar';
 import Content from '../components/CustomerInstruct/Content';
+import FloatingButtons from '../components/FloatingButtons';
 
 
 const CustomerInstruct: React.FC = () => {
@@ -15,6 +16,8 @@ const CustomerInstruct: React.FC = () => {
         <div className="flex min-h-screen">
             <Sidebar onSelect={handleSelectContent} />
             <Content contentKey={selectedContent} />
+            <FloatingButtons></FloatingButtons>
+
         </div>
     );
 };

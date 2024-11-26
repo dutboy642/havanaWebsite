@@ -1,9 +1,10 @@
 import React from 'react';
-import pic1 from '../../assets/bai2pic1.png'
-import pic2 from '../../assets/bai2pic2.png'
-import pic3 from '../../assets/bai2pic3.png'
-import pic4 from '../../assets/bai2pic4.png'
-import pic5 from '../../assets/bai2pic5.png'
+import pic1 from '../../assets/bai2pic1.jpg'
+import pic2 from '../../assets/bai2pic2.jpg'
+import pic3 from '../../assets/bai2pic3.jpg'
+import pic4 from '../../assets/bai2pic4.jpeg'
+import pic5 from '../../assets/bai2pic5.jpg'
+import FloatingButtons from '../../components/FloatingButtons';
 const FashionTrends: React.FC = () => {
     return (
         <div>
@@ -26,7 +27,7 @@ const FashionTrends: React.FC = () => {
                 </ol>
             </nav>
             <div className="p-6 w-full mx-auto">
-                <h3 className="text-3xl font-bold text-black leading-10 mt-4 mb-2 text-center">
+                <h3 className="text-3xl font-bold text-black leading-10 mt-4 mb-2">
                     Xu Hướng Thời Trang Hiện Nay: Sự Hòa Quyện Giữa Tính Bền Vững và Cá Nhân Hóa
                 </h3>
                 <p className="text-base text-gray-800 leading-6 my-3 text-justify">
@@ -48,15 +49,15 @@ const FashionTrends: React.FC = () => {
                             className="w-full max-w-xs md:max-w-sm rounded-lg shadow-lg object-cover"
                         />
                     </div>
-                    <p className="text-sm text-gray-600 text-center my-3">
+                    <p className="italic text-sm text-gray-600 text-center my-3">
                         Chiếc đầm làm từ denim dệt bằng sợi lá gai (ramie) của Vũ Việt Hà.
                     </p>
                     <ul className="list-disc list-inside text-gray-800 space-y-2">
                         <li>
-                            <span className="font-bold">Chất liệu nổi bật:</span> Sợi tre, cotton hữu cơ, polyester tái chế.
+                            <span className="">Chất liệu nổi bật:</span> Sợi tre, cotton hữu cơ, polyester tái chế.
                         </li>
                         <li>
-                            <span className="font-bold">Thương hiệu tiên phong:</span> Patagonia, Stella McCartney, và các thương hiệu địa phương.
+                            <span className="">Thương hiệu tiên phong:</span> Patagonia, Stella McCartney, và các thương hiệu địa phương.
                         </li>
                     </ul>
                 </section>
@@ -69,7 +70,7 @@ const FashionTrends: React.FC = () => {
                     <p className="text-base text-gray-800 leading-6 my-3 text-justify">
                         Thay vì chạy theo những xu hướng đại chúng, người tiêu dùng hiện nay ưa chuộng những thiết kế phản ánh phong cách cá nhân và câu chuyện riêng.
                     </p>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+                    {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                         <img
                             src={pic2}
                             alt="Shop Havana"
@@ -77,13 +78,29 @@ const FashionTrends: React.FC = () => {
                         />
                         <ul className="list-disc list-inside text-gray-800 space-y-2">
                             <li>
-                                <span className="font-bold">Cách thể hiện:</span> In ấn thiết kế theo yêu cầu, phụ kiện khắc tên, phối đồ phá cách.
+                                <span className="">Cách thể hiện:</span> In ấn thiết kế theo yêu cầu, phụ kiện khắc tên, phối đồ phá cách.
                             </li>
                             <li>
-                                <span className="font-bold">Điểm nhấn:</span> Các nền tảng thời trang kỹ thuật số cung cấp dịch vụ thiết kế riêng đang phát triển mạnh.
+                                <span className="">Điểm nhấn:</span> Các nền tảng thời trang kỹ thuật số cung cấp dịch vụ thiết kế riêng đang phát triển mạnh.
                             </li>
                         </ul>
+                    </div> */}
+                    <div className="flex justify-center my-4">
+                        <img
+                            src={pic2}
+                            alt="Shop Havana"
+                            className="w-full max-w-3xl rounded-lg shadow-lg object-cover"
+                        />
                     </div>
+                    <ul className="list-disc list-inside text-gray-800 space-y-2">
+                        <li>
+                            <span className="">Cách thể hiện:</span> In ấn thiết kế theo yêu cầu, phụ kiện khắc tên, phối đồ phá cách.
+                        </li>
+                        <li>
+                            <span className="">Điểm nhấn:</span> Các nền tảng thời trang kỹ thuật số cung cấp dịch vụ thiết kế riêng đang phát triển mạnh.
+                        </li>
+                    </ul>
+
                 </section>
                 <section className="my-6">
                     <h3 className="text-lg font-bold text-black leading-6 mt-4 mb-2">
@@ -101,10 +118,10 @@ const FashionTrends: React.FC = () => {
                     </div>
                     <ul className="list-disc list-inside text-gray-800 space-y-2">
                         <li>
-                            <span className="font-bold">Xu hướng:</span> Quần áo đổi màu theo nhiệt độ, chất liệu chống nước nhưng vẫn thoáng khí.
+                            <span className="">Xu hướng:</span> Quần áo đổi màu theo nhiệt độ, chất liệu chống nước nhưng vẫn thoáng khí.
                         </li>
                         <li>
-                            <span className="font-bold">Ứng dụng:</span> Bộ sưu tập thời trang ảo metaverse máy chủ.
+                            <span className="">Ứng dụng:</span> Bộ sưu tập thời trang ảo metaverse máy chủ.
                         </li>
                     </ul>
                 </section>
@@ -126,10 +143,10 @@ const FashionTrends: React.FC = () => {
                     </div>
                     <ul className="list-disc list-inside text-gray-800 space-y-2">
                         <li>
-                            <span className="font-bold">Màu sắc:</span> Neon, pastel.
+                            <span className="">Màu sắc:</span> Neon, pastel.
                         </li>
                         <li>
-                            <span className="font-bold">Phụ kiện:</span> Kính mát to bản, túi baguette.
+                            <span className="">Phụ kiện:</span> Kính mát to bản, túi baguette.
                         </li>
                     </ul>
                 </section>
@@ -151,10 +168,10 @@ const FashionTrends: React.FC = () => {
                     </div>
                     <ul className="list-disc list-inside text-gray-800 space-y-2">
                         <li>
-                            <span className="font-bold">Tông màu:</span> trắng, đen, be, xám.
+                            <span className="">Tông màu:</span> trắng, đen, be, xám.
                         </li>
                         <li>
-                            <span className="font-bold">Điểm nhấn:</span> Thời trang ứng dụng hàng ngày, phù hợp cho cả công sở và dạo phố.
+                            <span className="">Điểm nhấn:</span> Thời trang ứng dụng hàng ngày, phù hợp cho cả công sở và dạo phố.
                         </li>
                     </ul>
                 </section>
@@ -172,6 +189,8 @@ const FashionTrends: React.FC = () => {
                     </p>
                 </section>
             </div>
+            <FloatingButtons></FloatingButtons>
+
         </div>
     );
 };

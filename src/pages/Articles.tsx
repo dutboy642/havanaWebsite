@@ -1,9 +1,10 @@
 // src/components/ArticlesGrid.tsx
 import React, { useState } from 'react';
 import ArticleCard from '../components/Article/ArticleCard';
-import bai1 from '../assets/blackFriday.png'
-import bai2 from '../assets/bai2pic3.png'
-import bai3 from '../assets/bai3pic1.png'
+import bai1 from '../assets/blackFriday.jpg'
+import bai2 from '../assets/bai2pic3.jpg'
+import bai3 from '../assets/bai3pic1.jpg'
+import FloatingButtons from '../components/FloatingButtons';
 
 const articles = [
     {
@@ -75,6 +76,7 @@ const ArticlesGrid: React.FC = () => {
                     </button>
                 ))}
             </div>
+            <FloatingButtons></FloatingButtons>
         </div>
     );
 };

@@ -4,6 +4,7 @@ import ProductCard from "../components/ProductCard";
 import mainImage from "../assets/SALE.png"
 import { Link } from "react-router-dom";
 import ScrollToTop from "../components/ScrollToTop";
+import FloatingButtons from "../components/FloatingButtons";
 // import grassBg from "../assets/bg.png"
 const Homepage: React.FC = () => {
     const products = [
@@ -633,6 +634,8 @@ Hướng dẫn bảo quản:
                     ))}
                 </div>
             </div>
+            <FloatingButtons></FloatingButtons>
+
         </div>
 
     );

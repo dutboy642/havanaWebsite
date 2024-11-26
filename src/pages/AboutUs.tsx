@@ -1,4 +1,5 @@
 import React from "react";
+import FloatingButtons from "../components/FloatingButtons";
 
 const AboutUs: React.FC = () => {
     return (
@@ -53,6 +54,7 @@ const AboutUs: React.FC = () => {
                     </p>
                 </div>
             </div>
+            <FloatingButtons></FloatingButtons>
         </div>
     );
 };

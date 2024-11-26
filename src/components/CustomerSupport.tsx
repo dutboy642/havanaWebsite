@@ -21,9 +21,9 @@ const CustomerSupport: React.FC = () => {
             <div className='h-[4px] w-8 bg-white mb-1'></div>
 
             <ul>
-                <li className='mb-2 text-sm sm:text-base md:text-sm hover:cursor-pointer hover:text-cyan-500'>
+                {/* <li className='mb-2 text-sm sm:text-base md:text-sm hover:cursor-pointer hover:text-cyan-500'>
                     <Link to="/support">Hướng dẫn mua hàng</Link>
-                </li>
+                </li> */}
                 <li className='mb-2 text-sm sm:text-base md:text-sm hover:cursor-pointer hover:text-cyan-500'>
                     <Link to="/support">Hướng dẫn chọn size</Link>
                 </li>

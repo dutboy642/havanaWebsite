@@ -23,7 +23,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onSelect }) => {
     // };
 
     return (
- 
+
         <div className="relative w-1/4">
             {/* Nút menu chỉ hiển thị trên màn hình nhỏ */}
             <button
@@ -41,7 +41,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onSelect }) => {
             >
                 {[
                     { key: 'contact', label: 'Liên hệ' },
-                    { key: 'guide', label: 'Hướng dẫn mua hàng' },
+                    // { key: 'guide', label: 'Hướng dẫn mua hàng' },
                     { key: 'size', label: 'Hướng dẫn chọn size' },
                     { key: 'terms', label: 'Điều khoản và chính sách' },
                     { key: 'faq', label: 'Câu hỏi thường gặp' },
@@ -60,7 +60,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onSelect }) => {
 
 
 
-  
+
 
     );
 };

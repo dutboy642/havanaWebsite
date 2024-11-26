@@ -2,6 +2,7 @@ import React from 'react';
 import ScrollToTop from '../components/ScrollToTop';
 import { useProducts } from '../components/ProductContext';
 import { Link } from 'react-router-dom';
+import FloatingButtons from '../components/FloatingButtons';
 
 
 const Cart: React.FC = () => {
@@ -220,6 +221,7 @@ const Cart: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                <FloatingButtons></FloatingButtons>
             </div>
 
         );

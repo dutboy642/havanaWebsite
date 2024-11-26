@@ -1,4 +1,8 @@
 import React from 'react';
+import pic1 from '../../assets/bai3pic1.jpg';
+import pic2 from '../../assets/bai3pic2.jpg';
+import pic3 from '../../assets/bai3pic3.jpg';
+import FloatingButtons from '../../components/FloatingButtons';
 
 const FashionGuide: React.FC = () => {
     return (
@@ -27,9 +31,9 @@ const FashionGuide: React.FC = () => {
                 </h3>
                 <p className="text-base text-gray-700 mb-6">
                     Giáng Sinh đang đến gần, và đây là dịp để các nàng thỏa sức thể hiện gu{' '}
-                    <strong>thời trang nữ</strong> của mình. Đặc biệt, với những cô nàng yêu thích phong cách{' '}
-                    <strong>trẻ trung</strong>, <strong>cá tính</strong>, cùng Havana khám phá các cách phối{' '}
-                    <strong>đồ xinh</strong> để trở nên nổi bật hơn trong mùa lễ hội này nhé!
+                    thời trang nữ của mình. Đặc biệt, với những cô nàng yêu thích phong cách{' '}
+                    trẻ trung, cá tính, cùng Havana khám phá các cách phối{' '}
+                    đồ xinh để trở nên nổi bật hơn trong mùa lễ hội này nhé!
                 </p>
 
                 <section className="mb-8">
@@ -37,24 +41,24 @@ const FashionGuide: React.FC = () => {
                         1. Phối Đồ Giáng Sinh Với Áo Len Và Áo Phao Ấm Áp
                     </h4>
                     <p className="text-base text-gray-700 mb-4">
-                        <strong>Áo len</strong> và <strong>áo phao</strong> là lựa chọn không thể thiếu khi phối đồ Giáng Sinh trong thời tiết se lạnh. Dưới đây là một số gợi ý phối đồ với các item này:
+                        Áo len và áo phao là lựa chọn không thể thiếu khi phối đồ Giáng Sinh trong thời tiết se lạnh. Dưới đây là một số gợi ý phối đồ với các item này:
                     </p>
                     <ul className="list-disc pl-5 space-y-2 text-gray-700">
                         <li>
-                            <strong>Áo len đỏ</strong> kết hợp với <strong>quần jean xanh</strong> mang lại vẻ ngoài năng động và cực kỳ phù hợp với tinh thần Giáng Sinh.
+                            Áo len đỏ kết hợp với quần jean xanh mang lại vẻ ngoài năng động và cực kỳ phù hợp với tinh thần Giáng Sinh.
                         </li>
                         <li>
-                            <strong>Áo len cổ lọ</strong> phối cùng <strong>chân váy chữ A</strong> và <strong>áo phao dáng ngắn</strong> tạo nên sự trẻ trung, ấm áp mà vẫn nổi bật.
+                            Áo len cổ lọ phối cùng chân váy chữ A và áo phao dáng ngắn tạo nên sự trẻ trung, ấm áp mà vẫn nổi bật.
                         </li>
                         <li>
-                            Nếu yêu thích phong cách cá tính, bạn có thể chọn <strong>áo phao dáng dài</strong> kết hợp với <strong>quần jean rách</strong> và một đôi <strong>bốt đen</strong> để hoàn thiện outfit đậm chất{' '}
-                            <strong>Street Style</strong>.
+                            Nếu yêu thích phong cách cá tính, bạn có thể chọn áo phao dáng dài kết hợp với quần jean rách và một đôi bốt đen để hoàn thiện outfit đậm chất{' '}
+                            Street Style.
                         </li>
                     </ul>
 
                     <div className="flex justify-center mt-6">
                         <img
-                            src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeqTsG4EdfwFe6rVExmGRNRgeWdyaHe4s3nv26uhiYtS7GvWXbyAVcFeTXMZfXx5r7N-VbQU17rHnLD7WHzBJDuGUbP0JZ7aNJf6Y3suwr5zKJRZ1dAqI2yqTHYbrbm-6wd-vQRoQ?key=FqaoPGG2PiPHE6rQdl4lKsuM"
+                            src={pic1}
                             alt="Fashion 1"
                             className="w-full max-w-md h-auto object-cover"
                         />
@@ -70,16 +74,16 @@ const FashionGuide: React.FC = () => {
                     </p>
                     <ul className="list-disc pl-5 space-y-2 text-gray-700">
                         <li>
-                            <strong>Áo len cổ lọ</strong> phối cùng <strong>váy</strong> và thêm một chiếc <strong>áo khoác dạ</strong> bên ngoài là sự lựa chọn hoàn hảo cho phong cách thanh lịch, duyên dáng.
+                            Áo len cổ lọ phối cùng váy và thêm một chiếc áo khoác dạ bên ngoài là sự lựa chọn hoàn hảo cho phong cách thanh lịch, duyên dáng.
                         </li>
                         <li>
-                            <strong>Áo len dáng rộng</strong> phối cùng <strong>quần jean skinny</strong> và <strong>quần tất</strong> tạo cảm giác ấm áp và cực kỳ thoải mái. Set đồ này rất thích hợp để dạo phố trong dịp Giáng Sinh.
+                            Áo len dáng rộng phối cùng quần jean skinny và quần tất tạo cảm giác ấm áp và cực kỳ thoải mái. Set đồ này rất thích hợp để dạo phố trong dịp Giáng Sinh.
                         </li>
                     </ul>
 
                     <div className="flex justify-center mt-6">
                         <img
-                            src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcG9OwSVEVNcKfGcsyaGEqeJ9cbi1Eh5QgEoYHFTtu28cCoFrV2BI2iJHjxNAq3ikndp2ticby2sSB62ffuP-4qs2xjKNjqL6SSAw3Y9jd_x2i5WbwmIga0dIpj9fyeW72a1pGF?key=FqaoPGG2PiPHE6rQdl4lKsuM"
+                            src={pic2}
                             alt="Fashion 3"
                             className="w-full max-w-md h-auto object-cover"
                         />
@@ -91,20 +95,20 @@ const FashionGuide: React.FC = () => {
                         3. Phong Cách Street Style Cho Giáng Sinh
                     </h4>
                     <p className="text-base text-gray-700 mb-4">
-                        Nếu bạn là tín đồ của <strong>Street Style</strong>, mùa lễ hội là dịp tuyệt vời để diện những bộ đồ cực "chất":
+                        Nếu bạn là tín đồ của Street Style, mùa lễ hội là dịp tuyệt vời để diện những bộ đồ cực "chất":
                     </p>
                     <ul className="list-disc pl-5 space-y-2 text-gray-700">
                         <li>
-                            <strong>Áo hoodie</strong> phối với <strong>quần jean rách</strong> và <strong>giày thể thao</strong> tạo vẻ năng động, trẻ trung. Bạn có thể thêm <strong>áo phao dáng dài</strong> để vừa giữ ấm, vừa làm nổi bật phong cách cá tính.
+                            Áo hoodie phối với quần jean rách và giày thể thao tạo vẻ năng động, trẻ trung. Bạn có thể thêm áo phao dáng dài để vừa giữ ấm, vừa làm nổi bật phong cách cá tính.
                         </li>
                         <li>
-                            <strong>Quần jogger</strong> phối cùng <strong>áo khoác bomber</strong> và <strong>nón</strong> là lựa chọn tuyệt vời cho những cô nàng yêu thích phong cách đường phố, giúp bạn trở nên nổi bật khi xuống phố vào dịp Noel.
+                            Quần jogger phối cùng áo khoác bomber và nón là lựa chọn tuyệt vời cho những cô nàng yêu thích phong cách đường phố, giúp bạn trở nên nổi bật khi xuống phố vào dịp Noel.
                         </li>
                     </ul>
 
                     <div className="flex justify-center mt-6">
                         <img
-                            src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNCA766YVrJpm5SwPhWXIuSNQ8a5J0uUDK1D6e_10EHFnIhyxTXSM_piZoASxKM0djNXb6LSixnKTZ-WqKt2bQvsRhUBRvOG2C122DFCHES139OVWO-9M__VUGgmkgVIYsoccjcA?key=FqaoPGG2PiPHE6rQdl4lKsuM"
+                            src={pic3}
                             alt="Fashion 5"
                             className="w-full max-w-md h-auto object-cover"
                         />
@@ -117,31 +121,31 @@ const FashionGuide: React.FC = () => {
                     </h4>
                     <ul className="list-disc pl-5 space-y-2 text-gray-700">
                         <li>
-                            <strong>Website:</strong>{' '}
+                            Website:{' '}
                             <a href="https://havanadanang.netlify.app/" className="text-blue-600 hover:text-blue-800">
                                 https://havanadanang.netlify.app/
                             </a>
                         </li>
                         <li>
-                            <strong>Hotline:</strong> 0383502273
+                            Hotline: 0383502273
                         </li>
                         <li>
-                            <strong>Email:</strong>{' '}
+                            Email:{' '}
                             <a href="mailto:contact@havana.com" className="text-blue-600 hover:text-blue-800">
                                 contact@havana.com
                             </a>
                         </li>
                         <li>
-                            <strong>Địa chỉ:</strong> Đà Nẵng: 261-263 Phan Châu Trinh
+                            Địa chỉ: Đà Nẵng: 261-263 Phan Châu Trinh
                         </li>
                         <li>
-                            <strong>Fanpage:</strong>{' '}
+                            Fanpage:{' '}
                             <a href="https://www.facebook.com/havanadangnang" className="text-blue-600 hover:text-blue-800">
                                 https://www.facebook.com/havanadangnang
                             </a>
                         </li>
                         <li>
-                            <strong>Shopee:</strong>{' '}
+                            Shopee:{' '}
                             <a href="https://shopee.vn/havana.danang" className="text-blue-600 hover:text-blue-800 underline">
                                 https://shopee.vn/havana.danang
                             </a>
@@ -149,6 +153,8 @@ const FashionGuide: React.FC = () => {
                     </ul>
                 </section>
             </div>
+            <FloatingButtons></FloatingButtons>
+
         </div>
     );
 };
