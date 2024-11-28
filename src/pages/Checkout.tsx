@@ -72,7 +72,7 @@ const Checkout: React.FC = () => {
                             <Link to="/cart" className="text-blue-500 hover:underline">
                                 &lt; Quay về giỏ hàng
                             </Link>
-                            <Link to='/'>
+                            <Link to={`/OrderComplete?total=${total_money}`}>
                                 <button className="px-6 py-4 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600">
                                     ĐẶT HÀNG
                                 </button></Link>

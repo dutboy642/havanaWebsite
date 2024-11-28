@@ -28,6 +28,7 @@ import ArticlesGrid from "../pages/Articles";
 import BlackFriday from "../pages/Articles/BlackFriday";
 import FashionTrends from "../pages/Articles/FashionTrend";
 import FashionGuide from "../pages/Articles/FashionGuide";
+import OrderComplete from "../pages/OrderComplete";
 const ProtectedRoute = ({ element }: { element: JSX.Element }) => {
   const { isLoggedIn } = useAuth();
   return isLoggedIn ? <Navigate to="/" /> : element;
@@ -56,6 +57,8 @@ export const AppRouter = () => {
                 <Route path="BlackFriday" element={<BlackFriday />} />
                 <Route path="FashionTrend" element={<FashionTrends />} />
                 <Route path="FashionGuide" element={<FashionGuide />} />
+                <Route path="OrderComplete" element={<OrderComplete />} />
+
                 <Route
                   path="LoginForm"
                   element={<ProtectedRoute element={<LoginForm />} />}
